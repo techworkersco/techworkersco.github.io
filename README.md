@@ -38,7 +38,7 @@ $ make update
 
 ## Usage
 
-#### Installation
+### Installation
 
 ```bash
 $ git clone https://github.com/techworkersco/newsletter.git
@@ -47,36 +47,36 @@ $ make install
 $ make
 ```
 
-#### Building the site
+### Building the site
 
 Various options using `make`:
 
 ```bash
-$ make build # build the site once (can also just run make)
+$ make build # build the site once
 $ make watch # build and watch for changes
 $ make incr # build incrementally and watch for changes
 $ make future # build once and allow future posts
 ```
 
-#### Previewing the site locally
+### Previewing the site locally
 
 ```bash
-$ make serve # Now browse to http://localhost:4000
+$ make serve # browse to http://localhost:4000
 ```
 
-#### Writing a draft
+### Writing a draft
 
 ```bash
 $ bundle exec jekyll serve --future --drafts --watch
 ```
 
-#### Handling Links
+### Handling Links
 
 - To other posts: `[link]({{ site.url }}{% post_url 2000-01-01-issue-title %})`
 - To images: `{{ site.url }}{{ site.img_url}}/path-to/image.png`
 
 ## License
 
-This work is released under the [CC0 1.0 Universal (CC0 1.0) license](https://creativecommons.org/publicdomain/zero/1.0/). See [`LICENSE`](https://github.com/SwiftWeekly/swiftweekly.github.io/blob/master/LICENSE).
+This work is released under the [CC0 1.0 Universal (CC0 1.0) license](https://creativecommons.org/publicdomain/zero/1.0/). See [`LICENSE`](https://github.com/techworkersco/newsletter/blob/master/LICENSE).
 
 All code is licensed under an [MIT License](https://opensource.org/licenses/MIT).
