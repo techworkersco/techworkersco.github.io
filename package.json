@@ -1,0 +1,9 @@
+{
+  "name": "twc-newsletter",
+  "description": "Tech Workers Coalition Newsletter",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "4.4.1",
+    "jquery": "3.4.1"
+  }
+}

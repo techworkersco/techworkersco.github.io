@@ -1,0 +1,53 @@
+# Dependencies
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# File rules
+exclude:
+  # default excludes
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # custom excludes
+  - Makefile
+  - Dangerfile
+  - LICENSE
+  - README.md
+  - assets/
+  - package.json
+  - yarn.lock
+  - scripts/
+  - .github/
+
+include:
+  - .htaccess
+  # bootstrap
+  - node_modules/bootstrap/dist/css/bootstrap.min.css
+  - node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
+  - node_modules/jquery/dist/jquery.slim.min.js
+
+# Site
+permalink: /:year/:month/:day/:title/
+img_url: /img
+excerpt_separator: <!--excerpt-->
+sass:
+  style: compressed
+
+# Metadata
+title: 'Tech Workers Coalition'
+description: 'Newsletter'
+url: https://techworkersco.github.io/newsletter
+logo: /img/logo.png
+timezone: America/Los_Angeles
+
+feeds:
+  rss: '/feed.xml'
+  json: '/feed.json'
