@@ -10,10 +10,6 @@
 
 Built with [Jekyll](https://jekyllrb.com), [Bootstrap](https://getbootstrap.com), [jQuery](https://jquery.com). Hosted with [GitHub Pages](https://pages.github.com).
 
-### Resources
-
-- [Legacy newsletter archive](https://us11.campaign-archive.com/home/?u=194e57c175176cfd13007a197&id=7cb85d276a)
-
 ## Requirements
 
 - [Bundler](https://bundler.io)
