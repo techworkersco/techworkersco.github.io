@@ -21,7 +21,6 @@ exclude:
   - Dangerfile
   - LICENSE
   - README.md
-  - assets/
   - package.json
   - yarn.lock
   - scripts/
