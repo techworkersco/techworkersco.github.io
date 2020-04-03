@@ -1,0 +1,10 @@
+# custom error pages
+
+ErrorDocument 404 /404.html
+
+# cache-control
+# one month for most static assets
+
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico|tff)$">
+Header set Cache-Control "max-age=2628000, public"
+</filesMatch>
