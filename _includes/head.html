@@ -1,0 +1,74 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Cache-control" content="public">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="{{ site.description }}">
+    <title>
+        {% if page.title %}
+            {{ page.title }} &middot; {{ site.title }}
+        {% else %}
+            {{ site.title }} &middot; {{ site.description }}
+        {% endif %}
+    </title>
+
+    <meta itemprop="canonical" href="{{ site.url }}{{ page.url }}" />
+    <meta itemprop="url" content="{{ site.url }}{{ page.url }}" />
+    <meta itemprop="about" content="{{ site.description }}" />
+
+    {% if page.title %}
+    <meta itemprop="name" content="{{ page.title }}" />
+    <meta itemprop="description" content="{{ page.excerpt | normalize_whitespace | strip_html | truncatewords: 40 }}" />
+    {% else %}
+    <meta itemprop="name" content="{{ site.title }}" />
+    <meta itemprop="description" content="{{ site.description }}" />
+    {% endif %}
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+
+    {% if page.image %}
+    <meta property="og:image" content="{{ site.url }}{{ site.img_url}}/{{ page.image.file }}" />
+    {% else %}
+    <meta property="og:image" content="{{ site.url }}{{ site.logo }}" />
+    {% endif %}
+
+    {% if page.title %}
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{{ page.excerpt | normalize_whitespace | strip_html | truncatewords: 40 }}"/>
+    {% else %}
+    <meta property="og:title" content="{{ site.title }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+    {% endif %}
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@{{ site.author.twitter }}" />
+    <meta name="twitter:creator" content="@{{ site.author.twitter }}" />
+
+    {% if page.image %}
+    <meta name="twitter:image" content="{{ site.url }}{{ site.img_url}}/{{ page.image.file }}" />
+    {% else %}
+    <meta name="twitter:image" content="{{ site.url }}{{ site.logo }}" />
+    {% endif %}
+
+    {% if page.title %}
+    <meta name="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:description" content="{{ page.excerpt | normalize_whitespace | strip_html | truncatewords: 40 }}" />
+    {% else %}
+    <meta name="twitter:title" content="{{ site.title }}" />
+    <meta name="twitter:description" content="{{ site.description }}" />
+    {% endif %}
+
+    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="/favicon.ico">
+
+    <link type="application/atom+xml" rel="alternate" href="{{ site.url }}{{ site.feeds.rss }}" title="{{ site.title }}" />
+    <link type="application/json" rel="alternate" href="{{ site.url }}{{ site.feeds.json }}" title="{{ site.title }}" />
+</head>

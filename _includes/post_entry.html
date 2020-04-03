@@ -1,0 +1,12 @@
+{% assign post_entry = include.post_entry %}
+
+<h1 class="post-title"><a href="{{ post_entry.url }}">{{ post_entry.title }}</a></h1>
+
+<h2 class="post-date-subtitle d-inline-block text-muted">{{ post_entry.date }}</h2>
+
+{% if include.display_excerpt %}
+<div class="post-excerpt">
+    {{ post_entry.excerpt }}
+    <p><a href="{{ post_entry.url }}" class="text-secondary border-0">Continue&hellip;</a></p>
+</div>
+{% endif %}
