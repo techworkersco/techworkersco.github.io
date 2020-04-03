@@ -46,14 +46,15 @@ sass:
 # Metadata
 title: 'TWC Newsletter'
 description: 'A weekly newsletter from the Tech Workers Coalition'
-url: https://techworkersco.github.io/
-logo: /img/logo.png
+url: https://techworkersco.github.io
+logo: /img/newsletter-team.png
 timezone: America/Los_Angeles
 
 # Author
 author:
   name: 'Tech Workers Coalition'
   twitter: techworkersco
+  avatar: /img/newsletter-team.png
 
 links:
   github: https://github.com/techworkersco/techworkersco.github.io
