@@ -17,7 +17,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   # custom excludes
-  - yarn_deps/
+  - yarn_deps
   - Makefile
   - Dangerfile
   - LICENSE
