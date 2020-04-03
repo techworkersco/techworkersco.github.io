@@ -1,8 +1,10 @@
-# TWC Newsletter
+# [techworkersco.github.io](https://techworkersco.github.io)
+
+*A weekly newsletter from the Tech Workers Coalition*
 
 ### ⚠️ work in progress ⚠️
 
-<img src="https://raw.githubusercontent.com/techworkersco/newsletter/master/img/newsletter-team.png" width="250"/>
+<img src="https://raw.githubusercontent.com/techworkersco/techworkersco.github.io/master/img/newsletter-team.png" width="250"/>
 
 ## About
 
@@ -39,8 +41,8 @@ $ make update
 ### Installation
 
 ```bash
-$ git clone https://github.com/techworkersco/newsletter.git
-$ cd newsletter
+$ git clone https://github.com/techworkersco/techworkersco.github.io.git
+$ cd techworkersco.github.io/
 $ make install
 $ make
 ```
@@ -79,10 +81,10 @@ $ bundle exec jekyll serve --future --drafts --watch
 
 ## Conduct
 
-Please read our [Code of Conduct](https://github.com/techworkersco/newsletter/blob/master/.github/CODE_OF_CONDUCT.md). Violations will not be tolerated and will result in immediate removal or blocking from the organization.
+Please read our [Code of Conduct](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/CODE_OF_CONDUCT.md). Violations will not be tolerated and will result in immediate removal or blocking from the organization.
 
 ## License
 
-This work is released under the [CC0 1.0 Universal (CC0 1.0) license](https://creativecommons.org/publicdomain/zero/1.0/). See [`LICENSE`](https://github.com/techworkersco/newsletter/blob/master/LICENSE).
+This work is released under the [CC0 1.0 Universal (CC0 1.0) license](https://creativecommons.org/publicdomain/zero/1.0/). See [`LICENSE`](https://github.com/techworkersco/techworkersco.github.io/blob/master/LICENSE).
 
 All code is licensed under an [MIT License](https://opensource.org/licenses/MIT).
