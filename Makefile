@@ -7,12 +7,12 @@ build:
 .PHONY: install
 install:
 	bundle install
-	yarn install
+	yarn install --modules-folder yarn_deps
 
 .PHONY: update
 update:
 	bundle update
-	yarn upgrade
+	yarn upgrade --latest --modules-folder yarn_deps
 
 .PHONY: watch
 watch:
