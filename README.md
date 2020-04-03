@@ -2,8 +2,6 @@
 
 *A weekly newsletter from the Tech Workers Coalition*
 
-### ⚠️ work in progress ⚠️
-
 <img src="https://raw.githubusercontent.com/techworkersco/techworkersco.github.io/master/img/newsletter-team.png" width="250"/>
 
 ## About
@@ -72,7 +70,7 @@ $ make serve # browse to http://localhost:4000
 
 ## Contributing
 
-> TODO:
+Please read our [Contributing Guide](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/CONTRIBUTING.md).
 
 ## Conduct
 
