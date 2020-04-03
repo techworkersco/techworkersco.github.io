@@ -1,0 +1,23 @@
+---
+# front matter comment to ensure jekyll properly reads file
+---
+
+$color-brand: #e3252b;
+$color-brand-dark: #b01d21;
+
+a:link,
+a:active {
+  color: $color-brand;
+}
+
+a:hover {
+  color: $color-brand-dark;
+}
+
+a:visited {
+  color: $color-brand-dark;
+}
+
+hr {
+    width: 50%;
+}
