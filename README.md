@@ -30,6 +30,8 @@ Built with [Jekyll](https://jekyllrb.com), [Bootstrap](https://getbootstrap.com)
 - [Bootstrap](https://getbootstrap.com) ([pkg](https://yarnpkg.com/en/package/bootstrap))
 - [jQuery](https://jquery.com) ([pkg](https://yarnpkg.com/en/package/jquery))
 
+> Note: we specify a custom install path `./yarn_deps/` to workaround GH-pages ignoring `./node_modules/`.
+
 ### Updating dependencies
 
 ```bash

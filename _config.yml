@@ -17,21 +17,25 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   # custom excludes
+  - yarn_deps/
   - Makefile
   - Dangerfile
   - LICENSE
   - README.md
   - package.json
   - yarn.lock
+  - .yarnrc
   - scripts/
   - .github/
 
 include:
   - .htaccess
-  # bootstrap
-  - node_modules/bootstrap/dist/css/bootstrap.min.css
-  - node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
-  - node_modules/jquery/dist/jquery.slim.min.js
+  # dependencies
+  - yarn_deps/bootstrap/dist/css/bootstrap.min.css
+  - yarn_deps/bootstrap/dist/css/bootstrap.min.css.map
+  - yarn_deps/bootstrap/dist/js/bootstrap.bundle.min.js
+  - yarn_deps/bootstrap/dist/js/bootstrap.bundle.min.js.map
+  - yarn_deps/jquery/dist/jquery.slim.min.js
 
 # Site
 permalink: /:year/:month/:day/:title/

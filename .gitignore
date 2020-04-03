@@ -8,27 +8,30 @@ _site/
 
 # ignore all extra node_modules from yarn
 # only keep dependency source (not entire git repo)
+# custom install directory is yarn_deps
 
 # bootstrap
 
-node_modules/bootstrap/*
-!node_modules/bootstrap/dist/
+yarn_deps/bootstrap/*
+!yarn_deps/bootstrap/dist/
 
-node_modules/bootstrap/dist/*
-!node_modules/bootstrap/dist/css
-!node_modules/bootstrap/dist/fonts
-!node_modules/bootstrap/dist/js
+yarn_deps/bootstrap/dist/*
+!yarn_deps/bootstrap/dist/css
+!yarn_deps/bootstrap/dist/fonts
+!yarn_deps/bootstrap/dist/js
 
-node_modules/bootstrap/dist/css/*
-!node_modules/bootstrap/dist/css/*.min.css
+yarn_deps/bootstrap/dist/css/*
+!yarn_deps/bootstrap/dist/css/*.min.css
+!yarn_deps/bootstrap/dist/css/*.min.css.map
 
-node_modules/bootstrap/dist/js/*
-!node_modules/bootstrap/dist/js/*.min.js
+yarn_deps/bootstrap/dist/js/*
+!yarn_deps/bootstrap/dist/js/*.min.js
+!yarn_deps/bootstrap/dist/js/*.bundle.min.js.map
 
 # jquery
 
-node_modules/jquery/*
-!node_modules/jquery/dist
+yarn_deps/jquery/*
+!yarn_deps/jquery/dist
 
-node_modules/jquery/dist/*
-!node_modules/jquery/dist/*.min.js
+yarn_deps/jquery/dist/*
+!yarn_deps/jquery/dist/*.min.js

@@ -1,7 +1,7 @@
 {
   "systemParams": "darwin-x64-79",
   "modulesFolders": [
-    "node_modules"
+    "yarn_deps"
   ],
   "flags": [],
   "linkedModules": [],
