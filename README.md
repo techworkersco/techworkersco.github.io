@@ -8,8 +8,6 @@
 
 ## About
 
-> TODO:
-
 Built with [Jekyll](https://jekyllrb.com), [Bootstrap](https://getbootstrap.com), [jQuery](https://jquery.com). Hosted with [GitHub Pages](https://pages.github.com).
 
 ## Requirements
@@ -58,18 +56,13 @@ $ make build # build the site once
 $ make watch # build and watch for changes
 $ make incr # build incrementally and watch for changes
 $ make future # build once and allow future posts
+$ make draft # build and watch, including _drafts/
 ```
 
 ### Previewing the site locally
 
 ```bash
 $ make serve # browse to http://localhost:4000
-```
-
-### Writing a draft
-
-```bash
-$ bundle exec jekyll serve --future --drafts --watch
 ```
 
 ### Handling Links

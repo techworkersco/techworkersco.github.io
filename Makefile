@@ -26,6 +26,10 @@ incr:
 future:
 	bundle exec jekyll build --watch --future
 
+.PHONY: draft
+draft:
+	bundle exec jekyll build --watch --future --drafts
+
 .PHONY: serve
 serve:
 	bundle exec jekyll serve
