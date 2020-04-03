@@ -2,6 +2,8 @@
 
 ### ⚠️ work in progress ⚠️
 
+<img src="https://raw.githubusercontent.com/techworkersco/newsletter/master/img/newsletter-team.png" width="250"/>
+
 ## About
 
 > TODO:
@@ -74,6 +76,14 @@ $ bundle exec jekyll serve --future --drafts --watch
 
 - To other posts: `[link]({{ site.url }}{% post_url 2000-01-01-issue-title %})`
 - To images: `{{ site.url }}{{ site.img_url}}/path-to/image.png`
+
+## Contributing
+
+> TODO:
+
+## Conduct
+
+Please read our [Code of Conduct](https://github.com/techworkersco/newsletter/blob/master/.github/CODE_OF_CONDUCT.md). Violations will not be tolerated and will result in immediate removal or blocking from the organization.
 
 ## License
 
