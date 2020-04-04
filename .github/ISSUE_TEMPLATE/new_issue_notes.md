@@ -2,7 +2,7 @@
 name: Newsletter issue notes
 about: Notes to collect for the current newsletter issue
 title: "[N] Issue #N - Month DD, 2020"
-labels: 'current issue'
+labels: current issue, full issue notes
 assignees: ''
 
 ---
