@@ -1,5 +1,7 @@
 # [techworkersco.github.io](https://techworkersco.github.io)
 
+![CI](https://github.com/techworkersco/techworkersco.github.io/workflows/CI/badge.svg?branch=master)
+
 *A weekly newsletter from the Tech Workers Coalition*
 
 <img src="https://raw.githubusercontent.com/techworkersco/techworkersco.github.io/master/img/newsletter-team.png" width="250"/>
