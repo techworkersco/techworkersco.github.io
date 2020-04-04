@@ -33,3 +33,7 @@ draft:
 .PHONY: serve
 serve:
 	bundle exec jekyll serve
+
+.PHONY: new
+new:
+	./scripts/new_post.rb
