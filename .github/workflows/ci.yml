@@ -9,14 +9,14 @@ on:
       - master
 
 jobs:
-  build:
-    name: Build Site
+  job-main:
+    name: build and lint
     runs-on: macOS-latest
     steps:
       - name: git checkout
         uses: actions/checkout@v1
 
-      - name: versions
+      - name: ruby versions
         run: |
           ruby --version
           gem --version
