@@ -5,11 +5,16 @@ if is_editing_draft || is_adding_draft
   warn("Looks like you are editing a draft. Don't forget to publish when it's finished!")
 end
 
-# Check spelling and prose
+# Setup for prose-lint
 prose.language = "en-us"
 prose.ignore_acronyms = true
 prose.ignore_numbers = true
-prose.ignored_words = [
-    "twc"
-]
+
+# Look for prose issues
 prose.lint_files
+
+# Look for spelling issues
+prose.ignored_words = [
+    "twc", "TWC"
+]
+prose.check_spelling
