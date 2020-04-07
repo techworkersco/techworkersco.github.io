@@ -65,11 +65,6 @@ $ make draft # build and watch, including _drafts/
 $ make serve # browse to http://localhost:4000
 ```
 
-### Handling Links
-
-- To other posts: `[link]({{ site.url }}{% post_url 2000-01-01-issue-title %})`
-- To images: `{{ site.url }}{{ site.img_url}}/path-to/image.png`
-
 ## Contributing
 
 Please read our [Contributing Guide](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/CONTRIBUTING.md).
