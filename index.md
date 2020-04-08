@@ -2,7 +2,7 @@
 layout: default
 ---
 
-### ⚠️ WIP, coming soon
+<h1>Latest <small>⚠️ WIP, coming soon ⚠️</small></h1>
 
 {% assign latest = site.posts.first %}
 
