@@ -1,16 +1,6 @@
-#!/usr/bin/env ruby
-
-require 'date'
-
-issue = !ARGV.empty? ? "#{ARGV.first}" : "N"
-
-puts "Generating new post for issue #{ issue }..."
-
-date = Date.today
-
-post_contents = %(---
+---
 layout: post
-title: ! 'Issue ##{ issue }'
+title: ! 'Issue #N'
 category: Volume 2
 image:
     file: null
@@ -49,18 +39,3 @@ image:
 > A brief excerpt of lyrics from an inspiration song
 >
 > Include a link to a video/audio recording. (YouTube, Spotify, Bandcamp, etc.)
-
-)
-
-drafts = "_drafts"
-file_name = "#{ date }-issue-#{ issue }.md"
-path = "#{ drafts }/#{ file_name }"
-
-Dir.mkdir("#{ drafts }") unless File.exists?("#{ drafts }")
-
-open("#{ path }", "w") { |f|
-  f.puts post_contents
-}
-
-puts "Created #{ path }"
-puts "Done"
