@@ -10,7 +10,7 @@ date = Date.today
 
 post_contents = %(---
 layout: post
-title: ! 'Issue ##{ issue }'
+title: 'Issue #{ issue }: TITLE'
 category: Volume 2
 image:
     file: null
