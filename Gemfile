@@ -7,3 +7,7 @@ gem 'jekyll-paginate'
 
 gem 'danger'
 gem 'danger-prose'
+
+# For web scraping.
+gem 'nokogiri'
+gem 'reverse_markdown'
