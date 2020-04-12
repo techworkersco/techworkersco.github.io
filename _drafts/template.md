@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Issue #N'
+title: 'Issue N: TITLE'
 category: Volume 2
 image:
     file: null
