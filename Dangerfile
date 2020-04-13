@@ -6,7 +6,16 @@ if github.branch_for_base != "master"
 end
 
 # -----------------------------------------------------------------------------
-# Reminders for writing a draft
+# Reminder for compressing images
+# -----------------------------------------------------------------------------
+is_adding_images = !(git.added_files.grep(/img/).empty?)
+is_editing_images = !(git.modified_files.grep(/img/).empty?)
+if is_editing_images || is_adding_images
+  warn("Adding images? Remember to compress them with [ImageOptim](https://imageoptim.com/mac).")
+end
+
+# -----------------------------------------------------------------------------
+# Reminder for writing a draft
 # -----------------------------------------------------------------------------
 is_adding_draft = !(git.added_files.grep(/_drafts/).empty?)
 is_editing_draft = !(git.modified_files.grep(/_drafts/).empty?)
@@ -15,7 +24,7 @@ if is_editing_draft || is_adding_draft
 end
 
 # -----------------------------------------------------------------------------
-# Prose-lint: check spelling and prose
+# Check spelling and prose
 # -----------------------------------------------------------------------------
 prose.language = "en-us"
 prose.lint_files
