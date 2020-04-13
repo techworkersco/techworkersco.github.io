@@ -3,9 +3,10 @@ layout: standalone
 title: Archive
 ---
 
+<div class="mt-4">
 {% for category in site.categories reversed %}
 
-<h1>{{ category[0] }}</h1>
+<h2 class="text-secondary">{{ category[0] }}</h2>
 <hr width="100%">
 {% for post in category[1] %}
 <article class="mb-4">
@@ -14,3 +15,4 @@ title: Archive
 {% endfor %}
 
 {% endfor %}
+</div>
