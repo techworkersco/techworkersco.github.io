@@ -3,16 +3,17 @@ layout: post
 title: 'Issue N: TITLE'
 category: Volume 2
 image:
-    file: null
-    alt: null
-    caption: null
-    source_link: null
+    file: file.jpg
+    alt: 'some img-alt text'
+    caption: 'some caption text'
+    source_link: 'optional link to source'
     half_width: false
 ---
 
 > TODO: excerpt
 >
 > Something inspiring and joyful about what’s going on.
+>
 > Something funny/clever/humorous about what we can do.
 
 <!--excerpt-->
@@ -22,7 +23,9 @@ image:
 > TODO: focus
 >
 > A short blurb highlighting one worker-led effort (a strike, an appeal, etc.)
+>
 > Another blurb highlighting something less known/underrepresented in the Bay Area or US.
+>
 > A longer blurb with commentary about “What this all means” (our analysis),
 > and ideally with take-aways that would-be allies can use (not quite a call to action)
 
