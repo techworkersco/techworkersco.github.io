@@ -17,14 +17,8 @@ end
 # -----------------------------------------------------------------------------
 # Prose-lint: check spelling and prose
 # -----------------------------------------------------------------------------
-markdown_files = (git.added_files + git.modified_files).grep(%r{.*\.md/})
+prose.language = "en-us"
+prose.lint_files
 
-unless markdown_files.empty?
-    # Run proselint to check prose and check spelling
-    prose.language = "en-us"
-    prose.ignore_acronyms = true
-    prose.ignore_numbers = true
-    prose.ignored_words = ["twc", "TWC"]
-    prose.lint_files markdown_files
-    prose.check_spelling markdown_files
-end
+prose.ignored_words = ["twc", "TWC"]
+prose.check_spelling
