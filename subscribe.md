@@ -20,3 +20,8 @@ title: Subscribe
 - NYC: [@techworkerscony](https://twitter.com/techworkerscony)
 - Portland: [@twc_pdx](https://twitter.com/twc_pdx)
 - San Diego: [@twcsandiego](https://twitter.com/twcsandiego)
+
+<h4 class="text-secondary">Facebook</h4>
+
+- [**@TechWorkersCoalition**](https://www.facebook.com/TechWorkersCoalition)
+- South Florida: [@southfltechworkers](https://www.facebook.com/southfltechworkers/)
