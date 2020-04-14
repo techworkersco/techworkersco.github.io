@@ -11,8 +11,12 @@ title: Subscribe
 <h4 class="text-secondary">Twitter</h4>
 
 - [**@techworkersco**](https://twitter.com/techworkersco)
-- [@twcsandiego](https://twitter.com/twcsandiego)
-- [@twc_bangalore](https://twitter.com/twc_bangalore)
-- [@twcatx](https://twitter.com/twcatx)
-- [@twc_den](https://twitter.com/twc_den)
-- [@twc_den](https://twitter.com/twc_den)
+- Austin: [@twcatx](https://twitter.com/twcatx)
+- Bangalore: [@twc_bangalore](https://twitter.com/twc_bangalore)
+- Chicago: [@chicago_twc](https://twitter.com/chicago_twc)
+- DC: [@dctechworkers](https://twitter.com/dctechworkers)
+- Denver: [@twc_den](https://twitter.com/twc_den)
+- London: [@TechWorkersLDN](https://twitter.com/TechWorkersLDN)
+- NYC: [@techworkerscony](https://twitter.com/techworkerscony)
+- Portland: [@twc_pdx](https://twitter.com/twc_pdx)
+- San Diego: [@twcsandiego](https://twitter.com/twcsandiego)
