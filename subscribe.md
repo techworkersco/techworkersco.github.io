@@ -24,4 +24,5 @@ title: Subscribe
 <h4 class="text-secondary">Facebook</h4>
 
 - [**@TechWorkersCoalition**](https://www.facebook.com/TechWorkersCoalition)
+- London: [@TechWorkersLDN](https://www.facebook.com/TechWorkersLDN)
 - South Florida: [@southfltechworkers](https://www.facebook.com/southfltechworkers/)
