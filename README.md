@@ -1,4 +1,4 @@
-# [techworkersco.github.io](https://techworkersco.github.io)
+# [techworkersco.github.io](https://news.techworkerscoalition.org)
 
 ![CI](https://github.com/techworkersco/techworkersco.github.io/workflows/CI/badge.svg?branch=master)
 
