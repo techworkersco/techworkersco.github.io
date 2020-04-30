@@ -6,7 +6,7 @@ title: Archive
 <div class="mt-4">
 {% for category in site.categories reversed %}
 
-<h2 class="text-secondary">{{ category[0] }}</h2>
+<h2 class="text-secondary" id="{{ category[0]|slugify }}">{{ category[0] }}</h2>
 <hr width="100%">
 {% for post in category[1] %}
 <article class="mb-4">
