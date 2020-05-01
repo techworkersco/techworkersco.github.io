@@ -9,9 +9,7 @@ This newsletter is a project within the [Tech Workers Coalition](https://www.tec
 
 The current editorial collective was formed in April 2020 by [Danny S](https://twitter.com/daspitzberg), [Wendy L](https://twitter.com/dellsystem), [Jesse S](https://twitter.com/jesse_squires), [Felipe V](https://twitter.com/fvntr) and [Ana U](https://anaulin.org/), all current or former tech workers based in the San Francisco Bay Area.
 
-We see ourselves as stewards, not owners, of this project, and hope for it to grow within the broader network. We do not (and can't possibly) speak for all of TWC.
-
-In 2018 and 2019, an early group of volunteers published a newsletter which is available on this website under [Volume 1](https://news.techworkerscoalition.org/archive/#volume-1). We’re grateful for their foundational work as we form a new group and restart the newsletter.
+We see ourselves as stewards, not owners, of this project, and hope for it to grow within the broader network. We do not (and can't possibly) speak for all of TWC. In 2018 and 2019, an early group of volunteers published a newsletter which is available on this website under [Volume 1](https://news.techworkerscoalition.org/archive/#volume-1). We’re grateful for their foundational work as we form a new group and restart the newsletter.
 
 ### Our vision and values
 
