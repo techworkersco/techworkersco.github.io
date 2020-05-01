@@ -2,9 +2,7 @@
 layout: default
 ---
 
-<h1>Latest</h1>
-
-<h1 class="text-muted"><small>Volume 2 coming soon...</small></h1><br/>
+<h1 class="mb-2">Latest</h1>
 
 {% assign latest = site.posts.first %}
 
