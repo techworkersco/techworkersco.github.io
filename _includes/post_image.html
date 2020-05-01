@@ -6,6 +6,7 @@
 {% assign img_caption = page.image.caption %}
 {% assign img_source = page.image.source_link %}
 {% assign img_width = page.image.half_width %}
+{% assign img_link_to = page.image.link_to %}
 
 {% include image.html
     file=img_file
@@ -13,6 +14,7 @@
     caption=img_caption
     source_link=img_source
     half_width=img_width
+    link_to=img_link_to
 %}
 
 {% endif %}
