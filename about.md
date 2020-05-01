@@ -23,7 +23,8 @@ We intend to run this project as a model of the organizing we believe in: grassr
 
 ### How we engage contributors and collaborators
 
-We welcome contributions for general themes (workplace surveillance and that eerie feeling of being watched), specific stories (a report of vacuum cleaning robots programmed to trip interns), or anything else that aligns with our vision and values.
+We welcome contributions for general themes (e.g., workplace surveillance),
+specific stories (e.g., organizing efforts at a particular workplace), or anything else that aligns with our vision and values.
 
 If you have suggestions, contributions, or proposals to collaborate, you can contact our collective by email: <twcnewsletter@protonmail.com>. You can also open a [GitHub issue](https://github.com/techworkersco/techworkersco.github.io/issues).
 
