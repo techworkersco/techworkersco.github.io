@@ -7,7 +7,7 @@ title: About the Tech Workers Coalition Newsletter
 
 This newsletter is a project within the [Tech Workers Coalition](https://www.techworkerscoalition.org/). TWC is a worker-led, all-volunteer network building power through rank-and-file organizing and peer education.
 
-The current editorial collective was formed in April 2020 by [Danny S](https://twitter.com/daspitzberg), [Wendy L](https://twitter.com/dellsystem), [Jesse S](https://twitter.com/jesse_squires), [Felipe V](https://twitter.com/fvntr) and [Ana U](https://anaulin.org/), all current or former tech workers based in the San Francisco Bay Area.  We see ourselves as stewards, not owners, of this project, and hope for it to grow within the broader network. We do not (and can't possibly) speak for all of TWC.
+The current editorial collective was formed in April 2020 by [Danny S](https://twitter.com/daspitzberg), [Wendy L](https://twitter.com/dellsystem), [Jesse S](https://twitter.com/jesse_squires), [Felipe V](https://twitter.com/fvntr) and [Ana U](https://anaulin.org/), all current or former tech workers based in the San Francisco Bay Area. We see ourselves as stewards, not owners, of this project, and hope for it to grow within the broader network. We do not (and can't possibly) speak for all of TWC.
 
 Throughout 2018, a previous group of volunteers published issues which are available on this website under [Volume 1](https://news.techworkerscoalition.org/archive/#volume-1). That group is unfortunately no longer active, but we are grateful for their efforts as we form a new group and restart the newsletter.
 
