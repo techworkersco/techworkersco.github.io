@@ -4,6 +4,8 @@
 
 $color-brand: #e3252b;
 $color-brand-dark: #b01d21;
+$color-blockquote: #555;
+$margin-blockquote: 25px;
 
 a:link,
 a:active {
@@ -16,4 +18,9 @@ a:hover {
 
 a:visited {
   color: $color-brand-dark;
+}
+
+blockquote {
+  color: $color-blockquote;
+  margin-left: $margin-blockquote;
 }
