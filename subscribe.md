@@ -14,7 +14,7 @@ title: Subscribe
 
 <h4 class="text-secondary">Twitter</h4>
 
-- [**@techworkersco**](https://twitter.com/techworkersco)
+- [**@twcnewsletter**](https://twitter.com/twcnewsletter)
 - Austin: [@twcatx](https://twitter.com/twcatx)
 - Bangalore: [@twc_bangalore](https://twitter.com/twc_bangalore)
 - Chicago: [@chicago_twc](https://twitter.com/chicago_twc)
