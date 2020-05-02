@@ -51,6 +51,7 @@
 
     {% if page.image %}
     <meta name="twitter:image" content="{{ site.url }}{{ site.img_url}}/{{ page.image.file }}" />
+    <meta name="twitter:card" content="summary_large_image" />
     {% else %}
     <meta name="twitter:image" content="{{ site.url }}{{ site.logo }}" />
     {% endif %}
