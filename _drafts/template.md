@@ -5,9 +5,10 @@ category: Volume 2
 image:
     file: file.jpg
     alt: 'some img-alt text'
-    caption: 'some caption text'
-    source_link: 'optional link to source'
+    caption: 'some caption text for the image'
+    source_link: 'optional link to external source for image'
     half_width: false
+preview: "Some preview test for emails and social media sharing"
 ---
 
 > TODO: excerpt
@@ -18,9 +19,11 @@ image:
 
 <!--excerpt-->
 
-### Focus
+{% include post_image.html %}
 
-> TODO: focus
+## The Worker's Perspective
+
+> TODO:
 >
 > A short blurb highlighting one worker-led effort (a strike, an appeal, etc.)
 >
@@ -29,16 +32,24 @@ image:
 > A longer blurb with commentary about “What this all means” (our analysis),
 > and ideally with take-aways that would-be allies can use (not quite a call to action)
 
-### In the news
+## In The News
 
-> TODO: news
+> TODO:
 >
 > A curated collection of 3-10 links to other efforts around the world or relevant articles.
 
-### Song of the week
+## In History
 
-> TODO: song
+> TODO:
 >
-> A brief excerpt of lyrics from an inspiration song
+> Highlight a connection to historical context. Situate ourselves in this moment in history.
+
+## In Song
+
+#### Song title + link
+
+> TODO:
+>
+> A brief excerpt of lyrics from an inspirational song
 >
 > Include a link to a video/audio recording. (YouTube, Spotify, Bandcamp, etc.)

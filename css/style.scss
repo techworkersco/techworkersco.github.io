@@ -4,7 +4,8 @@
 
 $color-brand: #e3252b;
 $color-brand-dark: #b01d21;
-$color-blockquote: #555;
+$color-blockquote: #555555;
+
 $margin-blockquote: 25px;
 
 a:link,
@@ -23,6 +24,9 @@ a:visited {
 blockquote {
   color: $color-blockquote;
   margin-left: $margin-blockquote;
+  margin-right: $margin-blockquote;
+  padding-left: 12px;
+  border-left: 2px solid $color-blockquote;
 }
 
 h2 {
