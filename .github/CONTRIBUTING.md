@@ -62,6 +62,8 @@ These are the valid values for this field:
 
 All images should be placed in [`img/`](https://github.com/techworkersco/techworkersco.github.io/tree/master/img).
 
+> :warning: Be sure to run [ImageOptim](https://imageoptim.com/mac) on all images to reduce their file size.
+
 Each post has an optional header image, specified by the `image:` field.
 
 - `file` **(required, string)** specifies the filename only. (example: `vol-1-issue-1-header.jpg`)
