@@ -2,7 +2,7 @@
 
 ![CI](https://github.com/techworkersco/techworkersco.github.io/workflows/CI/badge.svg?branch=master)
 
-*A weekly newsletter from the Tech Workers Coalition*
+*A newsletter from the Tech Workers Coalition*
 
 <img src="https://raw.githubusercontent.com/techworkersco/techworkersco.github.io/master/img/newsletter-team.png" width="250"/>
 
@@ -67,7 +67,7 @@ $ make serve # browse to http://localhost:4000
 
 ## Contributing
 
-Please read our [Contributing Guide](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/CONTRIBUTING.md).
+Please read our [Contributing Guide](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/CONTRIBUTING.md), which also includes documentation on how the site works.
 
 ## Conduct
 

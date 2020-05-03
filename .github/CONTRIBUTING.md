@@ -14,9 +14,9 @@ For bug fixes or other enhancements for the site, feel free to [submit a pull re
 
 To fix a typo or otherwise correct the content in the newsletter, please [submit a pull request](https://github.com/techworkersco/techworkersco.github.io/compare) or [open an issue](https://github.com/techworkersco/techworkersco.github.io/issues/new) explaining what should be corrected.
 
-## Writing and publishing
+# Writing and publishing
 
-Tips and other information for core contributors.
+*Tips and other information for core contributors.*
 
 ## Issue template
 
@@ -31,7 +31,7 @@ Below is an explanation of our Jekyll [front matter](https://jekyllrb.com/docs/f
 ```yaml
 ---
 layout: post
-title: ! 'Issue #N' # where N is the issue number
+title: ! 'Issue #N: TITLE' # where N is the issue number
 category: Volume 2
 image:
     file: null
@@ -64,6 +64,12 @@ Each post has an optional header image, specified by the `image:` field.
 - `half_width` **(optional, boolean)** specifies the image layout. If `false` (the default), the image will expand to the full width of the container. If `true`, the image is centered and expands to 50% of the container width. This should almost always be `false`.
 
 ### Handling Links
+
+> :warning: **Relative links in posts should be avoided.**
+>
+> Because the newsletter email is generated from the RSS feed, site links must be prepended with `{{ site.url }}`, for example:
+>
+> `[about]({{ site.url}}/about/)`
 
 - To other posts: `[link]({{ site.url }}{% post_url 2000-01-01-issue-title %})`
 - To other images: `{{ site.url }}{{ site.img_url}}/image-name.jpg`
