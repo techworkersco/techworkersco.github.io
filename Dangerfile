@@ -24,17 +24,6 @@ if is_editing_draft || is_adding_draft
 end
 
 # -----------------------------------------------------------------------------
-# Check spelling and prose
-# -----------------------------------------------------------------------------
-prose.language = "en-us"
-prose.ignore_numbers = true
-prose.ignore_acronyms = true
-prose.lint_files
-
-prose.ignored_words = ["twc", "TWC"]
-prose.check_spelling
-
-# -----------------------------------------------------------------------------
 # Verify Jekyll template
 #
 # Borrowed from: https://github.com/artsy/artsy.github.io/blob/master/Dangerfile
@@ -51,3 +40,14 @@ posts.each do |filename|
         message("[Read the docs](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/CONTRIBUTING.md) for details.")
     end
 end
+
+# -----------------------------------------------------------------------------
+# Check spelling and prose
+# -----------------------------------------------------------------------------
+prose.language = "en-us"
+prose.ignore_numbers = true
+prose.ignore_acronyms = true
+prose.lint_files
+
+prose.ignored_words = ["twc", "TWC"]
+prose.check_spelling
