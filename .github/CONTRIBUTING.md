@@ -14,11 +14,11 @@ For bug fixes or other enhancements for the site, feel free to [submit a pull re
 
 To fix a typo or otherwise correct the content in the newsletter, please [submit a pull request](https://github.com/techworkersco/techworkersco.github.io/compare) or [open an issue](https://github.com/techworkersco/techworkersco.github.io/issues/new) explaining what should be corrected.
 
-# Writing and publishing
+# Writing and Publishing
 
 *Tips and other information for core contributors.*
 
-## Issue template
+## Issue Template
 
 You can find a default issue template at [`_drafts/template.md`](https://github.com/techworkersco/techworkersco.github.io/blob/master/_drafts/template.md).
 
@@ -51,7 +51,7 @@ These are the valid values for this field:
 - `Volume 1` (represents the original, legacy newsletter)
 - `Volume 2` (the reboot, beginning in early 2020)
 
-### Header images
+### Header Images
 
 All images should be placed in [`img/`](https://github.com/techworkersco/techworkersco.github.io/tree/master/img).
 
