@@ -40,13 +40,14 @@ prose.check_spelling
 # Borrowed from: https://github.com/artsy/artsy.github.io/blob/master/Dangerfile
 # -----------------------------------------------------------------------------
 active_files = (git.modified_files + git.added_files).uniq
-markdowns = active_files
+posts = active_files
   .select { |file| file.start_with? '_posts/' }
   .select { |file| file.end_with?('.md') }
 
-markdowns.each do |filename|
+posts.each do |filename|
     file = File.read(filename)
     if !(file.include?("<!--excerpt-->"))
-        fail("Please add the <!--excerpt--> tag where you'd like this post to break for the preview.", file: filename)
+        fail("Missing excerpt. Please add the excerpt tag where you'd like this post to break for the preview.", file: filename)
+        message("[Read the docs](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/CONTRIBUTING.md) for details.")
     end
 end
