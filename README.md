@@ -8,66 +8,17 @@
 
 ## About
 
-Built with [Jekyll](https://jekyllrb.com), [Bootstrap](https://getbootstrap.com), [jQuery](https://jquery.com). Hosted with [GitHub Pages](https://pages.github.com).
+Read [about this project and our collective](https://news.techworkerscoalition.org/about/).
 
-## Requirements
+Built with [Jekyll](https://jekyllrb.com), [Bootstrap](https://getbootstrap.com), and [jQuery](https://jquery.com). Hosted on [GitHub Pages](https://pages.github.com).
 
-- [Bundler](https://bundler.io)
-- [Yarn](https://yarnpkg.com/en/)
+## Documentation
 
-## Dependencies
-
-### Gems
-
-- [jekyll](https://jekyllrb.com) ([Latest](https://github.com/jekyll/jekyll/releases/latest)) ([Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/))
-- [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)
-- [jekyll-paginate](https://github.com/jekyll/jekyll-paginate)
-
-### Yarn
-
-- [Bootstrap](https://getbootstrap.com) ([pkg](https://yarnpkg.com/en/package/bootstrap))
-- [jQuery](https://jquery.com) ([pkg](https://yarnpkg.com/en/package/jquery))
-
-> Note: we specify a custom install path `./yarn_deps/` to workaround GH-pages ignoring `./node_modules/`.
-
-### Updating dependencies
-
-```bash
-$ make update
-```
-
-## Usage
-
-### Installation
-
-```bash
-$ git clone https://github.com/techworkersco/techworkersco.github.io.git
-$ cd techworkersco.github.io/
-$ make install
-$ make
-```
-
-### Building the site
-
-Various options using `make`:
-
-```bash
-$ make build # build the site once
-$ make watch # build and watch for changes
-$ make incr # build incrementally and watch for changes
-$ make future # build once and allow future posts
-$ make draft # build and watch, including _drafts/
-```
-
-### Previewing the site locally
-
-```bash
-$ make serve # browse to http://localhost:4000
-```
+You can read [our documentation here](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md).
 
 ## Contributing
 
-Please read our [Contributing Guide](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/CONTRIBUTING.md), which also includes documentation on how the site works.
+Please read our [Contributing Guide](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/CONTRIBUTING.md).
 
 ## Conduct
 
