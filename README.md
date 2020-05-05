@@ -2,7 +2,7 @@
 
 ![CI](https://github.com/techworkersco/techworkersco.github.io/workflows/CI/badge.svg?branch=master)
 
-*A newsletter from the Tech Workers Coalition*
+*A bi-weekly newsletter from the Tech Workers Coalition. Published every other Friday.*
 
 <img src="https://raw.githubusercontent.com/techworkersco/techworkersco.github.io/master/img/newsletter-team.png" width="250"/>
 
