@@ -2,9 +2,13 @@
 layout: default
 ---
 
+{% include pagination.html %}
+
 <article>
     {% include post_entry.html post_entry=page display_excerpt=false %}
     <div>
         {{ content }}
     </div>
 </article>
+
+{% include pagination.html %}
