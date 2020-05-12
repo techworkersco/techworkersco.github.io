@@ -23,6 +23,10 @@
 
 > Note: we specify a custom install path `./yarn_deps/` to workaround GH-pages ignoring `./node_modules/`.
 
+### Other
+
+- [FontAwesome 5](https://fontawesome.com)
+
 ## Usage
 
 ### Installation
