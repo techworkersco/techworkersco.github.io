@@ -12,20 +12,34 @@ We hold a **weekly Tuesday meeting at 2:00 PM** to check-in, collaborate, discus
 
 ## :white_check_mark: Checklist
 
-#### The "off-week", prior to the publishing week
+### The "off-week", prior to the publishing week
 
-- Rest :)
-- Tuesday Meeting: finalize lead/co-lead for next issue
-- Co-lead: create new google doc for issue draft
-- All: brainstorm ideas and content for next issue, collect links to relevant news stories
+- **Monday:** rest :)
 
-#### The publishing week
+- **Tuesday (Weekly Meeting):**
+    - retrospective on previous issue
+    - choose lead and co-lead for next issue
+    - co-lead to create new google doc for issue draft and share
+    
+- **Wednesday-Thursday:** collective brainstorms ideas and content for next issue, collects links to relevant news stories
 
-- [ ] Collective updates queue of issue contributors and partners by 2pm Pacific Monday
-- [ ] Collective decides on issue theme and lead & co-lead by 5pm Friday (via Doodle?)
-- [ ] Lead finalizes theme and start draft by 5pm Monday
-- [ ] Lead & co-lead solicit feedback from collective by 2pm Wednesday
-- [ ] Lead completes and share final draft by 2pm Thursday
-- [ ] Collective proofreads and finishes QA by 6pm Thursday
-- [ ] Collective pushes issue by 6pm Thursday (or 9am Friday at the latest)
-- [ ] Automagic distribution via email and social media at 10am Friday
+- **Friday by 5:00 PM:** 
+    - confirm issue theme or general direction
+    - confirm lead and co-lead (in case someone becomes unavailable, prefers to change roles, etc.)
+
+### The publishing week
+
+- **Monday:** begin writing draft
+
+- **Tuesday:** weekly meeting, check-in on progress
+
+- **Wednesday by 2:00 PM:** lead and co-lead solicit feedback from collective
+
+- **Thursday by 2:00 PM:** lead completes draft, co-lead proofreads, final draft shared with collective
+
+- **Thursday by 6:00 PM:** 
+    - collective proofreads and finishes QA
+    - lead or co-lead opens pull request on GitHub, google doc draft is **closed**
+    - any remaining edits happen on GitHub
+
+- **Friday by 9:00 AM:** pull request is merged (triggering all automagic distribution)
