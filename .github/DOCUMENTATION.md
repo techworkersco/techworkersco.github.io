@@ -70,9 +70,9 @@ $ make new
 
 *Tips and other information for core contributors.*
 
-### Schedule
+## Process
 
-We publish new issues bi-weekly, every other Friday at 10:00 AM Pacific.
+See our [Process documentation](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/PROCESS.md).
 
 ## How we publish
 
