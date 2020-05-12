@@ -135,16 +135,18 @@ def write_to_file(issue)
       file.puts "\n\n"
     end
   end
+  return filename
 end
 
 # Imports the issue at the given URL with the provided metadata.
-# @params [Hash] issue A hash with title, date and url keys. Represents the issue to import.
+# @params [Hash] issue A hash with title, date, number and url keys. Represents
+# the issue to import.
 def import_issue(issue)
   puts "Importing issue: #{issue}"
   issue_doc = Nokogiri::HTML(open(issue[:url]))
   issue[:image] = extract_image(issue_doc, issue[:number])
   issue[:sections] = extract_sections(issue_doc)
-  write_to_file(issue)
+  return write_to_file(issue)
 end
 
 # Extracts the actual issue title from the email subject line.
@@ -188,6 +190,13 @@ end
 # Main script entrypoint.
 ###
 
-MAILCHIMP_ARCHIVE_URL = 'https://us11.campaign-archive.com/home/?u=194e57c175176cfd13007a197&id=7cb85d276a'
-puts "Importing issues from Mailchimp archive URL: #{MAILCHIMP_ARCHIVE_URL}"
-import_from_archive(MAILCHIMP_ARCHIVE_URL)
+#MAILCHIMP_ARCHIVE_URL = 'https://us11.campaign-archive.com/home/?u=194e57c175176cfd13007a197&id=7cb85d276a'
+#puts "Importing issues from Mailchimp archive URL: #{MAILCHIMP_ARCHIVE_URL}"
+#import_from_archive(MAILCHIMP_ARCHIVE_URL)
+issue = {
+    title: ARGV[0], # eg "Keep working, keep building, keep fighting",
+    url: ARGV[1], # eg "https://us11.campaign-archive.com/?e=dbff030191&u=194e57c175176cfd13007a197&id=9d479b3cb5",
+    date: ARGV[2], # eg "2018-10-19",
+    number: ARGV[3], # eg "21"
+}
+print(import_issue(issue))
