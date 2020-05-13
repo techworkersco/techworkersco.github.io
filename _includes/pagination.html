@@ -9,12 +9,6 @@
       </a>
     </li>
     {% endif %}
-    <li class="page-item">
-        <a class="page-link" href="https://twitter.com/intent/tweet?text={{ page.title|url_encode }}%20via%20@twcnewsletter%20{{ site.url }}{{ page.url }}" title="Share on Twitter" target="_blank"> <i class="fa fa-twitter"></i> </a>
-    </li>
-    <li class="page-item">
-        <a class="page-link" href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" target="_blank"> <i class="fa fa-facebook"></i> </a>
-    </li>
     {% if page.next.url %}
     <li class="page-item">
       <a class="page-link" href="{{ page.next.url }}" title="{{ page.next.title }}">Next
