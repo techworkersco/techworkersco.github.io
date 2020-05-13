@@ -1,10 +1,10 @@
 <nav aria-label="Share on social media">
     <ul class="pagination justify-content-center">
         <li class="page-item">
-            <a class="page-link" href="https://twitter.com/intent/tweet?text={{ page.title|url_encode }}%20via%20@twcnewsletter%20{{ site.url }}{{ page.url }}" title="Share on Twitter" target="_blank"><i class="fa fa-twitter"></i> Tweet</a>
+            <a class="page-link" href="https://twitter.com/intent/tweet?text={{ page.title|url_encode }}%20via%20@twcnewsletter%20{{ page.url | absolute_url }}" title="Share on Twitter" target="_blank"><i class="fa fa-twitter"></i> Tweet</a>
         </li>
         <li class="page-item">
-            <a class="page-link" href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" target="_blank"><i class="fa fa-facebook"></i> Post</a>
+            <a class="page-link" href="https://www.facebook.com/sharer.php?u={{ page.url | absolute_url }}" title="Share on Facebook" target="_blank"><i class="fa fa-facebook"></i> Post</a>
         </li>
     </ul>
 </nav>
