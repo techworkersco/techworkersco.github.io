@@ -8,7 +8,7 @@ image:
     caption: 'some caption text for the image'
     source_link: 'optional link to external source for image'
     half_width: false
-preview: "Some preview test for emails and social media sharing"
+preview: "Some preview text for emails and social media sharing"
 ---
 
 > TODO: excerpt
@@ -43,6 +43,8 @@ preview: "Some preview test for emails and social media sharing"
 > TODO:
 >
 > Highlight a connection to historical context. Situate ourselves in this moment in history.
+>
+> Highlight a previous tech worker collective action from collectiveactions.tech
 
 ## In Song
 
