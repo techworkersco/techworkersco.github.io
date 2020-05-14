@@ -15,13 +15,13 @@ We hold a **weekly Tuesday meeting at 2:00 PM** to check-in, collaborate, discus
 ### The "off-week", prior to the publishing week
 
 - **Monday** 
-    - rest :)
+    - rest :relieved:
 - **Tuesday (Weekly Meeting)**
-    - retrospective on previous issue
+    - retrospective on previous issue :eyes:
     - choose lead and co-lead for next issue
     - co-lead to create new google doc for issue draft and share
 - **Wednesday-Thursday**
-    - collective brainstorms ideas and content for next issue
+    - collective brainstorms ideas and content for next issue 
     - collect links to relevant news stories
 - **Friday &mdash; by end of day** 
     - confirm issue theme or general direction
@@ -30,9 +30,10 @@ We hold a **weekly Tuesday meeting at 2:00 PM** to check-in, collaborate, discus
 ### The publishing week
 
 - **Monday**
-    - begin writing draft
+    - begin writing draft :sparkles:
 - **Tuesday (Weekly Meeting)**
     - check-in on progress
+    - talk internally and with guests on vision and strategy for our work
 - **Wednesday**
     - lead and co-lead continue work on draft, collective is welcome to contribute
 - **Thursday**
