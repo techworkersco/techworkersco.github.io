@@ -23,7 +23,7 @@ We hold a **weekly Tuesday meeting at 2:00 PM** to check-in, collaborate, discus
 - **Wednesday-Thursday**
     - collective brainstorms ideas and content for next issue
     - collect links to relevant news stories
-- **Friday by 5:00 PM** 
+- **Friday &mdash; by end of day** 
     - confirm issue theme or general direction
     - confirm lead and co-lead (in case someone becomes unavailable, prefers to change roles, etc.)
 
@@ -33,14 +33,15 @@ We hold a **weekly Tuesday meeting at 2:00 PM** to check-in, collaborate, discus
     - begin writing draft
 - **Tuesday (Weekly Meeting)**
     - check-in on progress
-- **Wednesday by 2:00 PM**
-    - lead and co-lead solicit feedback from collective
-- **Thursday by 2:00 PM**
+- **Wednesday**
+    - lead and co-lead continue work on draft, collective is welcome to contribute
+- **Thursday**
     - lead completes draft, co-lead does initial proofread
     - final draft shared with collective
-- **Thursday by 6:00 PM** 
+- **Thursday &mdash; by end of day** 
     - collective proofreads and finishes QA
     - lead or co-lead opens pull request on GitHub, google doc draft is **closed**
-    - *any remaining edits happen on GitHub*
-- **Friday by 9:00 AM**
+    - *any remaining edits happen on GitHub* :warning:
+- **Friday &mdash; by 9:00 AM**
+    - final edits and polish on GitHub
     - pull request is merged (triggering all automagic distribution) :tada:
