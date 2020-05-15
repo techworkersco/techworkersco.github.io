@@ -50,8 +50,8 @@ prose.ignore_acronyms = true
 prose.lint_files
 
 prose.ignored_words = ["twc", "TWC",
-    "DIY", "PPE", "coronavirus", "technocapital",
-    "Bezos", "Veena", "Dubal",
-    "Vox", "Uber", "Lyft", "Instacart", "Shipt", "Bandcamp"
+    "DIY", "PPE", "coronavirus", "technocapital", "rideshare",
+    "Bezos", "Veena", "Dubal", "Elon", "Musk", 
+    "Vox", "Uber", "Lyft", "Instacart", "Shipt", "Bandcamp", "Airbnb", "Kickstarter"
 ]
 prose.check_spelling
