@@ -1,6 +1,9 @@
 {% assign post_entry = include.post_entry %}
 
-<h2><a href="{{ post_entry.url }}">{{ post_entry.title }}</a></h2>
+<h2>
+    <a href="{{ post_entry.url }}">{{ post_entry.title }}</a>
+    {% if include.isLatest %}<small class="badge badge-dark">Latest</small>{% endif %}
+</h2>
 
 <h4 class="d-inline-block text-dark"><small>{{ post_entry.date | date_to_string }}</small></h4>
 
