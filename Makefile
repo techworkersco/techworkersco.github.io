@@ -34,6 +34,14 @@ draft:
 serve:
 	bundle exec jekyll serve
 
+.PHONY: serve-all
+serve-all:
+	bundle exec jekyll serve --future --drafts
+
 .PHONY: new
 new:
 	./scripts/new_post.rb
+
+.PHONY: image
+image:
+	./scripts/optimize-image.sh $(file)
