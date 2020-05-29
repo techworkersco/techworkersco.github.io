@@ -54,6 +54,7 @@ $ make draft # build and watch, including _drafts/
 
 ```bash
 $ make serve # browse to http://localhost:4000
+$ make serve-all # build and serve future and draft posts
 ```
 
 ### Updating dependencies
@@ -139,6 +140,11 @@ These are the valid values for this field:
 All images should be placed in [`img/`](https://github.com/techworkersco/techworkersco.github.io/tree/master/img).
 
 > :warning: Be sure to run [ImageOptim](https://imageoptim.com/mac) on all images to reduce their file size.
+
+You can use `make image` to optimize an image:
+```bash
+$ make image file=my-image-file.png
+```
 
 Each post has an optional header image, specified by the `image:` field.
 
