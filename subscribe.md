@@ -17,6 +17,8 @@ title: Subscribe
 - [**@twcnewsletter**](https://twitter.com/twcnewsletter)
 - Austin: [@twcatx](https://twitter.com/twcatx)
 - Bangalore: [@twc_bangalore](https://twitter.com/twc_bangalore)
+- Bay Area: [@techworkersco](https://twitter.com/techworkersco)
+- Berlin: [@TechWorkersBER](https://twitter.com/TechWorkersBER)
 - Chicago: [@chicago_twc](https://twitter.com/chicago_twc)
 - DC: [@dctechworkers](https://twitter.com/dctechworkers)
 - Denver: [@twc_den](https://twitter.com/twc_den)
