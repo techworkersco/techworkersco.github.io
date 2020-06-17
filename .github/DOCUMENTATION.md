@@ -2,6 +2,29 @@
 
 *This document reviews working with this site and how publishing works.*
 
+- [Documentation](#documentation)
+  - [Requirements](#requirements)
+  - [Dependencies](#dependencies)
+    - [Gems](#gems)
+    - [Yarn](#yarn)
+    - [Other](#other)
+  - [Usage](#usage)
+    - [Installation](#installation)
+    - [Building the site](#building-the-site)
+    - [Previewing the site locally](#previewing-the-site-locally)
+    - [Updating dependencies](#updating-dependencies)
+    - [Generating a new issue](#generating-a-new-issue)
+- [Writing and Publishing](#writing-and-publishing)
+  - [Process](#process)
+  - [How we publish](#how-we-publish)
+    - [Emails](#emails)
+    - [Tweets](#tweets)
+  - [Issue Template](#issue-template)
+    - [Front Matter](#front-matter)
+    - [Categories as "Volumes"](#categories-as-volumes)
+    - [Header Images](#header-images)
+    - [Handling Links](#handling-links)
+
 ## Requirements
 
 - [Bundler](https://bundler.io)
