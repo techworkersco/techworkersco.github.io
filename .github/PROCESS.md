@@ -14,16 +14,17 @@ We hold a **weekly Tuesday meeting at 2:00 PM** to check-in, collaborate, discus
 
 ### The "off-week", prior to the publishing week
 
-- **Monday** 
+- **Monday**
     - rest :relieved:
 - **Tuesday (Weekly Meeting)**
     - retrospective on previous issue :eyes:
     - choose lead and co-lead for next issue
-    - co-lead to create new google doc for issue draft and share
+    - co-lead to create new [Dropbox Paper](https://www.dropbox.com/paper) doc for issue draft and share
+    - co-lead to create new agenda item for next week's meeting, in GitHub's [team discussion area](https://github.com/orgs/techworkersco/teams/newsletter-folks)
 - **Wednesday-Thursday**
-    - collective brainstorms ideas and content for next issue 
+    - collective brainstorms ideas and content for next issue
     - collect links to relevant news stories
-- **Friday &mdash; by end of day** 
+- **Friday &mdash; by end of day**
     - confirm issue theme or general direction
     - confirm lead and co-lead (in case someone becomes unavailable, prefers to change roles, etc.)
 
@@ -34,14 +35,15 @@ We hold a **weekly Tuesday meeting at 2:00 PM** to check-in, collaborate, discus
 - **Tuesday (Weekly Meeting)**
     - check-in on progress
     - talk internally and with guests on vision and strategy for our work
+    - co-lead to create new agenda item for next week's meeting, in GitHub's [team discussion area](https://github.com/orgs/techworkersco/teams/newsletter-folks)
 - **Wednesday**
     - lead and co-lead continue work on draft, collective is welcome to contribute
 - **Thursday**
     - lead completes draft, co-lead does initial proofread
     - final draft shared with collective
-- **Thursday &mdash; by end of day** 
+- **Thursday &mdash; by end of day**
     - collective proofreads and finishes QA
-    - lead or co-lead opens pull request on GitHub, google doc draft is **closed**
+    - lead or co-lead opens pull request on GitHub, shared doc draft is **closed**
     - *any remaining edits happen on GitHub* :warning:
 - **Friday &mdash; by 9:00 AM**
     - final edits and polish on GitHub
