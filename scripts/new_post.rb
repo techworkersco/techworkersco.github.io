@@ -13,7 +13,7 @@ layout: post
 title: 'Issue #{ issue }: TITLE'
 category: Volume 2
 image:
-    file: file.jpg
+    file: 'vol-2-issue-#{ issue }-header.jpg'
     alt: 'some img-alt text'
     caption: 'some caption text for the image'
     source_link: 'optional link to external source for image'

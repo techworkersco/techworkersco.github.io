@@ -3,7 +3,7 @@ layout: post
 title: 'Issue N: TITLE'
 category: Volume 2
 image:
-    file: file.jpg
+    file: vol-2-issue-N-header.jpg
     alt: 'some img-alt text'
     caption: 'some caption text for the image'
     source_link: 'optional link to external source for image'
