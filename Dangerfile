@@ -8,10 +8,11 @@ end
 # -----------------------------------------------------------------------------
 # Reminder for compressing images
 # -----------------------------------------------------------------------------
+has_imgoptim_label = github.pr_labels.any? { |label| label.include? "image-optimized" }
 is_adding_images = !(git.added_files.grep(/img/).empty?)
 is_editing_images = !(git.modified_files.grep(/img/).empty?)
-if is_editing_images || is_adding_images
-    warn("Adding images? Remember to compress them with [ImageOptim](https://imageoptim.com/mac).")
+if (is_editing_images || is_adding_images) && !has_imgoptim_label
+    warn("Adding images? Remember to compress them with [ImageOptim](https://imageoptim.com/mac). Add the `image-optimized` label to silence this warning.")
 end
 
 # -----------------------------------------------------------------------------
@@ -51,7 +52,11 @@ prose.lint_files
 
 prose.ignored_words = ["twc", "TWC",
     "DIY", "PPE", "coronavirus", "COVID-19", "technocapital", "rideshare",
-    "Bezos", "Veena", "Dubal", "Elon", "Musk", 
+    "Bezos", "Veena", "Dubal", "Elon", "Musk",
     "Vox", "Uber", "Lyft", "Instacart", "Shipt", "Bandcamp", "Airbnb", "Kickstarter"
 ]
-prose.check_spelling
+
+has_spellcheck_label = github.pr_labels.any? { |label| label.include? "spell-checked" }
+if !has_spellcheck_label
+    prose.check_spelling
+end
