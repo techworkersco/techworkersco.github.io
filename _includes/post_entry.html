@@ -2,10 +2,16 @@
 
 <h2>
     <a href="{{ post_entry.url }}">{{ post_entry.title }}</a>
-    {% if include.isLatest %}<small class="badge badge-dark">Latest</small>{% endif %}
 </h2>
 
-<h4 class="d-inline-block text-dark"><small>{{ post_entry.date | date_to_string }}</small></h4>
+<h4 class="d-inline-block text-dark">
+    <small>{{ post_entry.date | date_to_string }}</small>
+    {% if include.isLatest %}
+    <small class="badge badge-pill badge-dark font-weight-light">
+        <i class="far fa-sm fa-star"></i> Latest
+    </small>
+    {% endif %}
+</h4>
 
 {% if include.display_excerpt %}
 <div>
