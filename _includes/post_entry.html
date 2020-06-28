@@ -6,7 +6,11 @@
 
 <h4 class="d-inline-block text-dark">
     <small>{{ post_entry.date | date_to_string }}</small>
-    {% if include.isLatest %}<small class="badge badge-pill badge-dark"><i class="far fa-sm fa-star"></i> Latest</small>{% endif %}
+    {% if include.isLatest %}
+    <small class="badge badge-pill badge-dark font-weight-light">
+        <i class="far fa-sm fa-star"></i> Latest
+    </small>
+    {% endif %}
 </h4>
 
 {% if include.display_excerpt %}
