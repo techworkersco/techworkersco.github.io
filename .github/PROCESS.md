@@ -19,7 +19,7 @@ We hold a **weekly Tuesday meeting at 2:00 PM** to check-in, collaborate, discus
 - **Tuesday (Weekly Meeting)**
     - retrospective on previous issue :eyes:
     - choose lead and co-lead for next issue
-    - co-lead to create new [Dropbox Paper](https://www.dropbox.com/paper) doc for issue draft and share
+    - co-lead to create new doc for issue draft and share; can use this [Dropbox Paper Template](https://www.dropbox.com/scl/fi/sqz5wmqwz42pt5edn5gau/Issue-N-Draft.papert?dl=0&rlkey=h5bk0yqf8kcw2zxcil8p8rz6q) (click "Create doc" in the top right corner of the template)
     - co-lead to create new agenda item for next week's meeting, in GitHub's [team discussion area](https://github.com/orgs/techworkersco/teams/newsletter-folks)
 - **Wednesday-Thursday**
     - collective brainstorms ideas and content for next issue
