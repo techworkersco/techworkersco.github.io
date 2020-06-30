@@ -10,6 +10,32 @@ We publish new issues bi-weekly, **every other Friday at 10:00 AM**. This includ
 
 We hold a **weekly Tuesday meeting at 2:00 PM** to check-in, collaborate, discuss updates, make decisions, etc.
 
+## :snowflake: Roles
+
+There are a few different areas of responsibility for each issue. Who does what is determined during weekly meetings, over emails, and chat. Some responsibilities are **collective**. :busts_in_silhouette:
+
+#### Lead and Co-lead
+
+Informal "points of contact" that ensure everything below gets finished.
+
+#### Editorial
+
+ - Supporting and guiding Worker's Perspective contributors (TBA)
+ - Identifying major themes in the news (TBA)
+ - Title and blurb (**everyone** :busts_in_silhouette:)
+ - Proofreading and editing (**everyone** :busts_in_silhouette:)
+
+#### Content
+
+- Worker's Perspective (TBA)
+- News (**everyone** :busts_in_silhouette:)
+- History (TBA)
+- Song (contribuor or **everyone** :busts_in_silhouette:)
+
+#### Publishing
+
+- Opening, managing, and merging the final pull request on GitHub (TBA)
+
 ## :white_check_mark: Checklist
 
 ### The "off-week", prior to the publishing week
@@ -18,7 +44,7 @@ We hold a **weekly Tuesday meeting at 2:00 PM** to check-in, collaborate, discus
     - rest :relieved:
 - **Tuesday (Weekly Meeting)**
     - retrospective on previous issue :eyes:
-    - choose lead and co-lead for next issue
+    - choose lead/co-lead/roles for next issue
     - co-lead to create new doc for issue draft and share; can use this [Dropbox Paper Template](https://www.dropbox.com/scl/fi/sqz5wmqwz42pt5edn5gau/Issue-N-Draft.papert?dl=0&rlkey=h5bk0yqf8kcw2zxcil8p8rz6q) (click "Create doc" in the top right corner of the template)
     - co-lead to create new agenda item for next week's meeting, in GitHub's [team discussion area](https://github.com/orgs/techworkersco/teams/newsletter-folks)
 - **Wednesday-Thursday**
