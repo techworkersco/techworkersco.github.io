@@ -30,7 +30,7 @@ Informal "points of contact" that ensure everything below gets finished.
 - Worker's Perspective (TBA)
 - News (**everyone** :busts_in_silhouette:)
 - History (TBA)
-- Song (contribuor or **everyone** :busts_in_silhouette:)
+- Song (contributor or **everyone** :busts_in_silhouette:)
 
 #### Publishing
 
