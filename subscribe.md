@@ -19,6 +19,7 @@ title: Subscribe
 - Asia
   - Bangalore: [@twc_bangalore](https://twitter.com/twc_bangalore) and [@TechiesSpeakUp](https://twitter.com/TechiesSpeakUp)
 - Europe
+  - Amsterdam: [@TechWorkersAMS](https://twitter.com/techworkersams)
   - Berlin: [@TechWorkersBER](https://twitter.com/TechWorkersBER)
   - Dublin (Tech Wont Build It): 	[@TWBIreland](https://twitter.com/TWBIIreland)
   - London: [@TechWorkersLDN](https://twitter.com/TechWorkersLDN)
@@ -37,6 +38,7 @@ title: Subscribe
 
 - [**@TechWorkersCoalition**](https://www.facebook.com/TechWorkersCoalition)
 - Berlin: [@TechWorkersBER](https://www.facebook.com/TechWorkersBER)
+- Italia [@TWCITA](https://www.facebook.com/twcita)
 - London: [@TechWorkersLDN](https://www.facebook.com/TechWorkersLDN)
 - South Florida: [@southfltechworkers](https://www.facebook.com/southfltechworkers/)
 - Washington DC: [@DC-Tech-Workers-Coalition](https://www.facebook.com/pg/DC-Tech-Workers-Coalition-338770966854335)
