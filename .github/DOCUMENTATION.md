@@ -185,7 +185,7 @@ Every post should include a header image, which is specified by the `image:` fie
 
 #### Other Images
 
-If desired, you can also include additional images in the body of the issue using the `image.html` include. This receives the exact same parameters as header images.
+If desired, you can also include additional images in the body of the issue using the `image.html` include, which receives the same parameters as header images.
 
 ```jekyll
 {% include image.html
