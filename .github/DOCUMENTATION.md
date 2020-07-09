@@ -22,7 +22,7 @@
   - [Issue Template](#issue-template)
     - [Front Matter](#front-matter)
     - [Categories as "Volumes"](#categories-as-volumes)
-    - [Header Images](#header-images)
+    - [Images](#images)
     - [Handling Links](#handling-links)
 
 ## Requirements
@@ -158,7 +158,7 @@ These are the valid values for this field:
 - `Volume 1` (represents the original, legacy newsletter)
 - `Volume 2` (the reboot, beginning in early 2020)
 
-### Header Images
+### Images
 
 All images should be placed in [`img/`](https://github.com/techworkersco/techworkersco.github.io/tree/master/img).
 
@@ -169,7 +169,9 @@ You can use `make image` to optimize an image:
 $ make image file=my-image-file.png
 ```
 
-Each post has an optional header image, specified by the `image:` field.
+#### Header images
+
+Every post should include a header image, which is specified by the `image:` field in the front matter.
 
 - `file` **(required, string)** specifies the filename only. (example: `vol-1-issue-1-header.jpg`)
 
@@ -180,6 +182,20 @@ Each post has an optional header image, specified by the `image:` field.
 - `source_link` **(optional, link)** a link to the original source of the image, to be displayed as a link title "Source" below the image.
 
 - `half_width` **(optional, boolean)** specifies the image layout. If `false` (the default), the image will expand to the full width of the container. If `true`, the image is centered and expands to 50% of the container width. This should almost always be `false`.
+
+#### Other Images
+
+If desired, you can also include additional images in the body of the issue using the `image.html` include, which receives the same parameters as header images.
+
+```jekyll
+{% include image.html
+    file='file name'
+    alt='alt text'
+    caption='caption text'
+    source_link='link to source or null'
+    half_width=false
+%}
+```
 
 ### Handling Links
 
