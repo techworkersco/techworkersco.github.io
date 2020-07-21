@@ -20,6 +20,10 @@ You can read [our documentation here](https://github.com/techworkersco/techworke
 
 Please read our [Contributing Guide](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/CONTRIBUTING.md).
 
+## Process
+
+See our [Process documentation](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/PROCESS.md).
+
 ## Conduct
 
 Please read our [Code of Conduct](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/CODE_OF_CONDUCT.md). Violations will not be tolerated and will result in immediate removal or blocking from the organization.
