@@ -3,21 +3,26 @@
 ---
 
 $color-brand: #e3252b;
-$color-brand-dark: #b01d21;
+// Previous $color-brand-dark was: #b01d21;
+$color-brand-dark: #c7484c;
 $color-blockquote: #555555;
 
 $margin-blockquote: 25px;
 
 a:link,
 a:active {
-  color: $color-brand;
-}
-
-a:hover {
   color: $color-brand-dark;
 }
 
+a:hover {
+  color: $color-brand;
+}
+
 a:visited {
+  color: $color-brand-dark;
+}
+
+a:visited:hover {
   color: $color-brand;
 }
 
