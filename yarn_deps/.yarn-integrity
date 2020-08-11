@@ -6,11 +6,11 @@
   "flags": [],
   "linkedModules": [],
   "topLevelPatterns": [
-    "bootstrap@4.5.0",
+    "bootstrap@4.5.2",
     "jquery@3.5.1"
   ],
   "lockfileEntries": {
-    "bootstrap@4.5.0": "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.5.0.tgz#97d9dbcb5a8972f8722c9962483543b907d9b9ec",
+    "bootstrap@4.5.2": "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.5.2.tgz#a85c4eda59155f0d71186b6e6ad9b875813779ab",
     "jquery@3.5.1": "https://registry.yarnpkg.com/jquery/-/jquery-3.5.1.tgz#d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5"
   },
   "files": [],
