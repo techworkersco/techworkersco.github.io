@@ -8,7 +8,9 @@
 {% assign is_latest = false %}
 
 {% if latest_post.url == post_entry.url %}
+    {% unless include.hide_latest_badge %}
     {% assign is_latest = true %}
+    {% endunless %}
 {% endif %}
 
 <h4 class="d-inline-block text-dark">

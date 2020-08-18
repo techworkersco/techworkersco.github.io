@@ -1,20 +1,7 @@
 
 <nav aria-label="Browse issues">
   <ul class="pagination justify-content-center">
-    {% if page.previous.url %}
-    <li class="page-item">
-      <a class="page-link text-secondary" href="{{ page.previous.url }}" title="{{ page.previous.title }}">
-      <i class="fa fa-chevron-left" aria-hidden="true"></i>
-      Previous
-      </a>
-    </li>
-    {% endif %}
-    {% if page.next.url %}
-    <li class="page-item">
-      <a class="page-link text-secondary" href="{{ page.next.url }}" title="{{ page.next.title }}">Next
-      <i class="fa fa-chevron-right" aria-hidden="true"></i>
-      </a>
-    </li>
-    {% endif %}
+    {% include previous.html url=page.previous.url title=page.previous.title %}
+    {% include next.html url=page.next.url title=page.next.title %}
   </ul>
 </nav>
