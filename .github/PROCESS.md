@@ -6,7 +6,7 @@
 
 We operate in the [Pacific Time Zone](https://en.wikipedia.org/wiki/Pacific_Time_Zone) (UTC-8:00 or UTC-7:00).
 
-We publish new issues bi-weekly, **every other Friday at 10:00 AM**. This includes publishing the new issue to the website, sending an email to our mailing list, and tweeting a link to the new issue.
+We publish new issues bi-weekly, **every other Friday at 11:00 AM**. This includes publishing the new issue to the website, sending an email to our mailing list, and tweeting a link to the new issue.
 
 We hold a **weekly Tuesday meeting at 3:00 PM** to check-in, collaborate, discuss updates, make decisions, etc.
 
