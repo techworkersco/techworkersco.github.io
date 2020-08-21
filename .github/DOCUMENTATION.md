@@ -108,7 +108,7 @@ Everything centers around our git workflow and GitHub. Once pull requests are me
 
 ### Emails
 
-Emails are sent via Mailchimp at 10:00 AM Pacific, using the [RSS-to-email feature](https://mailchimp.com/features/rss-to-email/). After merging a new post to `master`, an RSS feed entry is added as part of regenerating the site. Mailchimp checks for updates to the RSS feed, and after finding a new entry an email is generated and sent.
+Emails are sent via Mailchimp using the [RSS-to-email feature](https://mailchimp.com/features/rss-to-email/). After merging a new post to `master`, an RSS feed entry is added as part of regenerating the site. Mailchimp checks for updates to the RSS feed, and after finding a new entry an email is generated and sent.
 
 Emails are sent from **news-noreply@techworkerscoalition.org**.
 
