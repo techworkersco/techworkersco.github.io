@@ -3,7 +3,7 @@ layout: standalone
 title: Call For Submissions
 ---
 
-<div class="alert alert-dark">
+<div class="alert alert-secondary">
 <p class="lead" markdown="1">
 Are you a tech worker? Are you a content moderator, on-demand delivery driver, machine learning engineer, or some other rank-and-file worker in the tech industry?
 </p>
