@@ -21,7 +21,7 @@ We're excited to share this open call for contributors and collaborators.
 </p>
 </div>
 
-<mark>We’ll work closely with you to put your workers’ perspective in writing, 200-1,200 words. It's as much about the process and relationship as it is about the product we publish. We do this in service of our editorial vision:</mark>
+<mark>We’ll work closely with you to put your workers’ perspective in writing, 200 to 1,200 words. It's as much about the process and relationship as it is about the product we publish. We do this in service of our editorial vision:</mark>
 
 - Building critical consciousness of workers as a class with shared interests.
 - Sharing stories based on worker experience educating, organizing, and collective action in tech.
@@ -83,4 +83,4 @@ If you have an urge to talk about your experience, we’re here to help you figu
 
 ### Other ways to contribute
 
-<mark>In addition to workers’ perspective, we welcome collaborators who can help with news, history, and songs.</mark> We also could use more eyes on proofreading and more hands pushing publish each week, too! Engaging more collaborators is how we ensure the stewardship of this project for the long-term. Sound interesting to you? Email is!
+<mark>In addition to workers’ perspective, we welcome collaborators who can help with news, history, and songs.</mark> We also could use more eyes on proofreading and more hands pushing publish each week! Engaging more collaborators is how we ensure the stewardship of this project for the long-term. Sound interesting to you? Email us!
