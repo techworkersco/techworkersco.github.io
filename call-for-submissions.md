@@ -83,4 +83,4 @@ If you have an urge to talk about your experience, we’re here to help you figu
 
 ### Other ways to contribute
 
-<mark>In addition to workers’ perspective, we welcome collaborators who can help with news, history, and songs.</mark> We also could use more eyes on proofreading and more hands pushing publish each week! Engaging more collaborators is how we ensure the stewardship of this project for the long-term. Sound interesting to you? Email us!
+<mark>In addition to workers’ perspective, we welcome collaborators who can help with news, history, and songs.</mark> We also could use more eyes on proofreading and more hands pushing publish each week! Engaging more collaborators is how we ensure the stewardship of this project for the long-term. Sound interesting to you? [Email us](mailto:twcnewsletter@protonmail.com)!
