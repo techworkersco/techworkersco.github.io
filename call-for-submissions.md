@@ -9,7 +9,7 @@ Are you a tech worker? Are you a content moderator, on-demand delivery driver, m
 </p>
 
 <p class="lead" markdown="1">
-**This open call is for you!**
+This open call is for you!
 </p>
 
 <p class="lead" markdown="1">
@@ -17,13 +17,11 @@ Our editorial collective would love to hear your story and help you write. We’
 </p>
 
 <p class="lead" markdown="1">
-**We're excited to share this open call for contributors and collaborators.**
+We're excited to share this open call for contributors and collaborators.
 </p>
 </div>
 
-We’ll work closely with you to put your workers’ perspective in writing, 200-1,200 words. It's as much about the process and relationship as it is about the product we publish.
-
-<mark>We do this in service of our editorial vision:</mark>
+We’ll work closely with you to put your workers’ perspective in writing, 200-1,200 words. It's as much about the process and relationship as it is about the product we publish. We do this in service of our editorial vision:</mark>
 - Building critical consciousness of workers as a class with shared interests.
 - Sharing stories based on worker experience educating, organizing, and collective action in tech.
 - Challenging the industry’s dominant culture of individualism and its acceptance of gross inequality.
