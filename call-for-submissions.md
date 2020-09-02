@@ -9,7 +9,7 @@ Are you a tech worker? Are you a content moderator, on-demand delivery driver, m
 </p>
 
 <p class="lead" markdown="1">
-This open call is for you!
+**This open call is for you!**
 </p>
 
 <p class="lead" markdown="1">
