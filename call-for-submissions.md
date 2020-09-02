@@ -21,9 +21,24 @@ Our editorial collective would love to hear your story and help you write. We’
 </p>
 </div>
 
+We’ll work closely with you to put your workers’ perspective in writing, 200-1,200 words. It's as much about the process and relationship as it is about the product we publish.
+
+<mark>We do this in service of our editorial vision:</mark>
+- Building critical consciousness of workers as a class with shared interests.
+- Sharing stories based on worker experience educating, organizing, and collective action in tech.
+- Challenging the industry’s dominant culture of individualism and its acceptance of gross inequality.
+- Situating ourselves in the history of labor organizing, both within the industry and beyond it.
+- Emphasizing the importance of solidarity with all workers.
+
 ### What we publish
 
-We’ll work with you to put your workers’ perspective in writing, 200-1200 words, based on your experience educating, organizing, and collective action in tech.
+<mark>Overall, we like to include a variety of content in the newsletter:</mark>
+- Original writing on topics we care about and can only address collectively.
+- News of tech worker organizing from around the globe, particularly efforts with grassroots leadership.
+- Perspectives from underrepresented tech workers about their experiences in the industry and what they see as its failures.
+- Analysis of what could be achieved through building collective power, contextualized within the long legacy of labor organizing in similar fields.
+- Rebuttals to common anti-organizing sentiments, like the idea that "someone else will build it" (they might not!).
+- Accounts of solidarity between different types of tech workers.
 
 <mark><a href="/archive/">Previous issues</a> have included a range of perspectives from tech workers:</mark>
 - Agonizing about framing anti-oppression organizing as ‘diversity training’ in tech.
@@ -37,20 +52,6 @@ We’ll work with you to put your workers’ perspective in writing, 200-1200 wo
 - The rare tale of actually using ‘unlimited’ paid time off.
 - Some kind of checklist for making algorithms slightly less racist.
 - A data scraping tool and newsfeed of company involvement with the military that helps inform overeager recruiters who they really work for.
-
-<mark>To put it in general terms, here is our editorial vision:</mark>
-- Building critical consciousness of workers as a class with shared interests.
-- Challenging the industry’s dominant culture of individualism and its acceptance of inequality.
-- Connecting to the history of labor organizing, both within the industry and beyond it.
-- Emphasizing the importance of solidarity with all workers.
-
-<mark>Overall, we like to include a variety of content in the newsletter:</mark>
-- Original writing on topics we care about and can only address collectively.
-- News of tech worker organizing from around the globe, particularly efforts with grassroots leadership.
-- Perspectives from underrepresented tech workers about their experiences in the industry and what they see as its failures.
-- Analysis of what could be achieved through building collective power, contextualized within the long legacy of labor organizing in similar fields.
-- Rebuttals to common anti-organizing sentiments, like the idea that "someone else will build it" (they might not!).
-- Accounts of solidarity between different types of tech workers.
 
 ### What we don’t publish
 
