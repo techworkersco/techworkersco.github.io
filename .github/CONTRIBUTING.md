@@ -18,7 +18,7 @@ For bug fixes or other enhancements for the site, feel free to [submit a pull re
 
 To fix a typo or otherwise correct the content in the newsletter, please [submit a pull request](https://github.com/techworkersco/techworkersco.github.io/compare) or [open an issue](https://github.com/techworkersco/techworkersco.github.io/issues/new) explaining what should be corrected.
 
-### Editorial
+## Editorial
 
 #### Content and format:
 
