@@ -21,7 +21,8 @@ We're excited to share this open call for contributors and collaborators.
 </p>
 </div>
 
-We’ll work closely with you to put your workers’ perspective in writing, 200-1,200 words. It's as much about the process and relationship as it is about the product we publish. We do this in service of our editorial vision:</mark>
+<mark>We’ll work closely with you to put your workers’ perspective in writing, 200-1,200 words. It's as much about the process and relationship as it is about the product we publish. We do this in service of our editorial vision:</mark>
+
 - Building critical consciousness of workers as a class with shared interests.
 - Sharing stories based on worker experience educating, organizing, and collective action in tech.
 - Challenging the industry’s dominant culture of individualism and its acceptance of gross inequality.
@@ -31,6 +32,7 @@ We’ll work closely with you to put your workers’ perspective in writing, 200
 ### What we publish
 
 <mark>Overall, we like to include a variety of content in the newsletter:</mark>
+
 - Original writing on topics we care about and can only address collectively.
 - News of tech worker organizing from around the globe, particularly efforts with grassroots leadership.
 - Perspectives from underrepresented tech workers about their experiences in the industry and what they see as its failures.
@@ -39,12 +41,14 @@ We’ll work closely with you to put your workers’ perspective in writing, 200
 - Accounts of solidarity between different types of tech workers.
 
 <mark><a href="/archive/">Previous issues</a> have included a range of perspectives from tech workers:</mark>
+
 - Agonizing about framing anti-oppression organizing as ‘diversity training’ in tech.
 - Weighing quitting a union job at a water treatment plant for a solar power co-op.
 - Running study groups with other temps, vendors, and contractors &mdash; and then organizing.
 - Conducting a six-month study on the ties between tech companies and the military, scraping data on 100,000+ contracts.
 
 <mark>In addition to your own work experience, we also welcome creative alternatives &mdash; for example:</mark>
+
 - A BuzzFeed quiz to see if you’re under surveillance.
 - A Yelp! review of tech union campaigns.
 - The rare tale of actually using ‘unlimited’ paid time off.
@@ -56,6 +60,7 @@ We’ll work closely with you to put your workers’ perspective in writing, 200
 We prioritize the workers' perspective.
 
 <mark>Here are some examples of content we typically reject:</mark>
+
 - Critiques of tech imperialism, capitalism, injustice, etc. &mdash; or proposals for alternatives &mdash; that are not based on your lived experience.
 - Abstract or niche commentaries that lack a universal theme like work, working conditions, or solidarity beyond the workplace.
 - Narratives from corporate nonprofit staff or campaign consultants, not from workers.
@@ -67,6 +72,7 @@ We prioritize the workers' perspective.
 If you have an urge to talk about your experience, we’re here to help you figure out your best story and strategy.
 
 <mark>Here’s how to start the process:</mark>
+
 1. Email us your rough ideas or pitches to [twcnewsletter@protonmail.com](mailto:twcnewsletter@protonmail.com)!
 1. We’ll reach out to start a conversation.
 1. Then, we’ll help you get a first draft together
