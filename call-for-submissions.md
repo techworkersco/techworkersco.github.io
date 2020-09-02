@@ -1,6 +1,6 @@
 ---
 layout: standalone
-title: Call For Submissions
+title: Call for Submissions
 ---
 
 <div class="alert alert-secondary">
@@ -72,9 +72,9 @@ If you have an urge to talk about your experience, we’re here to help you figu
 1. Then, we’ll help you get a first draft together
 1. We’ll also figure out anonymity and other security concerns with you.
 1. Depending on the story and strategy, we’ll move it fast or to give it more time.
-1. Finally, we publish!
+1. Finally, we publish the piece!
 
 
 ### Other ways to contribute
 
-<mark>In addition to workers’ perspective, we welcome collaborators who can help with news, history, and songs.</mark> We also could use more eyes on proofreading and more hands pushing publish each week, too! Engaging more collaborators is how we ensure the stewardship of this project for the long-term.
+<mark>In addition to workers’ perspective, we welcome collaborators who can help with news, history, and songs.</mark> We also could use more eyes on proofreading and more hands pushing publish each week, too! Engaging more collaborators is how we ensure the stewardship of this project for the long-term. Sound interesting to you? Email is!
