@@ -74,7 +74,7 @@ Here are some examples of content we typically reject:
 1. We’ll reach out to start a conversation.
 1. Then, we’ll help you get a first draft together, usually in a phone call.
 1. We’ll also discuss and decide with you how to handle anonymity and other security considerations.
-1. Depending on the story and strategy, we’ll move it fast or to give it more time. Our newsletters currently comes out every other Friday.
+1. Depending on the story and strategy, we’ll move it fast or to give it more time. Our newsletters currently come out every other Friday.
 1. Finally, we publish the piece!
 
 
