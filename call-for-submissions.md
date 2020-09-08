@@ -67,7 +67,7 @@ Here are some examples of content we typically reject:
 
 ### How to submit
 
-<markHere’s how to start the process:</mark>
+<mark>Here’s how to start the process:</mark>
 
 1. Email us your rough ideas or pitches to [twcnewsletter@protonmail.com](mailto:twcnewsletter@protonmail.com)!
 1. We’ll reach out to start a conversation.
