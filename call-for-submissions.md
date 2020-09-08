@@ -79,4 +79,4 @@ Here are some examples of content we typically reject:
 
 ### More ways to contribute
 
-In addition to workers’ perspective, we welcome collaborators who can help pull together news, histories, and songs – as well more eyes on proofreading and more hands pushing 'publish' each week! Including collaborators is how we grow our collective and steward this newsletter for the long-term. Sound interesting to you? [Email us](mailto:twcnewsletter@protonmail.com)!
+In addition to workers’ perspective, we welcome collaborators who can help pull together news, history, and songs &mdash; as well more eyes on proofreading and more hands pushing 'publish' each week! Including collaborators is how we grow our collective and steward this newsletter for the long-term. Sound interesting to you? [Email us](mailto:twcnewsletter@protonmail.com)!
