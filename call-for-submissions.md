@@ -13,15 +13,13 @@ Are you a tech worker? Are you a content moderator, on-demand delivery driver, m
 </p>
 
 <p class="lead" markdown="1">
-Our editorial collective would love to hear your story and help you write. We’ve been publishing a newsletter with workers’ perspectives since May 1, 2020, moving at the speed of trust and building reliable processes &mdash; you can read more in [our about page](/about/).
-</p>
-
-<p class="lead" markdown="1">
-We're excited to share this open call for contributors and collaborators.
+Our editorial collective would love to hear your story and help you write it. We’ve been publishing a newsletter with workers’ perspectives since May 1, 2020, moving at the speed of trust and building reliable processes &mdash; you can read more in [our about page](/about/). Now, we're excited to share this open call for contributors and collaborators.
 </p>
 </div>
 
-<mark>We work closely with you to put your workers’ perspective in writing, 200 to 1,200 words.</mark> It's as much about the process and relationship as it is about the product we publish. We do this in service of our editorial vision:
+We'll work with you to put your workers’ perspective in writing, usually 200 to 1,200 words. This newsletter is as much about the process and relationships as it is about the product we publish.
+
+We do this in service of our editorial vision:
 
 - Building critical consciousness of workers as a class with shared interests.
 - Sharing stories based on worker experience educating, organizing, and collective action in tech.
@@ -31,7 +29,7 @@ We're excited to share this open call for contributors and collaborators.
 
 ### What we publish
 
-<mark>We welcome a variety of content from the workers' perspective:</mark>
+We welcome a variety of content from the workers' perspective:
 
 - Original writing on topics we care about and can only address collectively.
 - News of tech worker organizing from around the globe, particularly efforts with grassroots leadership.
@@ -69,18 +67,16 @@ Here are some examples of content we typically reject:
 
 ### How to submit
 
-If you can share something with your fellow workers, we help you figure out a good story and strategy.
-
-Here’s how to start the process:
+<mark>Here’s how to start the process:</mark>
 
 1. Email us your rough ideas or pitches to [twcnewsletter@protonmail.com](mailto:twcnewsletter@protonmail.com)!
 1. We’ll reach out to start a conversation.
 1. Then, we’ll help you get a first draft together, usually in a phone call.
 1. We’ll also discuss and decide with you how to handle anonymity and other security considerations.
 1. Depending on the story and strategy, we’ll move it fast or to give it more time.
-1. Finally, we publish the piece! Our newsletters currently comes out every other Friday.
+1. Finally, we publish the piece! Our newsletter currently comes out every other Friday.
 
 
-### Other ways to contribute
+### More ways to contribute
 
-In addition to workers’ perspective, we welcome collaborators who can help with news, history, and songs. We also could use more eyes on proofreading and more hands pushing 'publish' each week! Engaging more collaborators is how we ensure the stewardship of this project for the long-term. Sound interesting to you? [Email us](mailto:twcnewsletter@protonmail.com)!
+In addition to workers’ perspective, we welcome collaborators who can help pull together news, history, and songs &mdash; as well more eyes on proofreading and more hands pushing 'publish' each week! Including collaborators is how we grow our collective and steward this newsletter for the long-term. Sound interesting to you? [Email us](mailto:twcnewsletter@protonmail.com)!
