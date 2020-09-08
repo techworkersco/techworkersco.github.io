@@ -17,7 +17,7 @@ Our editorial collective would love to hear your story and help you write it. We
 </p>
 </div>
 
-We'll work with you to put your workers’ perspective in writing, usually 200 to 1,200 words. This newsletter is as much about the process and relationships as it is about the product we publish. 
+We'll work with you to put your workers’ perspective in writing, usually 200 to 1,200 words. This newsletter is as much about the process and relationships as it is about the product we publish.
 
 We do this in service of our editorial vision:
 
@@ -74,7 +74,7 @@ Here are some examples of content we typically reject:
 1. Then, we’ll help you get a first draft together, usually in a phone call.
 1. We’ll also discuss and decide with you how to handle anonymity and other security considerations.
 1. Depending on the story and strategy, we’ll move it fast or to give it more time.
-1. Finally, we publish the piece! Our newsletters currently comes out every other Friday.
+1. Finally, we publish the piece! Our newsletter currently comes out every other Friday.
 
 
 ### More ways to contribute
