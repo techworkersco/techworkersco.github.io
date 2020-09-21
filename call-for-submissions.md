@@ -5,7 +5,7 @@ title: Call for Submissions
 
 <div class="d-block bg-light pt-3 pl-3 pr-3 mt-4 mb-4 border rounded" markdown="1">
 <p class="lead" markdown="1">
-**Are you a tech worker?** Are you a content moderator, on-demand delivery driver, machine learning engineer, gig worker, security guard, or another rank-and-file worker in the tech industry?
+**Do you work in tech?** Are you a content moderator, on-demand delivery driver, machine learning engineer, gig worker, security guard, or another rank-and-file worker in the tech industry?
 </p>
 
 <p class="lead" markdown="1">
@@ -13,7 +13,7 @@ title: Call for Submissions
 </p>
 
 <p class="lead" markdown="1">
-Our editorial collective would love to hear your story and help you write. Since May 1, 2020, we’ve been publishing a newsletter with workers’ perspectives, moving at the speed of trust and building reliable processes &mdash; you can read more in [our about page](/about/). Now, we're excited to share this open call for contributors and collaborators.
+Our editorial collective would love to hear your story and help you write. Since May 1, 2020, we’ve been publishing a newsletter with workers’ perspectives, moving at the speed of trust and building reliable processes &mdash; read more in [our about page](/about/). Now, we're excited to share this open call for contributors and collaborators.
 </p>
 </div>
 
@@ -22,9 +22,9 @@ We'll help you put your workers’ perspective in writing, 200 to 1,200 words. I
 We do this in service of our editorial vision for this newsletter:
 
 - Building critical consciousness of workers as a class with shared interests.
-- Sharing stories based on worker experience educating, organizing, and collective action in tech.
-- Challenging the industry’s dominant culture of individualism and its acceptance of gross inequality.
 - Situating ourselves in the history of labor organizing, both within the industry and beyond it.
+- Sharing personal stories based on our experience educating, organizing, and collective action in tech.
+- Challenging the industry’s dominant culture of individualism and its acceptance of gross inequality.
 - Emphasizing the importance of solidarity with all workers.
 
 ### What we publish
@@ -44,6 +44,7 @@ We welcome a variety of content from the workers' perspective:
 - Agonizing about framing anti-oppression organizing as ‘diversity training’ in tech.
 - Weighing quitting a union job at a water treatment plant for a solar power co-op.
 - Running study groups with other temps, vendors, and contractors &mdash; and then organizing.
+- Evaluating eight years as a designer in tech, escaping cultural and financial startup traps along the way.
 - Conducting a six-month study on the ties between tech companies and the military, scraping data on 100,000+ contracts.
 
 In addition to personal stories, we also welcome creative alternatives &mdash; for example:
@@ -72,8 +73,9 @@ Here are some examples of content we typically reject:
 
 1. Email us your rough ideas or pitches to [twcnewsletter@protonmail.com](mailto:twcnewsletter@protonmail.com)!
 1. We’ll reach out to start a conversation.
-1. Then, we’ll help you get a first draft together, usually in a phone call.
+1. Then, we’ll help you get a first draft together, usually in a call.
 1. We’ll also discuss and decide with you how to handle anonymity and other security considerations.
+1. Overall, you can expect to do two or more drafts of your piece and invest 3-5 hours in this collaborative process.
 1. Depending on the story and strategy, we’ll move it fast or to give it more time. Our newsletters currently come out every other Friday.
 1. Finally, we publish the piece!
 
