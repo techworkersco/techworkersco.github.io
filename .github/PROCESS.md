@@ -2,6 +2,18 @@
 
 *Our step-by-step publishing checklist*
 
+## :moon: Contributor 
+
+Our overall process is oriented around contributors. Here's how it works:
+
+1. Email pitch - a story or narrative from the worker's perspective
+1. Chat live - see one other, and become friends! We discuss the pitch, starting with desired outcome for the contributor from writing/publishing and ending with editorial vision alignment. We also set expectations: the full writing and editing process may involve multiple rounds of drafting/editing, and 2-5 hours
+1. Submit first draft - no fewer than 10 days before publishing, to give time and space for editing
+1. Chat live again - big questions (contributor's desired outcome, editorial vision alignment) and small details (anonymity, cover image, blurb, title, etc.)
+1. Submit final draft - no fewer than 5 days before publishing, to get perspective from new eyes to ensure draft feels in alignment
+1. Approve proofreading - no fewer than 2 days before publishing
+1. Publish!
+
 ## :calendar: Schedule
 
 We operate in the [Pacific Time Zone](https://en.wikipedia.org/wiki/Pacific_Time_Zone) (UTC-8:00 or UTC-7:00).
