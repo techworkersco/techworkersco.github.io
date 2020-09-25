@@ -2,7 +2,7 @@
 
 *Our step-by-step publishing checklist*
 
-## :moon: Contribtor 
+## :moon: Contributor 
 
 Our overall process is oriented around contributors. Here's how it works:
 
