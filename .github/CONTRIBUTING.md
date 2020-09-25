@@ -12,7 +12,7 @@ Read [our open call for worker's perspective](https://news.techworkerscoalition.
 
 ## Site improvements and corrections
 
-For bug fixes or other enhancements for the site, or to fix a typo or otherwise correct the content in the newsletter, feel free to [submit a pull request](https://github.com/techworkersco/techworkersco.github.io/compare) or [open an issue](https://github.com/techworkersco/techworkersco.github.io/issues/new). Please explain what should be changes and why.
+For bug fixes or other enhancements for the site, or to fix a typo or otherwise correct the content in the newsletter, feel free to [submit a pull request](https://github.com/techworkersco/techworkersco.github.io/compare) or [open an issue](https://github.com/techworkersco/techworkersco.github.io/issues/new). Please explain what should be changed and why.
 
 ## Documentation
 
