@@ -29,15 +29,19 @@ We do this in service of our editorial vision for this newsletter:
 
 ### What we publish
 
-We welcome a variety of content from the workers' perspective:
+We welcome a variety of contributions from the worker's perspective:
 
-- Original writing on topics we care about and can only address collectively.
-- Insight on specific situations like a first one-on-one, or general topics like escalating demands.
-- News of tech worker organizing from around the globe, particularly efforts with grassroots leadership.
-- Perspectives from underrepresented tech workers about their experiences in the industry and what they see as its failures.
-- Analysis of what can be achieved through building collective power, contextualized within the long legacy of labor organizing in similar fields.
-- Rebuttals to common anti-organizing sentiments, like the idea that "someone else will build this weapon" (they might not!).
+- Original writing on struggles in tech and what can be achieved through collective action.
+- Stories that you can use to help make sense of a situation, or as a resource for your organizing with coworkers.
+- Insight on specific experiences like a first one-on-one, or general topics like escalating demands.
 - Accounts of solidarity between different types of tech workers.
+- Analysis contextualized within the long legacy of labor organizing in other sectors.
+- Rebuttals to common anti-organizing sentiments, like the idea that "someone else will build this weapon" (they might not!).
+
+Who we prioritize:
+
+- Underrepresented tech workers and their experiences in the tech industry and what they see as its failures.
+- Workers in tech organizing with grassroots leadership, especially in communities far from Silicon Valley and around the world.
 
 <a href="/archive/">Previous issues</a> have included a range of perspectives from tech workers:
 
@@ -61,25 +65,27 @@ We prioritize the workers' perspective and working people representing themselve
 
 Here are some examples of content we typically reject:
 
-- Critiques of tech imperialism, capitalism, injustice, etc. &mdash; or proposals for alternatives &mdash; that are not based on your lived experience.
-- Abstract or niche commentaries that lack a universal theme like work, working conditions, or solidarity beyond the workplace.
-- Narratives from corporate nonprofit staff or campaign consultants, not from workers.
-- Anything that reads like a press release or impersonal op-ed.
-- General commentary on labor or the economy that doesn’t relate to the tech industry.
+- Impersonal op-eds that are not based on lived experience.
+- Broad, sweeping critiques of tech imperialism, capitalism, injustice, etc.
+- Press releases from campaign consultants or corporate nonprofit staff who are not rank-and-file workers.
+- Narratives about projects that are more about the solution than the struggle of organizaing or collective action.
+- Niche commentaries that lack a universal theme like work, working conditions, or solidarity beyond the workplace.
 
 ### How to submit
 
 <mark>Here’s how to start the process:</mark>
 
+1. Browse <a href="/archive/">our past issues</a> for inspiration.
 1. Email us your rough ideas or pitches to [twcnewsletter@protonmail.com](mailto:twcnewsletter@protonmail.com)!
-1. We’ll reach out to start a conversation.
-1. Then, we’ll help you get a first draft together, usually in a call.
+1. We’ll reach out to have a two-way conversation to help you get a first draft together.
 1. We’ll also discuss and decide with you how to handle anonymity and other security considerations.
-1. Overall, you can expect to do two or more drafts of your piece and invest 3-5 hours in this collaborative process.
-1. Depending on the story and strategy, we’ll move it fast or to give it more time. Our newsletters currently come out every other Friday.
+1. Overall, you can expect to invest 3-5 hours in this collaborative process.
+1. Our newsletters currently come out every other Friday. Depending on the story and strategy, we’ll move it fast or to give it more time. 
 1. Finally, we publish the piece!
 
 
 ### More ways to contribute
 
-In addition to workers’ perspective, we welcome collaborators who can help with news, history, and songs. We also could use more eyes on proofreading and more hands pushing 'publish' each week! Including more collaborators is how we ensure the stewardship of this project for the long-term. Sound interesting to you? [Email us](mailto:twcnewsletter@protonmail.com)!
+In addition to workers’ perspective, we welcome collaborators who can help with news, history, and songs. We also could use more eyes on proofreading and more hands pushing 'publish' each week! Including more collaborators is how we ensure the stewardship of this project for the long-term. 
+
+Sound interesting to you? Have other ideas? [Email us](mailto:twcnewsletter@protonmail.com)!
