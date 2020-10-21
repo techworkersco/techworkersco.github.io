@@ -13,11 +13,11 @@ title: Call for Submissions
 </p>
 
 <p class="lead" markdown="1">
-Our editorial collective would love to hear your story and help you write. Since May 1, 2020, we’ve been publishing a newsletter with workers’ perspectives, moving at the speed of trust and building reliable processes &mdash; read more in [our about page](/about/). Now, we're excited to share this open call for contributors and collaborators.
+Our editorial collective would love to hear your story and help you write. Since May 1, 2020, we’ve been publishing a newsletter with worker’s perspectives, moving at the speed of trust and building reliable processes &mdash; read more in [our about page](/about/). Now, we're excited to share this open call for contributors and collaborators.
 </p>
 </div>
 
-We'll help you put your workers’ perspective in writing, 200 to 1,200 words. It's as much about the process and relationship as it is about the product we publish.
+We'll help you put your worker’s perspective in writing, 200 to 1,200 words. It's as much about the process and relationship as it is about the product we publish.
 
 We do this in service of our editorial vision for this newsletter:
 
@@ -61,7 +61,7 @@ In addition to personal stories, we also welcome creative alternatives &mdash; f
 
 ### What we don’t publish
 
-We prioritize the workers' perspective and working people representing themselves.
+We prioritize the worker's perspective and working people representing themselves.
 
 Here are some examples of content we typically reject:
 
@@ -77,15 +77,15 @@ Here are some examples of content we typically reject:
 
 1. Browse <a href="/archive/">our past issues</a> for inspiration.
 1. Email us your rough ideas or pitches to [twcnewsletter@protonmail.com](mailto:twcnewsletter@protonmail.com)!
-1. We’ll reach out to have a two-way conversation to help you get a first draft together.
+1. We’ll reach out to have a conversation to help you get a first draft together.
 1. We’ll also discuss and decide with you how to handle anonymity and other security considerations.
 1. Overall, you can expect to invest 3-5 hours in this collaborative process.
-1. Our newsletters currently come out every other Friday. Depending on the story and strategy, we’ll move it fast or to give it more time. 
+1. Our newsletters currently come out every other Friday- depending on your needs, we’ll move it fast or to give it more time. 
 1. Finally, we publish the piece!
 
 
 ### More ways to contribute
 
-In addition to workers’ perspective, we welcome collaborators who can help with news, history, and songs. We also could use more eyes on proofreading and more hands pushing 'publish' each week! Including more collaborators is how we ensure the stewardship of this project for the long-term. 
+In addition to worker’s perspective, we welcome collaborators who can help with news, history, and songs. We also could use more eyes on proofreading and more hands pushing 'publish' each week! Including more collaborators is how we ensure the stewardship of this project for the long-term. 
 
 Sound interesting to you? Have other ideas? [Email us](mailto:twcnewsletter@protonmail.com)!
