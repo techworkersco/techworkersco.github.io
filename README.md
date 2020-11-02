@@ -8,7 +8,7 @@
 
 ## About
 
-Read [about this project and our collective](https://news.techworkerscoalition.org/about/).
+Read [about this project and our collective](https://news.techworkerscoalition.org/asadfasdfa/).
 
 Built with [Jekyll](https://jekyllrb.com), [Bootstrap](https://getbootstrap.com), and [jQuery](https://jquery.com). Hosted on [GitHub Pages](https://pages.github.com).
 
@@ -22,7 +22,7 @@ Please read our [Contributing Guide](https://github.com/techworkersco/techworker
 
 ## Process
 
-See our [Process documentation](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/PROCESS.md).
+See our [Process documentation](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/PROCESS.mdasdfasdfasdf).
 
 ## Conduct
 
