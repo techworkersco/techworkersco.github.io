@@ -21,11 +21,7 @@ image:
 preview: 'Some preview text for emails and social media sharing'
 ---
 
-> TODO: excerpt
->
-> Something inspiring and joyful about what’s going on.
->
-> Something funny/clever/humorous about what we can do.
+> TODO
 
 <!--excerpt-->
 
@@ -33,38 +29,21 @@ preview: 'Some preview text for emails and social media sharing'
 
 ## The Worker's Perspective
 
-> TODO:
->
-> A short blurb highlighting one worker-led effort (a strike, an appeal, etc.)
->
-> Another blurb highlighting something less known/underrepresented in the Bay Area or US.
->
-> A longer blurb with commentary about “What this all means” (our analysis),
-> and ideally with take-aways that would-be allies can use (not quite a call to action)
+> TODO
 
 ## In The News
 
-> TODO:
->
-> A curated collection of 3-10 links to other efforts around the world or relevant articles.
+> TODO
 
 ## In History
 
-> TODO:
->
-> Highlight a connection to historical context. Situate ourselves in this moment in history.
->
-> Highlight a previous tech worker collective action from collectiveactions.tech
+> TODO
 
 ## In Song
 
-#### Song title + link
+#### [Song title + link]()
 
-> TODO:
->
-> A brief excerpt of lyrics from an inspirational song
->
-> Include a link to a video/audio recording. (YouTube, Spotify, Bandcamp, etc.)
+> TODO
 
 )
 
