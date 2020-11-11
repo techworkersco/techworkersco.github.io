@@ -29,7 +29,7 @@ preview: "Some preview text for emails and social media sharing"
 >
 > Another blurb highlighting something less known/underrepresented in the Bay Area or US.
 >
-> A longer blurb with commentary about “What this all means” (our analysis),
+> A longer blurb with commentary about "What this all means" (our analysis),
 > and ideally with take-aways that would-be allies can use (not quite a call to action)
 
 ## In The News
@@ -44,11 +44,11 @@ preview: "Some preview text for emails and social media sharing"
 >
 > Highlight a connection to historical context. Situate ourselves in this moment in history.
 >
-> Highlight a previous tech worker collective action from collectiveactions.tech
+> Highlight a previous tech worker collective action from `collectiveactions.tech`
 
 ## In Song
 
-#### Song title + link
+#### [Song title + link]()
 
 > TODO:
 >
