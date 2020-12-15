@@ -71,7 +71,7 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
-    listen (3.3.0)
+    listen (3.3.3)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
@@ -95,7 +95,7 @@ GEM
     reverse_markdown (2.0.0)
       nokogiri
     rexml (3.2.4)
-    rouge (3.25.0)
+    rouge (3.26.0)
     ruby2_keywords (0.0.2)
     safe_yaml (1.0.5)
     sassc (2.4.0)
@@ -108,10 +108,10 @@ GEM
     unicode-display_width (1.7.0)
 
 PLATFORMS
-  ruby
+  x86_64-darwin-19
 
 DEPENDENCIES
-  danger
+  danger (~> 8.0)
   danger-prose
   jekyll (~> 4.0)
   jekyll-paginate
@@ -120,4 +120,4 @@ DEPENDENCIES
   reverse_markdown
 
 BUNDLED WITH
-   2.1.4
+   2.2.1
