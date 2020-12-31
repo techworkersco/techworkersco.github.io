@@ -11,14 +11,14 @@ date = Date.today
 post_contents = %(---
 layout: post
 title: 'Issue #{ issue }: TITLE'
-category: Volume 2
+category: Volume 3
 image:
-    file: 'vol-2-issue-#{ issue }-header.jpg'
-    alt: 'some img-alt text'
-    caption: 'some caption text for the image'
-    source_link: 'optional link to external source for image'
+    file: 'vol-3-issue-#{ issue }-header.jpg'
+    alt: 'TODO'
+    caption: 'TODO'
+    source_link: 'TODO'
     half_width: false
-preview: 'Some preview text for emails and social media sharing'
+preview: 'TODO'
 ---
 
 > TODO
