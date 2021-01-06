@@ -11,7 +11,7 @@ The editorial collective for this project was originally formed in early 2020 by
 
 We see ourselves as stewards, not owners, of this project, and hope for it to grow within the broader network. We do not (and can't possibly) speak for all of TWC. In 2018 and 2019, an early group of volunteers published a newsletter which is available on this website under [Volume 1](https://news.techworkerscoalition.org/archive/#volume-1). We’re grateful for their foundational work that helped us form a new group and restart the newsletter.
 
-The collective continues to evolve as members come and go. The current active contributors to this project are: [Danny S](https://twitter.com/daspitzberg), [Wendy L](https://twitter.com/dellsystem), [Jesse S](https://twitter.com/jesse_squires), [Becca L](https://twitter.com/beccalew) and Kaylen S.
+The collective continues to evolve as members come and go. The current active contributors to this project are: [Danny S](https://twitter.com/daspitzberg), [Wendy L](https://twitter.com/dellsystem), [Jesse S](https://twitter.com/jesse_squires), [Becca L](https://twitter.com/beccalew), Kaylen S, and [Vikram R](https://twitter.com/atav1k).
 
 ### Our vision and values
 
