@@ -133,14 +133,14 @@ Below is an explanation of our Jekyll [front matter](https://jekyllrb.com/docs/f
 ```yaml
 ---
 layout: post
-title: ! 'Issue #N: TITLE' # where N is the issue number
-category: Volume 2
+title: ! 'Issue N: TITLE' # where N is the issue number
+category: Volume N.       # where N is the volume number
 image:
-    file: vol-2-issue-1-header.jpg
+    file: vol-N-issue-N-header.jpg
     alt: 'img alt text'
     caption: 'img caption text'
     source_link: 'link to img external source'
-    half_width: false # img layout
+    half_width: false     # img layout style
 preview: 'preview text for emails + social media'
 ---
 ```
@@ -155,8 +155,9 @@ We use a single `category:` field in the Jekyll [front matter](https://jekyllrb.
 
 These are the valid values for this field:
 
-- `Volume 1` (represents the original, legacy newsletter)
-- `Volume 2` (the reboot, beginning in early 2020)
+- `Volume 1` represents the original, legacy newsletter 2018-2019
+- `Volume 2` this project, the reboot, beginning in early 2020
+- `Volume 3` 2021
 
 ### Images
 
@@ -165,6 +166,7 @@ All images should be placed in [`img/`](https://github.com/techworkersco/techwor
 > :warning: Be sure to run [ImageOptim](https://imageoptim.com/mac) on all images to reduce their file size.
 
 You can use `make image` to optimize an image:
+
 ```bash
 $ make image file=my-image-file.png
 ```
