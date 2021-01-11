@@ -134,7 +134,7 @@ Below is an explanation of our Jekyll [front matter](https://jekyllrb.com/docs/f
 ---
 layout: post
 title: ! 'Issue N: TITLE' # where N is the issue number
-category: Volume N.       # where N is the volume number
+category: Volume N        # where N is the volume number
 image:
     file: vol-N-issue-N-header.jpg
     alt: 'img alt text'
