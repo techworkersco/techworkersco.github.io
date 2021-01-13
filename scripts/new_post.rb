@@ -2,11 +2,10 @@
 
 require 'date'
 
-issue = !ARGV.empty? ? "#{ARGV.first}" : "N"
+issue = !ARGV.empty? ? "#{ARGV[0]}" : "N"
+date = ARGV.count > 1 ? "#{ARGV[1]}" : Date.today
 
 puts "Generating new post for issue #{ issue }..."
-
-date = Date.today
 
 post_contents = %(---
 layout: post
@@ -47,15 +46,13 @@ preview: 'TODO'
 
 )
 
-drafts = "_drafts"
+dir = "_posts"
 file_name = "#{ date }-issue-#{ issue }.md"
-path = "#{ drafts }/#{ file_name }"
-
-Dir.mkdir("#{ drafts }") unless File.exists?("#{ drafts }")
+path = "#{ dir }/#{ file_name }"
 
 open("#{ path }", "w") { |f|
   f.puts post_contents
 }
 
 puts "Created #{ path }"
-puts "Done"
+puts "Done!"
