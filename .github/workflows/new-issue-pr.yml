@@ -29,7 +29,7 @@ jobs:
           bundler --version
     
       - name: generate issue template
-        run: make new-issue volume="$INPUT_VOLUME" issue="$INPUT_ISSUE" date="$INPUT_DATE"
+        run: make new-issue volume=${{ github.event.inputs.volume }} issue=${{ github.event.inputs.issue }} date=${{ github.event.inputs.date }}
         
       - name: create pull request
         uses: peter-evans/create-pull-request@v3
