@@ -1,0 +1,43 @@
+name: Create New Issue
+
+workflow_dispatch:
+  inputs:
+    volume:
+      description: 'Volume #'     
+      required: true
+      default: '3'
+    issue:
+      description: 'Issue #'     
+      required: true
+    date:
+      description: 'Date (YYYY-MM-DD)'     
+      required: true  
+
+jobs:
+  job-main:
+    name: Create issue PR
+    runs-on: macOS-latest
+    steps:
+      - name: git checkout
+        uses: actions/checkout@v2
+    
+      - name: ruby versions
+        run: |
+          ruby --version
+          gem --version
+          bundler --version
+    
+      - name: generate issue template
+        run: make new-issue volume=${{ github.event.inputs.volume }} issue=${{ github.event.inputs.issue }} date=${{ github.event.inputs.date }}
+        
+      - name: create pull request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: Publish Volume ${{ github.event.inputs.volume }}, Issue ${{ github.event.inputs.issue }}
+          title: Publish Volume ${{ github.event.inputs.volume }}, Issue ${{ github.event.inputs.issue }}
+          body: Automated issue template generated.
+          branch: automated/vol-${{ github.event.inputs.volume }}/issue${{ github.event.inputs.issue }}-${{ github.event.inputs.date }}
+          delete-branch: true
+          labels: next issue, automated
+          reviewers: dellsystem, atav1k, jessesquires, stationaery, kaylensanders, beccalew
+          draft: true
