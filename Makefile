@@ -11,7 +11,8 @@ install:
 
 .PHONY: update
 update:
-	bundle update
+	bundle update --all
+	bundle update --bundler
 	yarn upgrade --latest --modules-folder yarn_deps
 
 .PHONY: watch
@@ -38,9 +39,9 @@ serve:
 serve-all:
 	bundle exec jekyll serve --future --drafts
 
-.PHONY: new
-new:
-	./scripts/new_post.rb
+.PHONY: new-issue
+new-issue:
+	./scripts/new_post.rb $(volume) $(issue) $(date)
 
 .PHONY: image
 image:

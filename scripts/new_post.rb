@@ -2,17 +2,27 @@
 
 require 'date'
 
-issue = !ARGV.empty? ? "#{ARGV[0]}" : "N"
-date = ARGV.count > 1 ? "#{ARGV[1]}" : Date.today
+if ARGV.count != 3
+  abort("Incorrect arguments. Must pass volume #, issue #, and date YYYY-MM-DD.
 
-puts "Generating new post for issue #{ issue }..."
+Example Usage: ./scripts/new_post.rb 3 5 2021-01-15
+This will create a post for Vol 3, Issue 5 at _posts/2021-01-15-issue-5.md
+
+")
+end
+
+volume = "#{ARGV[0]}"
+issue = "#{ARGV[1]}"
+date = "#{ARGV[2]}"
+
+puts "Generating new post for Volume #{volume}, Issue ##{ issue } with date #{ date }..."
 
 post_contents = %(---
 layout: post
 title: 'Issue #{ issue }: TITLE'
-category: Volume 3
+category: 'Volume #{volume}'
 image:
-    file: 'vol-3-issue-#{ issue }-header.jpg'
+    file: 'vol-#{ volume }-issue-#{ issue }-header.jpg'
     alt: 'TODO'
     caption: 'TODO'
     source_link: 'TODO'
@@ -54,5 +64,5 @@ open("#{ path }", "w") { |f|
   f.puts post_contents
 }
 
-puts "Created #{ path }"
+puts "Successfully created #{ path }"
 puts "Done!"

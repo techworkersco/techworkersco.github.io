@@ -66,17 +66,17 @@ $ make
 There are various options using `make`:
 
 ```bash
-$ make build # build the site once
-$ make watch # build and watch for changes
-$ make incr # build incrementally and watch for changes
+$ make build  # build the site once
+$ make watch  # build and watch for changes
+$ make incr   # build incrementally and watch for changes
 $ make future # build once and allow future posts
-$ make draft # build and watch, including _drafts/
+$ make draft  # build and watch, including _drafts/
 ```
 
 ### Previewing the site locally
 
 ```bash
-$ make serve # browse to http://localhost:4000
+$ make serve     # browse to http://localhost:4000
 $ make serve-all # build and serve future and draft posts
 ```
 
@@ -86,12 +86,12 @@ $ make serve-all # build and serve future and draft posts
 $ make update
 ```
 
-### Generating a new issue
+### Generating a new issue template
 
-This will generate an empty issue template in `_drafts/`.
+This will generate an empty issue template in `_posts/` with the specified volume number, issue number, and date.
 
 ```bash
-$ make new
+$ make new-issue volume=3 issue=5 date=2021-02-15
 ```
 
 # Writing and Publishing
@@ -104,15 +104,21 @@ See our [Process documentation](https://github.com/techworkersco/techworkersco.g
 
 ## How we publish
 
-Everything centers around our git workflow and GitHub. Once pull requests are merged, the site is rebuilt and deployed. This includes generating an RSS feed.
+Everything centers around our [git](https://git-scm.com) workflow and GitHub. Once [pull requests](https://github.com/techworkersco/techworkersco.github.io/pulls) are merged, the site is rebuilt and deployed. This includes generating an RSS feed.
+
+### Automation
+
+We have a number of automated checks than run various verifications on pull requests, as well as tasks like checking spelling and checking for dead links.
+
+Pull request reviews are partially automated with the help of [Danger](https://danger.systems/ruby/).
+
+You can see all of our [GitHub Actions workflows here](https://github.com/techworkersco/techworkersco.github.io/actions).
 
 ### Emails
 
 Emails are sent via Mailchimp using the [RSS-to-email feature](https://mailchimp.com/features/rss-to-email/). After merging a new post to `master`, an RSS feed entry is added as part of regenerating the site. Mailchimp checks for updates to the RSS feed, and after finding a new entry an email is generated and sent.
 
 Emails are sent from **news-noreply@techworkerscoalition.org**.
-
-Pull request reviews are partially automated with the help of [Danger](https://danger.systems/ruby/).
 
 ### Tweets
 
