@@ -44,6 +44,17 @@ preview: 'TODO'
 
 > TODO
 
+<!-- adding another image example -->
+<!-- fields are same as header images -->
+<!-- delete if not needed -->
+{% include image.html
+  file='TODO: file name'
+  alt='TODO: alt text'
+  caption='TODO: caption text'
+  source_link='TODO: link to source or null'
+  half_width=false
+%}
+
 ## In History
 
 > TODO
