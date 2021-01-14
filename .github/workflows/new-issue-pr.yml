@@ -34,8 +34,8 @@ jobs:
       - name: create pull request
         uses: peter-evans/create-pull-request@v3
         with:
-          commit-message: [Publish] volume $INPUT_VOLUME, issue $INPUT_ISSUE ($INPUT_DATE)
-          title: [Publish] volume $INPUT_VOLUME, issue $INPUT_ISSUE ($INPUT_DATE)
+          commit-message: "[Publish] volume $INPUT_VOLUME, issue $INPUT_ISSUE ($INPUT_DATE)"
+          title: "[Publish] volume $INPUT_VOLUME, issue $INPUT_ISSUE ($INPUT_DATE)"
           body: Automated issue template generated.
           branch: automated/vol$INPUT_VOLUME/issue$INPUT_ISSUE-$INPUT_DATE
           delete-branch: true
