@@ -53,7 +53,7 @@ prose.lint_files
 prose.ignored_words = ["twc", "TWC",
     "DIY", "PPE", "coronavirus", "COVID-19", "technocapital", "rideshare", "Latinx",
     "Bezos", "Veena", "Dubal", "Elon", "Musk", "Zuckerberg",
-    "Vox", "Uber", "Lyft", "Instacart", "Shipt", "Bandcamp", "Airbnb", "Kickstarter"
+    "Vox", "Uber", "Lyft", "Instacart", "Shipt", "Bandcamp", "Airbnb", "Kickstarter", "DoorDash", "Postmates"
 ]
 
 has_spellcheck_label = github.pr_labels.any? { |label| label.include? "spell-checked" }
