@@ -17,6 +17,7 @@
 - [Writing and Publishing](#writing-and-publishing)
   - [Process](#process)
   - [How we publish](#how-we-publish)
+    - [Automation](#automation)
     - [Emails](#emails)
     - [Tweets](#tweets)
   - [Issue Template](#issue-template)
@@ -88,7 +89,22 @@ $ make update
 
 ## Generating a new issue
 
+You can generate a new issue template in two ways.
+
 This will generate an empty issue template in `_posts/` with the specified volume number, issue number, and date.
+
+### GitHub Actions
+
+1. Go to our [Create New Issue action](https://github.com/techworkersco/techworkersco.github.io/actions?query=workflow%3A%22Create+New+Issue%22).
+1. Click "Run workflow" on the right.
+1. Select `Branch: master` (should be auto-selected).
+1. Enter the `Volume #`, `Issue #`, and `Date` for the issue. **Note:** The date **must** be in `YYYY-MM-DD` format.
+1. Click "Run workflow".
+1. It should only take a few minutes to run, after that you should see your new [pull request here](https://github.com/techworkersco/techworkersco.github.io/pulls) with the issue that you specified.
+
+### Manually
+
+Run the script locally, commit your changes, and open a pull request.
 
 ```bash
 $ make new-issue volume=3 issue=5 date=2021-02-15
