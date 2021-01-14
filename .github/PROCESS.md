@@ -4,7 +4,7 @@
 
 > :bulb: **Need to create a new issue?** [Learn how here](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#generating-a-new-issue).
 
-## :moon: Contributor 
+## :moon: Contributor
 
 Our overall process is oriented around contributors. Here's how it works:
 

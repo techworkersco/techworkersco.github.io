@@ -1,18 +1,18 @@
 name: Create New Issue
 
-on: 
+on:
   workflow_dispatch:
     inputs:
       volume:
-        description: 'Volume #'     
+        description: 'Volume #'
         required: true
         default: '3'
       issue:
-        description: 'Issue #'     
+        description: 'Issue #'
         required: true
       date:
-        description: 'Date (YYYY-MM-DD)'     
-        required: true  
+        description: 'Date (YYYY-MM-DD)'
+        required: true
 
 jobs:
   job-main:
@@ -21,16 +21,16 @@ jobs:
     steps:
       - name: git checkout
         uses: actions/checkout@v2
-    
+
       - name: ruby versions
         run: |
           ruby --version
           gem --version
           bundler --version
-    
+
       - name: generate issue template
         run: make new-issue volume=${{ github.event.inputs.volume }} issue=${{ github.event.inputs.issue }} date=${{ github.event.inputs.date }}
-        
+
       - name: create pull request
         uses: peter-evans/create-pull-request@v3
         with:
