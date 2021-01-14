@@ -34,10 +34,10 @@ jobs:
       - name: create pull request
         uses: peter-evans/create-pull-request@v3
         with:
-          commit-message: Publish Volume ${{ github.event.inputs.volume }}, Issue ${{ github.event.inputs.issue }}
-          title: Publish Volume ${{ github.event.inputs.volume }}, Issue ${{ github.event.inputs.issue }}
-          body: Automated issue template generated.
-          branch: automated/vol-${{ github.event.inputs.volume }}/issue${{ github.event.inputs.issue }}-${{ github.event.inputs.date }}
+          commit-message: Publish volume ${{ github.event.inputs.volume }}, issue ${{ github.event.inputs.issue }} (${{ github.event.inputs.date }})
+          title: Publish volume ${{ github.event.inputs.volume }}, issue ${{ github.event.inputs.issue }} (${{ github.event.inputs.date }})
+          body: Auto-generated issue template.
+          branch: automated/vol${{ github.event.inputs.volume }}/issue${{ github.event.inputs.issue }}-${{ github.event.inputs.date }}
           delete-branch: true
           labels: next issue, automated
           reviewers: dellsystem, atav1k, jessesquires, stationaery, kaylensanders, beccalew
