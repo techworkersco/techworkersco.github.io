@@ -167,7 +167,7 @@ preview: 'preview text for emails + social media'
 ---
 ```
 
-We always use the `post` layout, and the `title` should take the form: `Issue #1: My Title`.
+We always use the `post` layout, and the `title` should take the form: `Issue 1: My Title`.
 
 The `preview` field is used to generate the email and social media preview text. If not provided, the post excerpt will be used.
 
