@@ -29,7 +29,7 @@ jobs:
           bundler --version
     
       - name: generate issue template
-        run: make new-issue volume=$INPUT_VOLUME issue=$INPUT_ISSUE date=$INPUT_DATE
+        run: make new-issue volume="$INPUT_VOLUME" issue="$INPUT_ISSUE" date="$INPUT_DATE"
         
       - name: create pull request
         uses: peter-evans/create-pull-request@v3
@@ -37,7 +37,7 @@ jobs:
           commit-message: "[Publish] volume $INPUT_VOLUME, issue $INPUT_ISSUE ($INPUT_DATE)"
           title: "[Publish] volume $INPUT_VOLUME, issue $INPUT_ISSUE ($INPUT_DATE)"
           body: Automated issue template generated.
-          branch: automated/vol$INPUT_VOLUME/issue$INPUT_ISSUE-$INPUT_DATE
+          branch: "automated/vol$INPUT_VOLUME/issue$INPUT_ISSUE-$INPUT_DATE"
           delete-branch: true
           labels: next issue, automated
           reviewers: dellsystem, atav1k, jessesquires, stationaery, kaylensanders, beccalew
