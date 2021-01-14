@@ -1,17 +1,18 @@
 name: Create New Issue
 
-workflow_dispatch:
-  inputs:
-    volume:
-      description: 'Volume #'     
-      required: true
-      default: '3'
-    issue:
-      description: 'Issue #'     
-      required: true
-    date:
-      description: 'Date (YYYY-MM-DD)'     
-      required: true  
+on: 
+  workflow_dispatch:
+    inputs:
+      volume:
+        description: 'Volume #'     
+        required: true
+        default: '3'
+      issue:
+        description: 'Issue #'     
+        required: true
+      date:
+        description: 'Date (YYYY-MM-DD)'     
+        required: true  
 
 jobs:
   job-main:
