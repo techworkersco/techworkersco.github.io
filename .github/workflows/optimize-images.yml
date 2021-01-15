@@ -1,0 +1,30 @@
+name: Optimize Images
+
+on:
+  pull_request:
+    types: [opened, labeled]
+
+jobs:
+  job-main:
+    if: ${{ github.event.label.name == 'needs optimize images' }} || ${{ contains(github.event.pull_request.labels.*.name, 'needs optimize images') }}
+    name: Optimize Images
+    runs-on: macOS-latest
+    steps:
+      - name: git checkout
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+  
+      - name: install ImageOptim
+        run: |
+          curl https://imageoptim.com/ImageOptim.tbz2 > ImageOptim.tbz2
+          bzip2 -dc ImageOptim.tbz2 | tar xvf -
+
+      - name: run ImageOptim
+        run:  ImageOptim.app/Contents/MacOS/ImageOptim img/*.*
+
+      - name: commit changes
+        run: |
+          git add img/
+          git commit -m "[automated] optimze images" || true
+          git push
