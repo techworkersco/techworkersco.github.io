@@ -36,9 +36,9 @@ jobs:
         with:
           commit-message: Publish volume ${{ github.event.inputs.volume }}, issue ${{ github.event.inputs.issue }} (${{ github.event.inputs.date }})
           title: Publish volume ${{ github.event.inputs.volume }}, issue ${{ github.event.inputs.issue }} (${{ github.event.inputs.date }})
-          body: Auto-generated issue template.
+          body: Auto-generated issue template. This pull request was opened by ${GITHUB_ACTOR}.
           branch: automated/vol${{ github.event.inputs.volume }}/issue${{ github.event.inputs.issue }}-${{ github.event.inputs.date }}
           delete-branch: true
           labels: next issue, automated
-          reviewers: dellsystem, atav1k, jessesquires, stationaery, kaylensanders, beccalew
+          #reviewers: dellsystem, atav1k, jessesquires, stationaery, kaylensanders, beccalew
           draft: true
