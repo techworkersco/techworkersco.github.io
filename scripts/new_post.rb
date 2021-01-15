@@ -11,9 +11,26 @@ This will create a post for Vol 3, Issue 5 at _posts/2021-01-15-issue-5.md
 ")
 end
 
-volume = "#{ARGV[0]}"
-issue = "#{ARGV[1]}"
-date = "#{ARGV[2]}"
+volume = "#{ARGV[0]}".strip
+if volume.to_i <= 0
+  abort("Invalid volume number: #{volume}\nEnter a number greater than 0.")
+end 
+
+issue = "#{ARGV[1]}".strip
+if issue.to_i <= 0
+  abort("Invalid issue number: #{issue}\nEnter a number greater than 0.")
+end
+
+date = "#{ARGV[2]}".strip
+if !(date.length == 10 && date =~ /\d{4}-{1}\d{2}-{1}\d{2}/)
+  abort("Invalid date: #{date}\nMust be in YYYY-MM-DD format and be a valid date.")
+end
+
+begin
+    d = DateTime.strptime(date, "%Y-%m-%d")
+  rescue => error
+    abort("Invalid date: #{date}\nMust be in YYYY-MM-DD format and be a valid date.")
+end
 
 puts "Generating new post for Volume #{volume}, Issue ##{ issue } with date #{ date }..."
 
