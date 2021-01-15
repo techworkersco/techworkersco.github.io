@@ -6,7 +6,7 @@ on:
 
 jobs:
   job-main:
-    if: ${{ github.event.label.name == 'needs optimize images' }} || ${{ contains(github.event.pull_request.labels.*.name, 'needs optimize images') }}
+    if: ${{ github.event.label.name == 'needs optimize images' }}
     name: Optimize Images
     runs-on: macOS-latest
     steps:
