@@ -1,0 +1,38 @@
+name: Publish Newsletter
+
+on:
+  # workflow_dispatch:
+  #   inputs:
+  #     pull-request:
+  #       description: 'Pull request number'
+  #       required: true
+  schedule:
+    # At 08:30am PST or 09:30am PDT on Fridays.
+    # Will keep checking for 3 hours after.
+  
+    # Cron runs in UTC
+    # PST is UTC-8:00
+    # UTC 16:30-8:00 == 8:30am PST
+    # https://crontab.guru/#30_16-19_*_*_5
+    - cron: "30 16-19 * * 5"
+
+jobs:
+  main:
+    name: Publish next issue
+    runs-on: ubuntu-latest
+    steps:
+      - name: git checkout
+        uses: actions/checkout@v2
+      
+      - name: current datetime
+        run: date
+   
+      - name: auto-merge
+        uses: reitermarkus/automerge@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          merge-method: squash
+          squash-title: true
+          required-labels: auto-publish
+          # pull-request: ${{ github.event.inputs.pull-request }}
+          # dry-run: true
