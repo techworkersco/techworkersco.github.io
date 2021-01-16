@@ -1,0 +1,30 @@
+name: Publish Newsletter
+
+on:
+  workflow_dispatch:
+    inputs:
+      pull-request:
+        description: 'Pull request number'
+        required: true
+  schedule:
+    # At 09:00 on Friday.
+    - cron: "0 9 * * 5"
+
+jobs:
+  main:
+    # if: github.event.review.state == 'approved' || !github.event.review
+    name: Publish next issue
+    runs-on: ubuntu-latest
+    steps:
+      - name: git checkout
+        uses: actions/checkout@v2
+
+      - name: auto-merge
+        uses: reitermarkus/automerge@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          merge-method: squash
+          squash-title: true
+          required-labels: auto-publish
+          pull-request: ${{ github.event.inputs.pull-request }}
+          dry-run: true
