@@ -13,7 +13,9 @@
     - [Building the site](#building-the-site)
     - [Previewing the site locally](#previewing-the-site-locally)
     - [Updating dependencies](#updating-dependencies)
-    - [Generating a new issue](#generating-a-new-issue)
+- [Generating a new issue](#generating-a-new-issue)
+    - [GitHub Actions](#github-actions)
+- [Labels](#labels)
 - [Writing and Publishing](#writing-and-publishing)
   - [Process](#process)
   - [How we publish](#how-we-publish)
@@ -87,7 +89,7 @@ $ make serve-all # build and serve future and draft posts
 $ make update
 ```
 
-## Generating a new issue
+# Generating a new issue
 
 You can generate a new issue template in two ways.
 
@@ -109,6 +111,25 @@ Run the script locally, commit your changes, and open a pull request.
 ```bash
 $ make new-issue volume=3 issue=5 date=2021-02-15
 ```
+
+# Labels
+
+We use various [labels](https://github.com/techworkersco/techworkersco.github.io/labels) to automate workflows. These special labels are all purple. Each has a description explaining what it does. Below are some of the most important.
+
+### `auto-publish` label
+
+The bot begins checking for pull requests with the `auto-publish` label at `08:30am PST` or `09:30am PDT` every Friday. (The time discrepancy is because of daylight savings, and we must provide a single time in UTC. So this is the best compromise to meet our 11am Mailchimp deadline and still have room for last-minute fixes or edits.)
+
+It will check for `auto-publish` pull requests every 30 min for 3 hours.
+
+The bot will merge the pull request **if and only if**:
+- The PR has the `auto-publish` label
+- All status checks succeeded ✅ 
+- The PR has been approved ✅ 
+
+### `needs optimize images` label
+
+If you add `needs optimize images` to a PR, the bot will optimize images and commit changes to that branch.
 
 # Writing and Publishing
 
