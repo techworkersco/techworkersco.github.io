@@ -6,6 +6,16 @@ if github.branch_for_base != "master"
 end
 
 # -----------------------------------------------------------------------------
+# Tips for auto-publishing
+# -----------------------------------------------------------------------------
+is_next_issue = github.pr_labels.any? { |label| label.include? "next issue" }
+has_auto_publish_label = github.pr_labels.any? { |label| label.include? "auto-publish" }
+if !has_auto_publish_label && is_next_issue
+  message("**Tip:** add the `auto-publish` label to automatically publish this issue on Friday morning.
+[Read the docs](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#labels) for details.")
+end
+
+# -----------------------------------------------------------------------------
 # Reminder for compressing images
 # -----------------------------------------------------------------------------
 has_imgoptim_label = github.pr_labels.any? { |label| label.include? "image-optimized" }
@@ -57,12 +67,14 @@ prose.ignore_acronyms = true
 prose.lint_files
 
 prose.ignored_words = ["twc", "TWC",
-    "DIY", "PPE", "coronavirus", "COVID-19", "technocapital", "rideshare", "Latinx",
-    "Bezos", "Veena", "Dubal", "Elon", "Musk", "Zuckerberg",
-    "Vox", "Uber", "Lyft", "Instacart", "Shipt", "Bandcamp", "Airbnb", "Kickstarter", "DoorDash", "Postmates"
+  "DIY", "PPE", "coronavirus", "COVID-19", "technocapital", "rideshare", "Latinx",
+  "Bezos", "Veena", "Dubal", "Elon", "Musk", "Zuckerberg",
+  "Vox", "Uber", "Lyft", "Instacart", "Shipt", "Bandcamp", "Airbnb", "Kickstarter", "DoorDash", "Postmates"
 ]
 
 has_spellcheck_label = github.pr_labels.any? { |label| label.include? "spell-checked" }
 if !has_spellcheck_label
-    prose.check_spelling
+  message("Spell checking is enabled. 
+**Tip:** add the `spell-checked` label if you would like to silence the spell-checker.")
+  prose.check_spelling
 end
