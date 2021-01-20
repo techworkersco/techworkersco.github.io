@@ -27,14 +27,14 @@ jobs:
         uses: actions/cache@v2
         with:
           path: vendor/bundle
-          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+          key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}-bundler226
           restore-keys: |
             ${{ runner.os }}-gem-
 
       - name: bundle install
         run: |
           # gem update --system
-          # gem install bundler --no-document
+          gem install bundler --no-document
           bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3
 
