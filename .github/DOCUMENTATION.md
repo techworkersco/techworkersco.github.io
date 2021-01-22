@@ -135,6 +135,10 @@ If you add `needs optimize images` to a PR, the bot will optimize images and com
 
 *Tips and other information for core contributors.*
 
+## Images
+
+Prefer `jpg` as it compresses better than other formats.
+
 ## Process
 
 See our [Process documentation](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/PROCESS.md).
@@ -205,6 +209,8 @@ These are the valid values for this field:
 ### Images
 
 All images **must** be placed in [`img/`](https://github.com/techworkersco/techworkersco.github.io/tree/master/img).
+
+> :bulb: Prefer `jpg` as it compresses better than other formats.
 
 > :warning: Be sure to run [ImageOptim](https://imageoptim.com/mac) on all images to reduce their file size.
 
