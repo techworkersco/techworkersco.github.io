@@ -27,9 +27,13 @@ if !(date.length == 10 && date =~ /\d{4}-{1}\d{2}-{1}\d{2}/)
 end
 
 begin
-    d = DateTime.strptime(date, "%Y-%m-%d")
+    datetime = DateTime.strptime(date, "%Y-%m-%d")
   rescue => error
     abort("Invalid date: #{date}\nMust be in YYYY-MM-DD format and be a valid date.")
+end
+
+if datetime < Date.today
+  abort("Invalid date: #{date}\nCannot create an issue in the past.")
 end
 
 puts "Generating new post for Volume #{volume}, Issue ##{ issue } with date #{ date }..."
