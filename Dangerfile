@@ -53,8 +53,8 @@ posts = active_files
 posts.each do |filename|
     file = File.read(filename)
     if !(file.include?("<!--excerpt-->"))
-        fail("Missing excerpt. Please add the excerpt tag where you'd like this post to break for the preview.
-[Read the docs](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md) for details.", file: filename)
+        fail("Missing excerpt tag `<!--excerpt-->`. Please add the excerpt tag where you'd like this post to break for the preview.
+[Read the docs](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#issue-template) for details.", file: filename)
     end
 end
 
