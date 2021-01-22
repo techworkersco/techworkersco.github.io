@@ -135,6 +135,10 @@ If you add `needs optimize images` to a PR, the bot will optimize images and com
 
 *Tips and other information for core contributors.*
 
+## Markdown
+
+Issues are written in Markdown. Learn about Markdown [in this guide](https://guides.github.com/features/mastering-markdown/).
+
 ## Images
 
 Prefer `jpg` as it compresses better than other formats.
