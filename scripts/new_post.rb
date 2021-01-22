@@ -40,16 +40,19 @@ title: "Issue #{ issue }: TITLE"
 category: "Volume #{volume}"
 image:
     file: vol-#{ volume }-issue-#{ issue }-header.jpg
-    alt: "TODO"
-    caption: "TODO"
-    source_link: "TODO"
+    alt: "TODO: alt (hover) text"
+    caption: "TODO: image caption"
+    source_link: "TODO: link to original source or null"
     half_width: false
 preview: "TODO"
 ---
 
-> TODO
+> TODO: intro blurb goes here
 
+<!-- do not remove the excerpt tag -->
 <!--excerpt-->
+<!-- remaining content goes below here -->
+
 
 {% include post_image.html %}
 
@@ -61,14 +64,14 @@ preview: "TODO"
 
 > TODO
 
-<!-- adding another image example -->
-<!-- fields are same as header images -->
+<!-- Example: adding additional images -->
+<!-- fields here are same as header images (above) -->
 <!-- delete if not needed -->
 {% include image.html
   file="TODO: file name"
   alt="TODO: alt text"
   caption="TODO: caption text"
-  source_link="TODO: link to source or null"
+  source_link="TODO: link to original source or null"
   half_width=false
 %}
 
