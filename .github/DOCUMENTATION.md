@@ -102,7 +102,7 @@ This will generate an empty issue template in `_posts/` with the specified volum
 1. Select `Branch: master` (should be auto-selected).
 1. Enter the `Volume #`, `Issue #`, and `Date` for the issue. **Note:** The date **must** be in `YYYY-MM-DD` format.
 1. Click "Run workflow".
-1. It should only take a few minutes to run, after that you should see your new [pull request here](https://github.com/techworkersco/techworkersco.github.io/pulls) with the issue that you specified.
+1. It should only take a few minutes to run. After that, click to see the new pull request with the issue that you specified [here](https://github.com/techworkersco/techworkersco.github.io/pulls).
 
 ### Manually
 
@@ -159,7 +159,7 @@ Emails are sent from **news-noreply@techworkerscoalition.org**.
 
 ### Tweets
 
-We use [IFTT](https://ifttt.com) to auto-tweet new issues from the RSS feed to our [twitter account](https://twitter.com/twcnewsletter).
+We use [IFTTT](https://ifttt.com) to auto-tweet new issues from the RSS feed to [our Twitter account](https://twitter.com/twcnewsletter). The bot checks for new posts every hour and if it finds one, it sends a tweet.
 
 ## Issue Template
 
