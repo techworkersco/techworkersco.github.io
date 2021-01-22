@@ -173,7 +173,9 @@ We use [IFTTT](https://ifttt.com) to auto-tweet new issues from the RSS feed to 
 
 You can find a default issue template at [`_drafts/template.md`](https://github.com/techworkersco/techworkersco.github.io/blob/master/_drafts/template.md).
 
-All issues should include an `<!--excerpt-->` tag.
+> :warning: All issues should include an `<!--excerpt-->` tag. (Spelled exactly like this.)
+
+The excerpt tag is used for social media preview text, as well as the snippet on [the archive page](https://news.techworkerscoalition.org/archive/).
 
 See [Generating a new issue](#generating-a-new-issue) for more details.
 
