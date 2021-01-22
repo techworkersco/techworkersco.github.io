@@ -53,8 +53,8 @@ posts = active_files
 posts.each do |filename|
     file = File.read(filename)
     if !(file.include?("<!--excerpt-->"))
-        fail("Missing excerpt. Please add the excerpt tag where you'd like this post to break for the preview.", file: filename)
-        message("[Read the docs](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md) for details.")
+        fail("Missing excerpt. Please add the excerpt tag where you'd like this post to break for the preview.
+[Read the docs](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md) for details.", file: filename)
     end
 end
 
@@ -69,7 +69,7 @@ prose.lint_files
 prose.ignored_words = ["twc", "TWC",
   "DIY", "PPE", "coronavirus", "COVID-19", "technocapital", "rideshare", "Latinx",
   "Bezos", "Veena", "Dubal", "Elon", "Musk", "Zuckerberg",
-  "Vox", "Uber", "Lyft", "Instacart", "Shipt", "Bandcamp", "Airbnb", "Kickstarter", "DoorDash", "Postmates"
+  "Vox", "Uber", "Lyft", "Instacart", "Shipt", "Bandcamp", "Airbnb", "Kickstarter", "DoorDash", "Postmates", "GitHub"
 ]
 
 has_spellcheck_label = github.pr_labels.any? { |label| label.include? "spell-checked" }
