@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 'Issue N: TITLE'
+title: "Issue N: TITLE"
 category: Volume 3
 image:
     file: vol-3-issue-N-header.jpg
-    alt: 'TODO: some img-alt text'
-    caption: 'TODO: some caption text for the image'
-    source_link: 'TODO: optional link to external source for image'
+    alt: "TODO: some img-alt text"
+    caption: "TODO: some caption text for the image"
+    source_link: "TODO: optional link to external source for image"
     half_width: false
 preview: "TODO: some preview text for emails and social media sharing"
 ---

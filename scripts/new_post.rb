@@ -36,15 +36,15 @@ puts "Generating new post for Volume #{volume}, Issue ##{ issue } with date #{ d
 
 post_contents = %(---
 layout: post
-title: 'Issue #{ issue }: TITLE'
-category: 'Volume #{volume}'
+title: "Issue #{ issue }: TITLE"
+category: "Volume #{volume}"
 image:
-    file: 'vol-#{ volume }-issue-#{ issue }-header.jpg'
-    alt: 'TODO'
-    caption: 'TODO'
-    source_link: 'TODO'
+    file: vol-#{ volume }-issue-#{ issue }-header.jpg
+    alt: "TODO"
+    caption: "TODO"
+    source_link: "TODO"
     half_width: false
-preview: 'TODO'
+preview: "TODO"
 ---
 
 > TODO
@@ -65,10 +65,10 @@ preview: 'TODO'
 <!-- fields are same as header images -->
 <!-- delete if not needed -->
 {% include image.html
-  file='TODO: file name'
-  alt='TODO: alt text'
-  caption='TODO: caption text'
-  source_link='TODO: link to source or null'
+  file="TODO: file name"
+  alt="TODO: alt text"
+  caption="TODO: caption text"
+  source_link="TODO: link to source or null"
   half_width=false
 %}
 
