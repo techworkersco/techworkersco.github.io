@@ -17,6 +17,8 @@
     - [GitHub Actions](#github-actions)
 - [Labels](#labels)
 - [Writing and Publishing](#writing-and-publishing)
+  - [Markdown](#markdown)
+  - [Images](#images)
   - [Process](#process)
   - [How we publish](#how-we-publish)
     - [Automation](#automation)
@@ -25,7 +27,8 @@
   - [Issue Template](#issue-template)
     - [Front Matter](#front-matter)
     - [Categories as "Volumes"](#categories-as-volumes)
-    - [Images](#images)
+    - [Header images](#header-images)
+    - [Other images](#other-images)
     - [Handling Links](#handling-links)
 
 ## Requirements
@@ -141,7 +144,17 @@ Issues are written in Markdown. Learn about Markdown [in this guide](https://gui
 
 ## Images
 
-Prefer `jpg` as it compresses better than other formats.
+All images **must** be placed in [`img/`](https://github.com/techworkersco/techworkersco.github.io/tree/master/img).
+
+> :bulb: Prefer `jpg` as it compresses better than other formats.
+
+> :warning: Be sure to run [ImageOptim](https://imageoptim.com/mac) on all images to reduce their file size.
+
+To manually optimize an image, you can run `make image`:
+
+```bash
+$ make image file=my-image-file.png
+```
 
 ## Process
 
@@ -212,21 +225,7 @@ These are the valid values for this field:
 - `Volume 2` this project, the reboot, beginning in early 2020
 - `Volume 3` 2021
 
-### Images
-
-All images **must** be placed in [`img/`](https://github.com/techworkersco/techworkersco.github.io/tree/master/img).
-
-> :bulb: Prefer `jpg` as it compresses better than other formats.
-
-> :warning: Be sure to run [ImageOptim](https://imageoptim.com/mac) on all images to reduce their file size.
-
-You can use `make image` to optimize an image:
-
-```bash
-$ make image file=my-image-file.png
-```
-
-#### Header images
+### Header images
 
 Every post should include a header image, which is specified by the `image:` field in the front matter.
 
@@ -240,7 +239,7 @@ Every post should include a header image, which is specified by the `image:` fie
 
 - `half_width` **(optional, boolean)** specifies the image layout. If `false` (the default), the image will expand to the full width of the container. If `true`, the image is centered and expands to 50% of the container width. This should almost always be `false`.
 
-#### Other Images
+### Other Images
 
 If desired, you can also include additional images in the body of the issue using the `image.html` include, which receives the same parameters as header images.
 
