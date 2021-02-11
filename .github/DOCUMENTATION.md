@@ -132,7 +132,9 @@ The bot will merge the pull request **if and only if**:
 
 ### `needs optimize images` label
 
-If you add `needs optimize images` to a PR, the bot will optimize images and commit changes to that branch.
+If you add `needs optimize images` to a pull request, the bot will optimize images for you and commit the changes to the pull request branch.
+
+See [Images](#images) for more details.
 
 # Writing and Publishing
 
@@ -149,6 +151,8 @@ All images **must** be placed in [`img/`](https://github.com/techworkersco/techw
 > :bulb: Prefer `jpg` as it compresses better than other formats.
 
 > :warning: Be sure to run [ImageOptim](https://imageoptim.com/mac) on all images to reduce their file size.
+
+On a pull request, add the `needs optimize images` label to trigger the bot to optimize images.
 
 To manually optimize an image, you can run `make image`:
 
