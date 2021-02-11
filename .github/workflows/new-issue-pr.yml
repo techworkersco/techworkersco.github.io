@@ -57,10 +57,10 @@ jobs:
             - [ ] The bot \:robot\: is your friend. Fix any issues that it comments about.
             - [ ] Make corrections suggested by the prose checker and spell checker, if desired. (The bot will comment with issues found.)
 
-            > \:label\: **Note\:** sometimes the spell checker produces false positives, or generally gets confused. Once satisfied with spelling, add the `spell-checked` label to turn the spell checker off.
+            > \:label\: **Note\:** sometimes the spell checker produces false positives, or generally gets confused. Once satisfied with spelling, add the `spell-checked` label to turn off the spell checker.
 
             - [ ] The pull request is initially marked as a **draft**. Click **Ready For Review** below.
-            - [ ] Make final edits.
+            - [ ] Make any final edits.
             - [ ] **Approve** the pull request when finished. \:white_check_mark\:
 
             > \:warning\: **Note\:** subsequent edits will **void** approval. **You will need to re-approve after any edits**. Thus, it is recommended to approve only once the issue is complete.
@@ -74,5 +74,5 @@ jobs:
           delete-branch: true
           labels: next issue, automated
           assignees: ${{ github.actor }}
-          #reviewers: dellsystem, atav1k, jessesquires, stationaery, kaylensanders, beccalew
+          reviewers: dellsystem, atav1k, jessesquires, stationaery, kaylensanders, beccalew
           draft: true
