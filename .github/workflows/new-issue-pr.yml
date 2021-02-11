@@ -39,22 +39,36 @@ jobs:
           title: Publish volume ${{ github.event.inputs.volume }}, issue ${{ github.event.inputs.issue }} (${{ github.event.inputs.date }})
           body: |
             \:robot\: *Auto-generated issue template.* This pull request was initiated by @${{ github.actor }}.
-            ## Checklist
-            Follow these steps and check them off as you go. If something goes wrong, [check the documentation for help](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md). If something goes **really** wrong, ping @jessesquires.
+
+            # Checklist
+            **Follow these easy steps and check them off as you go!**
+
+            > \:bulb\: If something goes wrong, [check the documentation for help](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md). If something goes **really wrong**, ping @jessesquires. \:blush\:
 
             - [ ] Add initial draft content to the issue template.
-            - [ ] Upload header image and any other images.
+            - [ ] Upload the header image and any other images.
                 - [ ] Once all images are uploaded, add the `needs optimize images` label.
-                - [ ] The bot will optimize the images and push the changes.
+                - [ ] The bot will optimize the images and push the changes here.
                 - [ ] If you modify images again, remove and re-add the `needs optimize images` label to re-trigger the bot.
-            - [ ] Sometimes the automated checks get stuck after the bot optimizes images. If that happens, just edit the issue again to re-trigger the checks.
-            - [ ] Make any final edits to the issue.
-            - [ ] Make corrections suggested by the prose and spell checker, if desired.
-            - [ ] Sometimes the spell checker produces false positives. Once satisfied with spelling, add the `spell-checked` to turn the spell checker off.
-            - [ ] The pull request is initially marked as a draft. Set it to Ready For Review.
-            - [ ] Approve the pull request. (Note\: subsequent edits will void approval. You will need to approve again.)
-            - [ ] Once approved and all checks are passing, add the `auto-publish`
-            - [ ] Go to bed!
+
+            > \:warning\: **Note\:** sometimes the automated checks get stuck after the bot optimizes images. If that happens, just edit the issue again to re-trigger the checks. (Simply adding a blank line is enough.)
+
+            - [ ] Continue editing and proofreading the issue.
+            - [ ] The bot \:robot\: is your friend. Fix any issues that it comments about.
+            - [ ] Make corrections suggested by the prose checker and spell checker, if desired. (The bot will comment with issues found.)
+
+            > \:label\: **Note\:** sometimes the spell checker produces false positives, or generally gets confused. Once satisfied with spelling, add the `spell-checked` label to turn the spell checker off.
+
+            - [ ] The pull request is initially marked as a **draft**. Click **Ready For Review** below.
+            - [ ] Make final edits.
+            - [ ] **Approve** the pull request when finished. \:white_check_mark\:
+
+            > \:warning\: **Note\:** subsequent edits will **void** approval. **You will need to re-approve after any edits**. Thus, it is recommended to approve only once the issue is complete.
+
+            - [ ] Verify that **all checks are passing**. \:white_check_mark\: (If not, address the failures.)
+            - [ ] Add the `auto-publish` label. The bot will then merge this for you in the morning!
+
+            Nice work, champ. \:sunglasses\: Now, get some rest! \:sleeping_bed\:
 
           branch: automated/vol${{ github.event.inputs.volume }}/issue${{ github.event.inputs.issue }}-${{ github.event.inputs.date }}
           delete-branch: true
