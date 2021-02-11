@@ -19,8 +19,7 @@ end
 # -----------------------------------------------------------------------------
 has_auto_publish_label = github.pr_labels.any? { |label| label.include? "auto-publish" }
 if is_next_issue && !has_auto_publish_label
-  message(":bulb: **Tip:** add the `auto-publish` label to automatically publish this issue on Friday morning.
-([docs here](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#labels))")
+  message(":bulb: **Tip:** add the `auto-publish` label to automatically publish this issue on Friday morning. ([docs here](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#labels))")
 end
 
 # -----------------------------------------------------------------------------
@@ -36,7 +35,7 @@ is_editing_images = !(git.modified_files.grep(/img/).empty?)
 if (is_editing_images || is_adding_images) && !has_correct_labels
     fail("Adding images? Remember to [optimize them](https://imageoptim.com/mac)!
 **Add the `needs optimize images` label to have the bot do this automatically.**
-Alternatively, add the `image-optimized` label to silence this warning. ([docs here](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#images))")
+Alternatively, add the `image-optimized` label to silence this error. ([docs here](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#images))")
 end
 
 # -----------------------------------------------------------------------------
@@ -61,8 +60,7 @@ posts = active_files
 posts.each do |filename|
     file = File.read(filename)
     if !(file.include?("<!--excerpt-->"))
-        fail("Missing excerpt tag `<!--excerpt-->`. Please add the excerpt tag where you'd like this post to break for the preview.
-([docs here](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#issue-template))", file: filename)
+        fail("Missing excerpt tag `<!--excerpt-->`. Please add the excerpt tag where you'd like this post to break for the preview. ([docs here](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#issue-template))", file: filename)
     end
 end
 
@@ -82,7 +80,7 @@ prose.ignored_words = ["twc", "TWC",
 
 has_spellcheck_label = github.pr_labels.any? { |label| label.include? "spell-checked" }
 if !has_spellcheck_label
-  message("Spell checking is enabled. 
+  message("**Spell checking is enabled.**
 :bulb: **Tip:** add the `spell-checked` label if you would like to silence the spell-checker.")
   prose.check_spelling
 end
