@@ -31,15 +31,34 @@ jobs:
       - name: generate issue template
         run: make new-issue volume=${{ github.event.inputs.volume }} issue=${{ github.event.inputs.issue }} date=${{ github.event.inputs.date }}
 
+      # https://github.com/marketplace/actions/create-pull-request
       - name: create pull request
         uses: peter-evans/create-pull-request@v3
         with:
           commit-message: Publish volume ${{ github.event.inputs.volume }}, issue ${{ github.event.inputs.issue }} (${{ github.event.inputs.date }})
           title: Publish volume ${{ github.event.inputs.volume }}, issue ${{ github.event.inputs.issue }} (${{ github.event.inputs.date }})
-          body: Auto-generated issue template. This pull request was initiated by @${{ github.actor }}.
+          body: |
+            \:robot\: *Auto-generated issue template.* This pull request was initiated by @${{ github.actor }}.
+            ## Checklist
+            Follow these steps and check them off as you go. If something goes wrong, [check the documentation for help](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md). If something goes **really** wrong, ping @jessesquires.
+
+            - [ ] Add initial draft content to the issue template.
+            - [ ] Upload header image and any other images.
+                - [ ] Once all images are uploaded, add the `needs optimize images` label.
+                - [ ] The bot will optimize the images and push the changes.
+                - [ ] If you modify images again, remove and re-add the `needs optimize images` label to re-trigger the bot.
+            - [ ] Sometimes the automated checks get stuck after the bot optimizes images. If that happens, just edit the issue again to re-trigger the checks.
+            - [ ] Make any final edits to the issue.
+            - [ ] Make corrections suggested by the prose and spell checker, if desired.
+            - [ ] Sometimes the spell checker produces false positives. Once satisfied with spelling, add the `spell-checked` to turn the spell checker off.
+            - [ ] The pull request is initially marked as a draft. Set it to Ready For Review.
+            - [ ] Approve the pull request. (Note\: subsequent edits will void approval. You will need to approve again.)
+            - [ ] Once approved and all checks are passing, add the `auto-publish`
+            - [ ] Go to bed!
+
           branch: automated/vol${{ github.event.inputs.volume }}/issue${{ github.event.inputs.issue }}-${{ github.event.inputs.date }}
           delete-branch: true
           labels: next issue, automated
           assignees: ${{ github.actor }}
-          reviewers: dellsystem, atav1k, jessesquires, stationaery, kaylensanders, beccalew
+          #reviewers: dellsystem, atav1k, jessesquires, stationaery, kaylensanders, beccalew
           draft: true
