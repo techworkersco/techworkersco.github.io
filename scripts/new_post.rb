@@ -79,6 +79,18 @@ preview: "TODO"
   half_width=false
 %}
 
+## Events
+
+<!-- delete events section if there are no events -->
+
+#### [Event 1 title and link]()
+
+> TODO: event 1 details
+
+#### [Event 2 title and link]()
+
+> TODO: event 2 details
+
 ## In History
 
 > TODO

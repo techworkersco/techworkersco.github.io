@@ -38,6 +38,16 @@ preview: "TODO: some preview text for emails and social media sharing"
 >
 > A curated collection of 3-10 links to other efforts around the world or relevant articles.
 
+## Events
+
+> TODO:
+>
+> List of upcoming events, if any.
+
+#### [Event title and link]()
+
+> TODO: details of event
+
 ## In History
 
 > TODO:
