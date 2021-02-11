@@ -1,18 +1,26 @@
+is_next_issue = github.pr_labels.any? { |label| label.include? "next issue" }
+
+# -----------------------------------------------------------------------------
+# Uploading images
+# -----------------------------------------------------------------------------
+if is_next_issue
+  message(":camera: To add images to this issue, [upload them here](https://github.com/techworkersco/techworkersco.github.io/upload/#{github.branch_for_head}/img).")
+end
+
 # -----------------------------------------------------------------------------
 # All pull requests should be submitted to master branch
 # -----------------------------------------------------------------------------
 if github.branch_for_base != "master"
-    warn("Pull requests should be submitted to the master branch only.")
+    warn("Pull requests should be submitted to the `master` branch only.")
 end
 
 # -----------------------------------------------------------------------------
 # Tips for auto-publishing
 # -----------------------------------------------------------------------------
-is_next_issue = github.pr_labels.any? { |label| label.include? "next issue" }
 has_auto_publish_label = github.pr_labels.any? { |label| label.include? "auto-publish" }
-if !has_auto_publish_label && is_next_issue
-  message("**Tip:** add the `auto-publish` label to automatically publish this issue on Friday morning.
-[Read the docs](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#labels) for details.")
+if is_next_issue && !has_auto_publish_label
+  message(":bulb: **Tip:** add the `auto-publish` label to automatically publish this issue on Friday morning.
+([docs here](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#labels))")
 end
 
 # -----------------------------------------------------------------------------
@@ -28,7 +36,7 @@ is_editing_images = !(git.modified_files.grep(/img/).empty?)
 if (is_editing_images || is_adding_images) && !has_correct_labels
     fail("Adding images? Remember to [optimize them](https://imageoptim.com/mac)!
 **Add the `needs optimize images` label to have the bot do this automatically.**
-Alternatively, add the `image-optimized` label to silence this warning.")
+Alternatively, add the `image-optimized` label to silence this warning. ([docs here](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#images))")
 end
 
 # -----------------------------------------------------------------------------
@@ -54,7 +62,7 @@ posts.each do |filename|
     file = File.read(filename)
     if !(file.include?("<!--excerpt-->"))
         fail("Missing excerpt tag `<!--excerpt-->`. Please add the excerpt tag where you'd like this post to break for the preview.
-[Read the docs](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#issue-template) for details.", file: filename)
+([docs here](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#issue-template))", file: filename)
     end
 end
 
@@ -75,6 +83,6 @@ prose.ignored_words = ["twc", "TWC",
 has_spellcheck_label = github.pr_labels.any? { |label| label.include? "spell-checked" }
 if !has_spellcheck_label
   message("Spell checking is enabled. 
-**Tip:** add the `spell-checked` label if you would like to silence the spell-checker.")
+:bulb: **Tip:** add the `spell-checked` label if you would like to silence the spell-checker.")
   prose.check_spelling
 end
