@@ -14,7 +14,7 @@ on:
     # PST is UTC-8:00
     # UTC 15:30-8:00 == 7:30am PST
     # https://crontab.guru/#30_16-19_*_*_5
-    - cron: "30 15-19 * * 5"
+    - cron: "30 15-19 * * 5,0"
 
 jobs:
   main:
@@ -27,6 +27,7 @@ jobs:
       - name: current datetime
         run: date
    
+      # https://github.com/marketplace/actions/auto-merge-pull-request   
       - name: auto-merge
         uses: reitermarkus/automerge@v1
         with:
