@@ -21,9 +21,6 @@ jobs:
     name: Publish next issue
     runs-on: ubuntu-latest
     steps:
-      - name: git checkout
-        uses: actions/checkout@v2
-      
       - name: current datetime
         run: date
    
