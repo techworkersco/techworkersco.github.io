@@ -1,4 +1,4 @@
-name: Publish Newsletter
+name: Auto-publish Newsletter
 
 on:
   # workflow_dispatch:
@@ -14,7 +14,7 @@ on:
     # PST is UTC-8:00
     # UTC 15:30-8:00 == 7:30am PST
     # https://crontab.guru/#30_16-19_*_*_5
-    - cron: "30 15-19 * * 5,0"
+    - cron: "30 15-19 * * 5"
 
 jobs:
   main:
