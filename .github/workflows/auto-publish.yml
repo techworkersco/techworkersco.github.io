@@ -1,11 +1,11 @@
 name: Auto-publish Newsletter
 
 on:
-  # workflow_dispatch:
-  #   inputs:
-  #     pull-request:
-  #       description: 'Pull request number'
-  #       required: true
+  workflow_dispatch:
+    inputs:
+      pull-request:
+        description: 'Pull request number'
+        required: true
   schedule:
     # At 07:30am PST or 08:30am PDT on Fridays.
     # Will keep checking for 3 hours after.
@@ -14,7 +14,7 @@ on:
     # PST is UTC-8:00
     # UTC 15:30-8:00 == 7:30am PST
     # https://crontab.guru/#30_16-19_*_*_5
-    - cron: "30 15-19 * * 5"
+    - cron: "30 15-19 * * 5,6"
 
 jobs:
   main:
@@ -32,5 +32,5 @@ jobs:
           merge-method: squash
           squash-title: true
           required-labels: auto-publish
-          # pull-request: ${{ github.event.inputs.pull-request }}
-          # dry-run: true
+          pull-request: ${{ github.event.inputs.pull-request }}
+          dry-run: true
