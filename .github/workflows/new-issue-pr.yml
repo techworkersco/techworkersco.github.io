@@ -38,12 +38,12 @@ jobs:
           commit-message: Publish volume ${{ github.event.inputs.volume }}, issue ${{ github.event.inputs.issue }} (${{ github.event.inputs.date }})
           title: Publish volume ${{ github.event.inputs.volume }}, issue ${{ github.event.inputs.issue }} (${{ github.event.inputs.date }})
           body: |
-            \:robot\: *Auto-generated issue template.* This pull request was initiated by @${{ github.actor }}.
+            :robot: *Auto-generated issue template.* This pull request was initiated by @${{ github.actor }}.
 
             # Checklist
             Follow these easy steps and **check them off as you go** so others know what has been completed.
 
-            > \:bulb\: If something goes wrong, [check the documentation for help](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md). If something goes **really wrong**, ping @jessesquires. \:blush\:
+            > :bulb: If something goes wrong, [check the documentation for help](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md). If something goes **really wrong**, ping @jessesquires. \:blush\:
 
             - [ ] Add initial draft content to the issue template.
             - [ ] Upload the header image and any other images. (The bot will comment with an upload link.)
@@ -51,25 +51,25 @@ jobs:
                 - [ ] The bot will optimize the images and push the changes here.
                 - [ ] If you modify images again, remove and re-add the `needs optimize images` label to re-trigger the bot.
 
-            > \:warning\: **Note\:** sometimes the automated checks get stuck after the bot optimizes images. If that happens, just edit the issue again to re-trigger the checks. (Simply adding a blank line is enough.)
+            > :label: Sometimes the automated checks get stuck after the bot optimizes images. If that happens, just edit the issue again to re-trigger the checks. (Simply adding a blank line is enough.)
 
             - [ ] Continue editing and proofreading the issue.
-            - [ ] The bot \:robot\: is your friend. Fix any issues that it comments about.
-            - [ ] Make corrections suggested by the prose checker and spell checker, if desired. (The bot will comment with issues found.)
+                - [ ] The bot :robot: is your friend. Fix any issues that it comments about.
+                - [ ] Make corrections suggested by the prose checker and spell checker, if desired. (The bot will comment with issues found.)
 
-            > \:label\: **Note\:** sometimes the spell checker produces false positives, or generally gets confused. Once satisfied with spelling, add the `spell-checked` label to turn off the spell checker.
+            > :label: Sometimes the spell checker produces false positives, or generally gets confused. Once satisfied with spelling, add the `spell-checked` label to turn off the spell checker.
 
             - [ ] The pull request is initially marked as a **draft**. Click **Ready For Review** below.
             - [ ] Make any final edits.
-            - [ ] **Approve** the pull request when finished. \:white_check_mark\: But, **do not merge**.
+            - [ ] **Approve** the pull request when finished. :white_check_mark: But, **do not merge**.
 
-            > \:warning\: **Note\:** subsequent edits will **void** approval. **You will need to re-approve after any edits**. Thus, it is recommended to approve only once the issue is completely finished.
+            > :warning: Subsequent edits will **void** approval. **You will need to re-approve after any edits**. Thus, it is recommended to approve only once the issue is completely finished.
 
-            - [ ] Verify that **all checks are passing**. \:white_check_mark\:
-            - [ ] If status checks are failing, click "Details" next to the failing check. Read the logs and try to address the issue(s).
+            - [ ] Verify that **all checks are passing**. :white_check_mark:
+                - [ ] If status checks are failing, click "Details" next to the failing check. Read the logs and try to address the issue(s).
             - [ ] Add the `auto-publish` label. The bot will then merge this [automatically on Friday morning](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#auto-publish-label)!
             
-            > \:warning\: **Note\:** If you are publishing off-schedule (i.e., not on Friday morning) you will need to merge manually.
+            > :label: If you are publishing off-schedule (i.e., not on Friday morning) you will need to merge manually.
             
             Nice work, champ. :sunglasses: You're finished!
 

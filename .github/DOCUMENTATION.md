@@ -123,9 +123,10 @@ We use various [labels](https://github.com/techworkersco/techworkersco.github.io
 
 The bot begins checking for pull requests with the `auto-publish` label [at `07:00am PST` or `08:00am PDT` every Friday](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/workflows/auto-publish.yml). (The time discrepancy is because of daylight savings, and we can only provide a single time in [UTC](https://en.wikipedia.org/wiki/Coordinated_Universal_Time). So this is the best compromise to meet our 11:00am MailChimp deadline and still have room for last-minute fixes or edits.)
 
-The bot will check for `auto-publish` pull requests every 30 minutes for 3 hours, so `07:00-10:00am PST` or `08:00-11:00am PDT` 
+The bot will check for `auto-publish` pull requests every 30 minutes for 3 hours, so `07:00-10:00am PST` or `08:00-11:00am PDT`.
 
 The bot will merge the pull request **if and only if**:
+- It is Friday morning
 - The PR has the `auto-publish` label
 - All status checks succeeded ✅ 
 - The PR has been approved by at least 1 person on the [newsletter team](https://github.com/orgs/techworkersco/teams/newsletter-folks/members) ✅ 
