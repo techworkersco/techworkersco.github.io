@@ -39,11 +39,14 @@ jobs:
           title: Publish volume ${{ github.event.inputs.volume }}, issue ${{ github.event.inputs.issue }} (${{ github.event.inputs.date }})
           body: |
             :robot: *Auto-generated issue template.* This pull request was initiated by @${{ github.actor }}.
-
+            
+            :arrow_right: **Follow these easy steps below and check them off as you go so others know what has been completed.**
+            
+            :bulb: If something goes wrong, [check the documentation for help](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md). 
+            
+            :rotating_light: If something goes _really wrong_, ping `@jessesquires`.
+            
             # Checklist
-            Follow these easy steps and **check them off as you go** so others know what has been completed.
-
-            > :bulb: If something goes wrong, [check the documentation for help](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md). If something goes **really wrong**, ping @jessesquires. \:blush\:
 
             - [ ] Add initial draft content to the issue template.
             - [ ] Upload the header image and any other images. (The bot will comment with an upload link.)
