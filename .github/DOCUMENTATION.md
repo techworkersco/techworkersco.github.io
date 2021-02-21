@@ -100,12 +100,15 @@ This will generate an empty issue template in `_posts/` with the specified volum
 
 ### GitHub Actions
 
-1. Go to our [Create New Issue action](https://github.com/techworkersco/techworkersco.github.io/actions?query=workflow%3A%22Create+New+Issue%22).
+1. Go to our [Create New Issue action](https://github.com/techworkersco/techworkersco.github.io/actions/workflows/new-issue-pr.yml?query=workflow%3A%22Create+New+Issue%22).
 1. Click "Run workflow" on the right.
 1. Select `Branch: master` (should be auto-selected).
 1. Enter the `Volume #`, `Issue #`, and `Date` for the issue. **Note:** The date **must** be in `YYYY-MM-DD` format.
 1. Click "Run workflow".
-1. It should only take a few minutes to run. After that, click to see the new pull request with the issue that you specified [here](https://github.com/techworkersco/techworkersco.github.io/pulls).
+1. After a few seconds, the process should start and appear in the list.
+1. It should only take a few minutes to run. Once complete :white_check_mark:, [click here](https://github.com/techworkersco/techworkersco.github.io/pulls) to see the new pull request with the issue that you specified.
+
+> :bulb: **Troubleshooting:** If the workflow fails, it will display an :x: next to itself [in the list](https://github.com/techworkersco/techworkersco.github.io/actions/workflows/new-issue-pr.yml?query=workflow%3A%22Create+New+Issue%22). Click the workflow to view the logs and see what went wrong.
 
 ### Manually
 
@@ -128,8 +131,8 @@ The bot will check for `auto-publish` pull requests every 30 minutes for 3 hours
 The bot will merge the pull request **if and only if**:
 - It is Friday morning
 - The PR has the `auto-publish` label
-- All status checks succeeded ✅ 
-- The PR has been approved by at least 1 person on the [newsletter team](https://github.com/orgs/techworkersco/teams/newsletter-folks/members) ✅ 
+- All status checks succeeded :white_check_mark: 
+- The PR has been approved by at least 1 person on the [newsletter team](https://github.com/orgs/techworkersco/teams/newsletter-folks/members) :white_check_mark: 
 
 ### `needs optimize images` label
 
