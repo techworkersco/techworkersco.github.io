@@ -9,14 +9,15 @@ on:
 #         description: 'Pull request number'
 #         required: true
   schedule:
-    # At 07:30am PST or 08:30am PDT on Fridays.
-    # Will keep checking for 3 hours after.
+    # Begin at 07:00am PST or 08:00am PDT on Fridays.
+    # Will keep checking every 30 minutes for 3 hours.
+    # MailChimp is scheduled for 11:00am daily.
   
     # Cron runs in UTC
     # PST is UTC-8:00
-    # UTC 15:30-8:00 == 7:30am PST
-    # https://crontab.guru/#30_16-19_*_*_5
-    - cron: "30 15-19 * * 5,0"
+    # Thus, UTC 15:00-8:00 == 7:00am PST
+    # https://crontab.guru/#0,30_15-18_*_*_5
+    - cron: "0,30 15-18 * * 5"
 
 jobs:
   main:
@@ -35,5 +36,6 @@ jobs:
           squash-title: true
           required-labels: auto-publish
           # Uncomment for debugging to manually trigger workflow
+          #
           # pull-request: ${{ github.event.inputs.pull-request }}
           # dry-run: true

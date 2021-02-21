@@ -41,12 +41,12 @@ jobs:
             \:robot\: *Auto-generated issue template.* This pull request was initiated by @${{ github.actor }}.
 
             # Checklist
-            **Follow these easy steps and check them off as you go!**
+            Follow these easy steps and **check them off as you go** so others know what has been completed.
 
             > \:bulb\: If something goes wrong, [check the documentation for help](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md). If something goes **really wrong**, ping @jessesquires. \:blush\:
 
             - [ ] Add initial draft content to the issue template.
-            - [ ] Upload the header image and any other images.
+            - [ ] Upload the header image and any other images. (The bot will comment with an upload link.)
                 - [ ] Once all images are uploaded, add the `needs optimize images` label.
                 - [ ] The bot will optimize the images and push the changes here.
                 - [ ] If you modify images again, remove and re-add the `needs optimize images` label to re-trigger the bot.
@@ -61,18 +61,21 @@ jobs:
 
             - [ ] The pull request is initially marked as a **draft**. Click **Ready For Review** below.
             - [ ] Make any final edits.
-            - [ ] **Approve** the pull request when finished. \:white_check_mark\:
+            - [ ] **Approve** the pull request when finished. \:white_check_mark\: But, **do not merge**.
 
-            > \:warning\: **Note\:** subsequent edits will **void** approval. **You will need to re-approve after any edits**. Thus, it is recommended to approve only once the issue is complete.
+            > \:warning\: **Note\:** subsequent edits will **void** approval. **You will need to re-approve after any edits**. Thus, it is recommended to approve only once the issue is completely finished.
 
-            - [ ] Verify that **all checks are passing**. \:white_check_mark\: (If not, address the failures.)
-            - [ ] Add the `auto-publish` label. The bot will then merge this for you in the morning!
-
-            Nice work, champ. \:sunglasses\: Now, get some rest! \:sleeping_bed\:
+            - [ ] Verify that **all checks are passing**. \:white_check_mark\:
+            - [ ] If status checks are failing, click "Details" next to the failing check. Read the logs and try to address the issue(s).
+            - [ ] Add the `auto-publish` label. The bot will then merge this [automatically on Friday morning](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#auto-publish-label)!
+            
+            > \:warning\: **Note\:** If you are publishing off-schedule (i.e., not on Friday morning) you will need to merge manually.
+            
+            Nice work, champ. :sunglasses: You're finished!
 
           branch: automated/vol${{ github.event.inputs.volume }}/issue${{ github.event.inputs.issue }}-${{ github.event.inputs.date }}
           delete-branch: true
           labels: next issue, automated
           assignees: ${{ github.actor }}
-          reviewers: dellsystem, atav1k, jessesquires, stationaery, kaylensanders, beccalew
+          # reviewers: dellsystem, atav1k, jessesquires, stationaery, kaylensanders, beccalew
           draft: true
