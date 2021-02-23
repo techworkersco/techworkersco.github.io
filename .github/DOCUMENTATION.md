@@ -5,12 +5,7 @@
 - [Technical](#Technical)
   - [Dependencies](#dependencies)
   - [Usage](#usage)
-    - [Installation](#installation)
-    - [Building the site](#building-the-site)
-    - [Previewing the site locally](#previewing-the-site-locally)
-    - [Updating dependencies](#updating-dependencies)
 - [Generating a new issue](#generating-a-new-issue)
-    - [GitHub Actions](#github-actions)
 - [Labels](#labels)
 - [Writing and Publishing](#writing-and-publishing)
   - [Markdown](#markdown)
@@ -62,8 +57,6 @@ $ make
 ```
 
 #### Building the site
-
-There are various options using `make`:
 
 ```bash
 $ make build  # build the site once
