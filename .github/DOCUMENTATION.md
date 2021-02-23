@@ -15,12 +15,12 @@
     - [Automation](#automation)
     - [Emails](#emails)
     - [Tweets](#tweets)
-  - [Issue Template](#issue-template)
-    - [Front Matter](#front-matter)
-    - [Categories as "Volumes"](#categories-as-volumes)
-    - [Header images](#header-images)
-    - [Other images](#other-images)
-    - [Handling Links](#handling-links)
+- [Issue Template](#issue-template)
+  - [Front Matter](#front-matter)
+  - [Categories as "Volumes"](#categories-as-volumes)
+  - [Header images](#header-images)
+  - [Other images](#other-images)
+  - [Handling Links](#handling-links)
 
 # Technical
 
@@ -177,7 +177,7 @@ Emails are sent from **news-noreply@techworkerscoalition.org**.
 
 We use [IFTTT](https://ifttt.com) to auto-tweet new issues from the RSS feed to [our Twitter account](https://twitter.com/twcnewsletter). The bot checks for new posts every hour and if it finds one, it sends a tweet.
 
-## Issue Template
+# Issue Template
 
 You can find a default issue template at [`_drafts/template.md`](https://github.com/techworkersco/techworkersco.github.io/blob/master/_drafts/template.md).
 
