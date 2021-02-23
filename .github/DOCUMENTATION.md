@@ -2,12 +2,8 @@
 
 *This document reviews working with this site and how publishing works.*
 
-- [Documentation](#documentation)
-  - [Requirements](#requirements)
+- [Technical](#Technical)
   - [Dependencies](#dependencies)
-    - [Gems](#gems)
-    - [Yarn](#yarn)
-    - [Other](#other)
   - [Usage](#usage)
     - [Installation](#installation)
     - [Building the site](#building-the-site)
@@ -31,34 +27,32 @@
     - [Other images](#other-images)
     - [Handling Links](#handling-links)
 
-## Requirements
+# Technical
 
-- [Bundler](https://bundler.io)
-- [Yarn](https://yarnpkg.com/en/)
+*A technical overview of how the site works.*
 
-## Dependencies
+You'll need [Bundler](https://bundler.io) and [Yarn](https://yarnpkg.com/en/) installed.
 
-### Gems
+### Dependencies
 
+**Gems**
 - [jekyll](https://jekyllrb.com) ([Latest](https://github.com/jekyll/jekyll/releases/latest)) ([Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/))
 - [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)
 - [jekyll-paginate](https://github.com/jekyll/jekyll-paginate)
 - [danger](https://danger.systems/ruby/)
 
-### Yarn
-
+**Yarn**
 - [Bootstrap](https://getbootstrap.com) ([pkg](https://yarnpkg.com/en/package/bootstrap))
 - [jQuery](https://jquery.com) ([pkg](https://yarnpkg.com/en/package/jquery))
 
 > Note: we specify a custom install path `./yarn_deps/` to workaround GH-pages ignoring `./node_modules/`.
 
-### Other
-
+**Other**
 - [FontAwesome 5](https://fontawesome.com)
 
-## Usage
+### Usage
 
-### Installation
+#### Installation
 
 ```bash
 $ git clone https://github.com/techworkersco/techworkersco.github.io.git
@@ -67,7 +61,7 @@ $ make install
 $ make
 ```
 
-### Building the site
+#### Building the site
 
 There are various options using `make`:
 
@@ -79,14 +73,14 @@ $ make future # build once and allow future posts
 $ make draft  # build and watch, including _drafts/
 ```
 
-### Previewing the site locally
+#### Previewing the site locally
 
 ```bash
 $ make serve     # browse to http://localhost:4000
 $ make serve-all # build and serve future and draft posts
 ```
 
-### Updating dependencies
+#### Updating dependencies
 
 ```bash
 $ make update
