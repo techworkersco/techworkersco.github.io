@@ -76,7 +76,7 @@ prose.ignored_words = ["twc", "TWC",
   "DIY", "PPE", "coronavirus", "COVID-19", "technocapital", "rideshare", "Latinx", "whistleblowers",
   "Bezos", "Veena", "Dubal", "Elon", "Musk", "Zuckerberg",
   "Vox", "Uber", "Lyft", "Instacart", "Shipt", "Bandcamp", "Airbnb", "Kickstarter", "DoorDash", "Postmates", "GitHub", "Reddit",
-  "Turker", "MTurk", "Turking"
+  "Turker", "Turkers", "MTurk", "Turking", "Wi-Fi", "H-1B", "lockdown"
 ]
 
 has_spellcheck_label = github.pr_labels.any? { |label| label.include? "spell-checked" }
