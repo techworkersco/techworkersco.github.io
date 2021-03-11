@@ -46,7 +46,7 @@ image:
     file: vol-#{ volume }-issue-#{ issue }-header.jpg
     alt: "TODO: alt (hover) text"
     caption: "TODO: image caption"
-    source_link: "TODO: link to original source or null"
+    source_link: null
     half_width: false
 preview: "TODO"
 ---
