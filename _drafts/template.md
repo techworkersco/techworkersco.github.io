@@ -6,7 +6,7 @@ image:
     file: vol-3-issue-N-header.jpg
     alt: "TODO: some img-alt text"
     caption: "TODO: some caption text for the image"
-    source_link: "TODO: optional link to external source for image"
+    source_link: www.example.com
     half_width: false
 preview: "TODO: some preview text for emails and social media sharing"
 ---
