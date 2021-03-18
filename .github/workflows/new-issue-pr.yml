@@ -50,6 +50,7 @@ jobs:
 
             - [ ] Add initial draft content to the issue template.
             - [ ] Upload the header image and any other images. (The bot will comment with an upload link.)
+                - [ ] :warning: **Name the header image correctly** before uploading. Near the top of the template, you'll find the expected name. It should look something like `vol-3-issue-1-header.jpg`. Make sure the file name and extension match the template. Update the template if needed, for example, if you are uploading a `png` instead.
                 - [ ] Once all images are uploaded, add the `needs optimize images` label.
                 - [ ] The bot will optimize the images and push the changes here.
                 - [ ] If you modify images again, remove and re-add the `needs optimize images` label to re-trigger the bot.
