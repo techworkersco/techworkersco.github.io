@@ -70,9 +70,7 @@ jobs:
 
             - [ ] Verify that **all checks are passing**. :white_check_mark:
                 - [ ] If status checks are failing, click "Details" next to the failing check. Read the logs and try to address the issue(s).
-            - [ ] Add the `auto-publish` label. The bot will then merge this [automatically on Friday morning](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#auto-publish-label)!
-            
-            > :label: If you are publishing off-schedule (i.e., not on Friday morning) you will need to merge manually.
+            - [ ] Add the `auto-publish` label. The bot will then merge this [automatically tomorrow morning](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#auto-publish-label)!
             
             Nice work, champ. :sunglasses: You're finished!
 

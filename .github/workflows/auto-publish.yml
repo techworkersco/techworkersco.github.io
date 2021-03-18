@@ -9,15 +9,15 @@ on:
 #         description: 'Pull request number'
 #         required: true
   schedule:
-    # Begin at 07:00am PST or 08:00am PDT on Fridays.
+    # Begin at 07:00am PST or 08:00am PDT every day.
     # Will keep checking every 30 minutes for 3 hours.
-    # MailChimp is scheduled for 11:00am daily.
+    # MailChimp is scheduled for 10:00am daily.
   
     # Cron runs in UTC
     # PST is UTC-8:00
     # Thus, UTC 15:00-8:00 == 7:00am PST
-    # https://crontab.guru/#0,30_15-18_*_*_5
-    - cron: "0,30 15-18 * * 5"
+    # https://crontab.guru/#0,30_15-18_*_*_*
+    - cron: "0,30 15-18 * * *"
 
 jobs:
   main:

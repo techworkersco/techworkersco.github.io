@@ -20,9 +20,9 @@ Our overall process is oriented around contributors. Here's how it works:
 
 We operate in the [Pacific Time Zone](https://en.wikipedia.org/wiki/Pacific_Time_Zone) (UTC-8:00 or UTC-7:00).
 
-We publish new issues bi-weekly, **every other Friday at 11:00 AM**. This includes publishing the new issue to the website, sending an email to our mailing list, and tweeting a link to the new issue.
+We publish new issues roughly bi-weekly, **every other Friday at 10:00 AM**. (Though there are some exceptions.) This includes publishing the new issue to the website, sending an email to our mailing list, and tweeting a link to the new issue.
 
-We hold a **weekly Tuesday meeting at 3:00 PM** to check-in, collaborate, discuss updates, make decisions, etc.
+We hold a **weekly Monday meeting at 3:30 PM** to check-in, collaborate, discuss updates, make decisions, etc.
 
 ## :snowflake: Roles
 
@@ -53,9 +53,7 @@ Each issue has two "leads" or publishers. We rotate this responsibility per issu
 
 ### The "off-week", prior to the publishing week
 
-- **Monday**
-    - rest :relieved:
-- **Tuesday (Weekly Meeting)**
+- **Monday (Weekly Meeting)**
     - retrospective on previous issue :eyes:
     - choose publishers and roles for next issue
     - publishers to create new doc for issue draft and share; can use this [Dropbox Paper Template](https://www.dropbox.com/scl/fi/sqz5wmqwz42pt5edn5gau/Issue-N-Draft.papert?dl=0&rlkey=h5bk0yqf8kcw2zxcil8p8rz6q) (click "Create doc" in the top right corner of the template)
@@ -69,9 +67,9 @@ Each issue has two "leads" or publishers. We rotate this responsibility per issu
 
 ### The publishing week
 
-- **Monday**
+- **Monday (Weekly Meeting)**
     - begin writing draft :sparkles:
-- **Tuesday (Weekly Meeting)**
+- **Tuesday**
     - check-in on progress
     - talk internally and with guests on vision and strategy for our work
     - publishers to create new agenda item for next week's meeting, in GitHub's [team discussion area](https://github.com/orgs/techworkersco/teams/newsletter-folks)
@@ -84,6 +82,6 @@ Each issue has two "leads" or publishers. We rotate this responsibility per issu
     - collective proofreads and finishes QA
     - publishers open pull request on GitHub, shared doc draft is **closed**
     - *any remaining edits happen on GitHub* :warning:
+    - final edits and polish
 - **Friday &mdash; by 9:00 AM**
-    - final edits and polish on GitHub
-    - pull request is merged (triggering all automagic distribution) :tada:
+    - pull request is auto-merged (triggering all automagic distribution) :tada:
