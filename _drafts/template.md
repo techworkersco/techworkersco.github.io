@@ -17,8 +17,11 @@ preview: "TODO: some preview text for emails and social media sharing"
 >
 > Something funny/clever/humorous about what we can do.
 
+<!-- DO NOT remove the excerpt tag -->
 <!--excerpt-->
+<!-- remaining content goes below here -->
 
+<!-- DO NOT remove the header image -->
 {% include post_image.html %}
 
 ## The Worker's Perspective

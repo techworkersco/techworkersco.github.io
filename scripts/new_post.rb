@@ -53,11 +53,11 @@ preview: "TODO"
 
 > TODO: intro blurb goes here
 
-<!-- do not remove the excerpt tag -->
+<!-- DO NOT remove the excerpt tag -->
 <!--excerpt-->
 <!-- remaining content goes below here -->
 
-
+<!-- DO NOT remove the header image -->
 {% include post_image.html %}
 
 ## The Worker's Perspective
