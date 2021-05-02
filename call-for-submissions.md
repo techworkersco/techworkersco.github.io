@@ -13,7 +13,7 @@ title: Call for Submissions
 </p>
 
 <p class="lead" markdown="1">
-OWe’re here to hear your story, help you write it, and use it. We’ll work with you to publish your workers’ perspective in 800–1,600 words. Our aim is to change tech workplaces and the industry in collaboration with the people and communities it impacts.
+We’re here to hear your story, help you write it, and use it. We’ll work with you to publish your workers’ perspective in 800–1,600 words. Our aim is to change tech workplaces and the industry in collaboration with the people and communities it impacts.
 </p>
 </div>
 
