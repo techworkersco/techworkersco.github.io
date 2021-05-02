@@ -6,9 +6,7 @@ title: Call for Submissions
 <div class="d-block bg-light pt-3 pl-3 pr-3 mt-4 mb-4 border rounded" markdown="1">
 <p class="lead" markdown="1">
 **Do you build or work with tech?** Are you a content moderator, on-demand delivery driver, machine learning engineer, or some other rank-and-file worker in the tech industry?
-</p>
-
-<p class="lead" markdown="1">
+<br><br>
 **This open call is for you!**
 </p>
 
@@ -18,8 +16,6 @@ We’re here to hear your story, help you write it, and use it. We’ll work wit
 </div>
 
 ### What we publish
-
-We welcome a variety of contributions from the worker's perspective:
 
 - Your personal story and experience with fellow workers and collective action
 - Perspectives on organizing from underrepresented, undervalued tech workers
@@ -39,4 +35,4 @@ We welcome a variety of contributions from the worker's perspective:
 
 ### More ways to contribute
 
-We’ve been publishing since May 1, 2020, moving at the speed of trust and building reliable processes. Our collective grows by welcoming new collaborators and building and sharing skills. This helps us steward this project sustainably. We welcome collaborators who can help with news, history, organizing tips, and songs. We always welcome more eyes on proofreading, too! Sound interesting to you? Have other ideas? [Email us](mailto:twcnewsletter@protonmail.com)!
+Our collective grows by welcoming new collaborators and building and sharing skills, which helps us steward this project for the long term. In addition to worker's perspectives, we welcome contributions for news, history, organizing tips, and songs. We always welcome help with proofreading! Sound interesting or have other ideas? [Email us](mailto:twcnewsletter@protonmail.com)!
