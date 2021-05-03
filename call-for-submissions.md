@@ -27,7 +27,7 @@ We’re here to hear your story, help you write it, and use it. We’ll work wit
 
 ### How to get started
 
-1. Browse <a href="/archive/">our archive</a> for inspiration.
+1. Browse [our archive](/archive) for inspiration.
 1. Email us your pitch in a few sentences to [twcnewsletter@protonmail.com](mailto:twcnewsletter@protonmail.com)
 1. Let us know what you need! Depending on your situation, we’ll move fast or to give it more time.
 
