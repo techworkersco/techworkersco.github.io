@@ -5,15 +5,13 @@ title: Call for Submissions
 
 <div class="d-block bg-light pt-3 pl-3 pr-3 mt-4 mb-4 border rounded" markdown="1">
 <p class="lead" markdown="1">
-**Do you build or work with tech?** Are you a content moderator, on-demand delivery driver, machine learning engineer, or some other rank-and-file worker in the tech industry?
+**Do you work in tech?** Are you a content moderator, on-demand delivery driver, machine learning engineer, or some other rank-and-file worker in the tech industry?
 <br><br>
 **This open call is for you!**
 </p>
-
-<p class="lead" markdown="1">
-We’re here to hear your story, help you write it, and use it. We’ll work with you to publish your workers’ perspective in 800–1,600 words. Our aim is to change tech workplaces and the industry in collaboration with the people and communities it impacts.
-</p>
 </div>
+
+We’re here to hear your story, help you write it, and use it. We’ll work with you to publish your workers’ perspective in 800–1,600 words. Our aim is to change tech workplaces and the industry in collaboration with the people and communities it impacts.
 
 ### What we publish
 
