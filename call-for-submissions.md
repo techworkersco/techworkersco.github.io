@@ -5,24 +5,25 @@ title: Call for Submissions
 
 <div class="d-block bg-light pt-3 pl-3 pr-3 mt-4 mb-4 border rounded" markdown="1">
 <p class="lead" markdown="1">
-**Do you work in tech?** Are you a content moderator, on-demand delivery driver, machine learning engineer, or some other rank-and-file worker in the tech industry?
+**Do you work in tech?** Are you a content moderator, app-based delivery driver, machine learning engineer, or some other rank-and-file worker in the tech industry?
 <br><br>
-**This open call is for you!**
+**We're here to help you write**
 </p>
 </div>
 
-We’re here to hear your story, help you write it, and use it. We’ll work with you to publish your workers’ perspective in 800–1,600 words. Our aim is to change tech workplaces and the industry in collaboration with the people and communities it impacts.
+Our editorial collective exists to help workers talk with each other and share their story. Our aim is to change tech workplaces and the industry in collaboration with the workers and communities it impacts. We work with you to publish your worker’s perspective, roughly 800–1,600 words. 
 
 ### What we publish
 
-- Your personal story and experience with fellow workers and collective action
-- Perspectives on organizing from underrepresented, undervalued tech workers
-- Narratives that are critical of power and put tech labor in historical context
-- Accounts of collaboration and solidarity across ‘workplaces’ in the ‘gig’ economy
-
+- Narratives by underrepresented or undervalued tech workers
+- Personal stories of organizing and collective action with fellow workers
+- First-person analysis that puts direct experience in historical context
+- Interviews with peers and coworkers across ‘workplaces’, in the ‘gig’ economy, and beyond
+- Accounts of building worker power for refusal, abolition, and building alternatives
+ 
 ### What we don’t publish
 
-- Impersonal essays or intellectual commentary not based on experience
+- Impersonal essays or commentary not based on experience
 - Press releases by corporate nonprofit staff or campaign consultants
 
 ### How to get started
