@@ -32,18 +32,22 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    faraday (1.4.1)
+    faraday (1.4.2)
+      faraday-em_http (~> 1.0)
+      faraday-em_synchrony (~> 1.0)
       faraday-excon (~> 1.1)
       faraday-net_http (~> 1.0)
       faraday-net_http_persistent (~> 1.1)
       multipart-post (>= 1.2, < 3)
       ruby2_keywords (>= 0.0.4)
+    faraday-em_http (1.0.0)
+    faraday-em_synchrony (1.0.0)
     faraday-excon (1.1.0)
     faraday-http-cache (2.2.0)
       faraday (>= 0.8)
     faraday-net_http (1.0.1)
     faraday-net_http_persistent (1.1.0)
-    ffi (1.15.0)
+    ffi (1.15.1)
     forwardable-extended (2.6.0)
     git (1.8.1)
       rchardet (~> 1.8)
@@ -127,6 +131,9 @@ DEPENDENCIES
   jekyll-sitemap
   nokogiri
   reverse_markdown
+
+RUBY VERSION
+   ruby 2.7.2p137
 
 BUNDLED WITH
    2.2.17
