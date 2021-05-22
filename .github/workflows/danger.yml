@@ -1,3 +1,6 @@
+# GitHub Actions Virtual Environments
+# https://github.com/actions/virtual-environments/
+
 name: Danger
 
 on:
@@ -7,31 +10,26 @@ on:
 jobs:
   job-main:
     name: Review and Lint
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
     steps:
-      - name: git checkout
-        uses: actions/checkout@v2
-
       - name: ruby versions
         run: |
           ruby --version
           gem --version
-          bundler --version
 
-      - name: cache
-        uses: actions/cache@v2
+      - name: git checkout
+        uses: actions/checkout@v2
+
+      # https://github.com/ruby/setup-ruby
+      - name: ruby setup
+        uses: ruby/setup-ruby@v1
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gem-bundler226-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gem-bundler226-
+          ruby-version: 2.7
+          bundler-cache: true
 
-      - name: bundle install
+      # for danger prose-lint
+      - name: python setup
         run: |
-          # gem update --system
-          gem install bundler --no-document
-          bundle config path vendor/bundle
-          bundle install --jobs 4 --retry 3
           echo "/Users/runner/Library/Python/2.7/bin" >> $GITHUB_PATH
 
       - name: danger

@@ -1,3 +1,6 @@
+# GitHub Actions Virtual Environments
+# https://github.com/actions/virtual-environments/
+
 name: Create New Issue
 
 on:
@@ -17,16 +20,22 @@ on:
 jobs:
   job-main:
     name: Create issue PR
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
     steps:
-      - name: git checkout
-        uses: actions/checkout@v2
-
       - name: ruby versions
         run: |
           ruby --version
           gem --version
-          bundler --version
+
+      - name: git checkout
+        uses: actions/checkout@v2
+
+      # https://github.com/ruby/setup-ruby
+      - name: ruby setup
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+          bundler-cache: true
 
       - name: generate issue template
         run: make new-issue volume=${{ github.event.inputs.volume }} issue=${{ github.event.inputs.issue }} date=${{ github.event.inputs.date }}
@@ -39,13 +48,13 @@ jobs:
           title: Publish volume ${{ github.event.inputs.volume }}, issue ${{ github.event.inputs.issue }} (${{ github.event.inputs.date }})
           body: |
             :robot: *Auto-generated issue template.* This pull request was initiated by @${{ github.actor }}.
-            
+
             :arrow_right: **Follow these easy steps below and check them off as you go so others know what has been completed.**
-            
-            :bulb: If something goes wrong, [check the documentation for help](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md). 
-            
+
+            :bulb: If something goes wrong, [check the documentation for help](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md).
+
             :rotating_light: If something goes _really wrong_, ping `@jessesquires`.
-            
+
             # Checklist
 
             - [ ] Add initial draft content to the issue template.
@@ -72,7 +81,7 @@ jobs:
             - [ ] Verify that **all checks are passing**. :white_check_mark:
                 - [ ] If status checks are failing, click "Details" next to the failing check. Read the logs and try to address the issue(s).
             - [ ] Add the `auto-publish` label. The bot will then merge this [automatically tomorrow morning](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#auto-publish-label)!
-            
+
             Nice work, champ. :sunglasses: You're finished!
 
           branch: automated/vol${{ github.event.inputs.volume }}/issue${{ github.event.inputs.issue }}-${{ github.event.inputs.date }}
