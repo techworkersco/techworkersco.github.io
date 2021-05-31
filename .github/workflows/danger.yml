@@ -20,19 +20,19 @@ jobs:
       - name: git checkout
         uses: actions/checkout@v2
 
-      # https://github.com/ruby/setup-ruby
-      - name: ruby setup
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.7
-          bundler-cache: true
-
       # https://github.com/actions/setup-python
       # for danger prose-lint
       - name: python setup
         uses: actions/setup-python@v2
         with:
           python-version: '2.x'
+
+      # https://github.com/ruby/setup-ruby
+      - name: ruby setup
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+          bundler-cache: true
 
       - name: danger
         env:
