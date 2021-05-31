@@ -5,10 +5,10 @@ name: Danger
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened, labeled]
+    types: [synchronize, opened, reopened, labeled]
 
 jobs:
-  job-main:
+  main:
     name: Review and Lint
     runs-on: ubuntu-latest
     steps:
@@ -27,10 +27,12 @@ jobs:
           ruby-version: 2.7
           bundler-cache: true
 
+      # https://github.com/actions/setup-python
       # for danger prose-lint
       - name: python setup
-        run: |
-          echo "/Users/runner/Library/Python/2.7/bin" >> $GITHUB_PATH
+        uses: actions/setup-python@v2
+        with:
+          python-version: '2.x'
 
       - name: danger
         env:
