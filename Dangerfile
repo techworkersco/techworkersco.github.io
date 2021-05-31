@@ -76,17 +76,3 @@ prose.language = "en-us"
 prose.ignore_numbers = true
 prose.ignore_acronyms = true
 prose.lint_files
-
-prose.ignored_words = ["twc", "TWC",
-  "DIY", "PPE", "coronavirus", "COVID-19", "technocapital", "rideshare", "Latinx", "whistleblowers",
-  "Bezos", "Veena", "Dubal", "Elon", "Musk", "Zuckerberg",
-  "Vox", "Uber", "Lyft", "Instacart", "Shipt", "Bandcamp", "Airbnb", "Kickstarter", "DoorDash", "Postmates", "GitHub", "Reddit",
-  "Turker", "Turkers", "MTurk", "Turking", "Wi-Fi", "H-1B", "lockdown"
-]
-
-has_spellcheck_label = github.pr_labels.any? { |label| label.include? "spell-checked" }
-if !has_spellcheck_label
-  message("**Spell checking is enabled.**
-:bulb: **Tip:** add the `spell-checked` label if you would like to silence the spell-checker.")
-  prose.check_spelling
-end
