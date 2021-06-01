@@ -68,9 +68,7 @@ jobs:
 
             - [ ] Continue editing and proofreading the issue.
                 - [ ] The bot :robot: is your friend. Fix any issues that it comments about.
-                - [ ] Make corrections suggested by the prose checker and spell checker, if desired. (The bot will comment with issues found.)
-
-            > :label: Sometimes the spell checker produces false positives, or generally gets confused. Once satisfied with spelling, add the `spell-checked` label to turn off the spell checker.
+                - [ ] Make corrections suggested by the prose checker, if desired. (The bot will comment with issues found.)
 
             - [ ] The pull request is initially marked as a **draft**. Click **Ready For Review** below.
             - [ ] Make any final edits.
