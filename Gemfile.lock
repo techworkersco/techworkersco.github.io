@@ -26,8 +26,6 @@ GEM
       no_proxy_fix
       octokit (~> 4.7)
       terminal-table (>= 1, < 4)
-    danger-prose (2.0.7)
-      danger
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -125,7 +123,6 @@ PLATFORMS
 
 DEPENDENCIES
   danger (~> 8.0)
-  danger-prose
   jekyll (~> 4.0)
   jekyll-paginate
   jekyll-sitemap
@@ -136,4 +133,4 @@ RUBY VERSION
    ruby 2.7.2p137
 
 BUNDLED WITH
-   2.2.17
+   2.2.19

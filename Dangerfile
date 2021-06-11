@@ -59,20 +59,12 @@ posts = active_files
 
 posts.each do |filename|
     file = File.read(filename)
-    
+
     if !(file.include?("<!--excerpt-->"))
       fail("Missing excerpt tag `<!--excerpt-->`. Please add the excerpt tag where you'd like this post to break for the preview. ([docs here](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#issue-template))", file: filename)
     end
-  
+
     if !(file.include?("{% include post_image.html %}"))
       warn("**Header image not included in the markdown file!** Add `{% include post_image.html %}` where you would like to place the image.", file: filename)
     end
 end
-
-# -----------------------------------------------------------------------------
-# Check spelling and prose
-# -----------------------------------------------------------------------------
-prose.language = "en-us"
-prose.ignore_numbers = true
-prose.ignore_acronyms = true
-prose.lint_files
