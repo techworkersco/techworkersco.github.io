@@ -1,6 +1,12 @@
+# macOS
 .DS_Store
 
+# ruby
+.bundle/
+vendor/
+
 # jekyll
+_drafts
 .jekyll-cache
 .jekyll-metadata
 .sass-cache
