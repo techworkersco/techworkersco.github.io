@@ -66,11 +66,8 @@ jobs:
 
             > :label: Sometimes the automated checks get stuck after the bot optimizes images. If that happens, just edit the issue again to re-trigger the checks. (Simply adding a blank line is enough.)
 
-            - [ ] Continue editing and proofreading the issue.
-                - [ ] The bot :robot: is your friend. Fix any issues that it comments about.
-            - [ ] The pull request is initially marked as a **draft**. Click **Ready For Review** below.
-            - [ ] Make any final edits.
-            - [ ] **Approve** the pull request when finished. :white_check_mark: But, **do not merge**.
+            - [ ] Continue editing and proofreading the issue, make final edits.
+            - [ ] **Approve** the pull request when **finished**. :white_check_mark: But, **do not merge**.
 
             > :warning: Subsequent edits will **void** approval. **You will need to re-approve after any edits**. Thus, it is recommended to approve only once the issue is completely finished.
 
@@ -85,4 +82,4 @@ jobs:
           labels: next issue, automated
           assignees: ${{ github.actor }}
           reviewers: dellsystem, atav1k, jessesquires, stationaery, kaylensanders, beccalew, anaulin
-          draft: true
+          draft: false
