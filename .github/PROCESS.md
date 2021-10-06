@@ -20,9 +20,7 @@ Our overall process is oriented around contributors. Here's how it works:
 
 We operate in the [Pacific Time Zone](https://en.wikipedia.org/wiki/Pacific_Time_Zone) (UTC-8:00 or UTC-7:00).
 
-We publish new issues roughly bi-weekly, **every other Friday at 10:00 AM**. (Though there are some exceptions.) This includes publishing the new issue to the website, sending an email to our mailing list, and tweeting a link to the new issue.
-
-We hold a **weekly Monday meeting at 3:30 PM** to check-in, collaborate, discuss updates, make decisions, etc.
+We publish new issues roughly bi-weekly. (Though there are some exceptions.) This includes publishing the new issue to the website, sending an email to our mailing list, and tweeting a link to the new issue.
 
 ## :snowflake: Roles
 
@@ -52,6 +50,8 @@ Each issue has two "leads" or publishers. We rotate this responsibility per issu
 ## :white_check_mark: Checklist
 
 ### The "off-week", prior to the publishing week
+
+Below is our former workflow/schedule. This is currently a bit outdated as we have moved to a more ad-hoc publishing model.
 
 - **Monday (Weekly Meeting)**
     - retrospective on previous issue :eyes:
