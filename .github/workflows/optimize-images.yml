@@ -16,7 +16,9 @@ jobs:
       - name: git checkout
         uses: actions/checkout@v2
         with:
+          token: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
           ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
 
       - name: install ImageOptim
         run: |
@@ -34,3 +36,16 @@ jobs:
           git add img/
           git commit -m "[automated] optimze images" || true
           git push
+
+      # https://github.com/marketplace/actions/actions-ecosystem-remove-labels
+      - name: remove label
+        if: always()
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          labels: needs optimize images
+
+      # https://github.com/marketplace/actions/actions-ecosystem-add-labels
+      - name: add label
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: image-optimized
