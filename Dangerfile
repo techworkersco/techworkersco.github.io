@@ -19,7 +19,7 @@ end
 # -----------------------------------------------------------------------------
 has_auto_publish_label = github.pr_labels.any? { |label| label.include? "auto-publish" }
 if is_next_issue && !has_auto_publish_label
-  message(":bulb: **Tip:** add the `auto-publish` label to automatically publish this issue on Friday morning. ([docs here](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#labels))")
+  message(":bulb: **Tip:** add the `auto-publish` label to [automatically publish this issue tomorrow morning](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#labels).")
 end
 
 # -----------------------------------------------------------------------------
@@ -44,7 +44,7 @@ end
 is_adding_draft = !(git.added_files.grep(/_drafts/).empty?)
 is_editing_draft = !(git.modified_files.grep(/_drafts/).empty?)
 if is_editing_draft || is_adding_draft
-    warn("Looks like you are editing a draft. Don't forget to publish when it's finished!")
+    fail("Looks like you are editing a draft. Drafts will not be published.")
 end
 
 # -----------------------------------------------------------------------------
