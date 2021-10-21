@@ -61,6 +61,7 @@ jobs:
         run: |
           git config --global user.email "${GITHUB_ACTOR}"
           git config --global user.name "${GITHUB_ACTOR}@users.noreply.github.com"
+          git checkout "${{ github.event.pull_request.head.ref }}"
           git pull
           git add img/
           git commit -m "[automated] optimze images" || true
