@@ -14,7 +14,7 @@ env:
 
 jobs:
   detect-files:
-    name: Optimize Images
+    name: Find Images
     runs-on: ubuntu-latest
     steps:
       - name: git checkout
@@ -60,6 +60,11 @@ jobs:
         with:
           token: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
           ref: ${{ github.event.pull_request.head.ref }}
+
+      - name: env status
+        run: |
+          echo "Needs to optimize: $NEEDS_OPTIMIZE"
+          echo "Found images: $IMAGES_TO_OPTIMIZE"
 
       - name: install ImageOptim
         if: ${{ env.NEEDS_OPTIMIZE }}
