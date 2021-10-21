@@ -23,22 +23,6 @@ if is_next_issue && !has_auto_publish_label
 end
 
 # -----------------------------------------------------------------------------
-# Reminder for compressing images
-# -----------------------------------------------------------------------------
-has_imgoptim_label = github.pr_labels.any? { |label| label.include? "image-optimized" }
-has_needs_optimize_label = github.pr_labels.any? { |label| label.include? "needs optimize images" }
-has_correct_labels = has_imgoptim_label || has_needs_optimize_label
-
-is_adding_images = !(git.added_files.grep(/img/).empty?)
-is_editing_images = !(git.modified_files.grep(/img/).empty?)
-
-if (is_editing_images || is_adding_images) && !has_correct_labels
-    fail("Adding images? Remember to [optimize them](https://imageoptim.com/mac)!
-**Add the `needs optimize images` label to have the bot do this automatically.**
-Alternatively, add the `image-optimized` label to silence this error. ([docs here](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#images))")
-end
-
-# -----------------------------------------------------------------------------
 # Reminder for writing a draft
 # -----------------------------------------------------------------------------
 is_adding_draft = !(git.added_files.grep(/_drafts/).empty?)

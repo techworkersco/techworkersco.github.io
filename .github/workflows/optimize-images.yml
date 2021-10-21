@@ -5,11 +5,10 @@ name: Optimize Images
 
 on:
   pull_request:
-    types: [labeled]
+    types: [opened, reopened, synchronize, edited]
 
 jobs:
-  job-main:
-    if: ${{ github.event.label.name == 'needs optimize images' }}
+  main:
     name: Optimize Images
     runs-on: macOS-latest
     steps:
@@ -18,7 +17,35 @@ jobs:
         with:
           token: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
           ref: ${{ github.event.pull_request.head.ref }}
-          fetch-depth: 0
+
+      # https://github.com/marketplace/actions/changed-files
+      - name: get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v10
+
+      - name: list all changed files
+        run: |
+          echo "Found modified files:"
+          for file in ${{ steps.changed-files.outputs.all_modified_files }}; do
+            echo "$file"
+          done
+
+      - name: get all images
+        id: changed-images
+        uses: tj-actions/changed-files@v10
+        with:
+          files: |
+            img
+            .(png|jpeg|jpg)$
+
+      - name: list all images
+        if: steps.changed-images.outputs.any_changed == 'true'
+        run: |
+          echo "IMAGES_TO_OPTIMIZE=${{ steps.changed-images.outputs.all_modified_files }}" >> $GITHUB_ENV
+          echo "Found images:"
+          for file in ${{ steps.changed-images.outputs.all_modified_files }}; do
+            echo "$file"
+          done
 
       - name: install ImageOptim
         run: |
@@ -26,7 +53,7 @@ jobs:
           bzip2 -dc ImageOptim.tbz2 | tar xvf -
 
       - name: run ImageOptim
-        run:  ImageOptim.app/Contents/MacOS/ImageOptim img/*.*
+        run:  ImageOptim.app/Contents/MacOS/ImageOptim "${{ env.IMAGES_TO_OPTIMIZE }}"
 
       - name: commit changes
         run: |
@@ -36,16 +63,3 @@ jobs:
           git add img/
           git commit -m "[automated] optimze images" || true
           git push
-
-      # https://github.com/marketplace/actions/actions-ecosystem-remove-labels
-      - name: remove label
-        if: always()
-        uses: actions-ecosystem/action-remove-labels@v1
-        with:
-          labels: needs optimize images
-
-      # https://github.com/marketplace/actions/actions-ecosystem-add-labels
-      - name: add label
-        uses: actions-ecosystem/action-add-labels@v1
-        with:
-          labels: image-optimized
