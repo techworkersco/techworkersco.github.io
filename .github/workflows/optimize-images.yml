@@ -67,17 +67,17 @@ jobs:
           echo "Found images: $IMAGES_TO_OPTIMIZE"
 
       - name: install ImageOptim
-        if: ${{ env.NEEDS_OPTIMIZE }}
+        if: ${{ env.NEEDS_OPTIMIZE }} == 'true'
         run: |
           curl https://imageoptim.com/ImageOptim.tbz2 > ImageOptim.tbz2
           bzip2 -dc ImageOptim.tbz2 | tar xvf -
 
       - name: run ImageOptim
-        if: ${{ env.NEEDS_OPTIMIZE }}
+        if: ${{ env.NEEDS_OPTIMIZE }} == 'true'
         run:  ImageOptim.app/Contents/MacOS/ImageOptim ${{ env.IMAGES_TO_OPTIMIZE }}
 
       - name: commit changes
-        if: ${{ env.NEEDS_OPTIMIZE }}
+        if: ${{ env.NEEDS_OPTIMIZE }} == 'true'
         run: |
           git config --global user.email "${GITHUB_ACTOR}"
           git config --global user.name "${GITHUB_ACTOR}@users.noreply.github.com"
