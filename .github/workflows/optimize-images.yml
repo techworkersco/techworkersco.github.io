@@ -53,7 +53,7 @@ jobs:
   optimize-images:
     name: Optimize Images
     needs: detect-files
-    if: "$NEEDS_OPTIMIZE" == 'true'
+    if: $NEEDS_OPTIMIZE == 'true'
     runs-on: macOS-latest
     steps:
       - name: git checkout
