@@ -2,10 +2,6 @@
 <!--
 For development and Netlify previews on PRs, use relative URLs.
 Otherwise, use absolute URLs so that images display in Mailchimp emails.
-
-See:
-  - https://jekyllrb.com/docs/configuration/environments/
-  - https://stackoverflow.com/questions/31274563/is-there-a-way-to-check-whether-a-jekyll-site-is-being-served-locally#31280149
 -->
 {% if jekyll.environment == "development" %}
     {% assign local_url = site.img_url | append: "/" | append: include.file %}
