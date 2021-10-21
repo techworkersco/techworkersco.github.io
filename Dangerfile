@@ -19,7 +19,7 @@ end
 # -----------------------------------------------------------------------------
 has_auto_publish_label = github.pr_labels.any? { |label| label.include? "auto-publish" }
 if is_next_issue && !has_auto_publish_label
-  message(":bulb: **Tip:** add the `auto-publish` label to [automatically publish this issue tomorrow morning](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#labels).")
+  message(":bulb: Add the `auto-publish` label to [automatically publish this issue tomorrow morning](https://github.com/techworkersco/techworkersco.github.io/blob/master/.github/DOCUMENTATION.md#labels).")
 end
 
 # -----------------------------------------------------------------------------
