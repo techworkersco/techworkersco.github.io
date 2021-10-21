@@ -36,17 +36,15 @@ jobs:
         id: changed-images
         uses: tj-actions/changed-files@v10
         with:
-          files: img
           sha: $GITHUB_SHA
+          files: img
 
     outputs:
-      # needs_optimize: ${{ steps.changed-images.outputs.any_changed }}
       images_found: ${{ steps.changed-images.outputs.added_files }}
 
   optimize-images:
     name: Optimize Added Images
     needs: detect-files
-    # if: ${{ needs.detect-files.outputs.needs_optimize }}
     if: ${{ needs.detect-files.outputs.images_found }}
     runs-on: macOS-latest
     steps:
@@ -58,7 +56,6 @@ jobs:
 
       - name: env status
         run: |
-          # echo "Needs optimize: ${{ needs.detect-files.outputs.needs_optimize }}"
           echo "Images Found: ${{ needs.detect-files.outputs.images_found }}"
 
       - name: install ImageOptim
