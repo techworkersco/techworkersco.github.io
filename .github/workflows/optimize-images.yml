@@ -23,7 +23,7 @@ jobs:
         id: changed-files
         uses: tj-actions/changed-files@v10
         with:
-          sha: ${{ GITHUB_SHA }}
+          sha: $GITHUB_SHA
 
       - name: list all changed files
         run: |
@@ -37,7 +37,7 @@ jobs:
         uses: tj-actions/changed-files@v10
         with:
           files: img
-          sha: ${{ GITHUB_SHA }}
+          sha: $GITHUB_SHA
 
     outputs:
       # needs_optimize: ${{ steps.changed-images.outputs.any_changed }}
