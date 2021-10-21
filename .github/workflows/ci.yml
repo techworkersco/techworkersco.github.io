@@ -32,4 +32,6 @@ jobs:
           bundler-cache: true
 
       - name: jekyll build
-        run: bundle exec jekyll build --verbose --trace
+        run: |
+          echo "$JEKYLL_ENV"
+          bundle exec jekyll build --verbose --trace
