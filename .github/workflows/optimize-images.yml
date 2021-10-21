@@ -9,7 +9,7 @@ on:
 
 jobs:
   detect-files:
-    name: Find Images
+    name: Find Added Images
     runs-on: ubuntu-latest
     steps:
       - name: git checkout
@@ -37,13 +37,14 @@ jobs:
           files: img
 
     outputs:
-      needs_optimize: ${{ steps.changed-images.outputs.any_changed }}
-      images_found: ${{ steps.changed-images.outputs.all_modified_files }}
+      # needs_optimize: ${{ steps.changed-images.outputs.any_changed }}
+      images_found: ${{ steps.changed-images.outputs.added_files }}
 
   optimize-images:
-    name: Optimize Images
+    name: Optimize Added Images
     needs: detect-files
-    if: ${{ needs.detect-files.outputs.needs_optimize }}
+    # if: ${{ needs.detect-files.outputs.needs_optimize }}
+    if: ${{ needs.detect-files.outputs.images_found }}
     runs-on: macOS-latest
     steps:
       - name: git checkout
@@ -54,7 +55,7 @@ jobs:
 
       - name: env status
         run: |
-          echo "Needs optimize: ${{ needs.detect-files.outputs.needs_optimize }}"
+          # echo "Needs optimize: ${{ needs.detect-files.outputs.needs_optimize }}"
           echo "Images Found: ${{ needs.detect-files.outputs.images_found }}"
 
       - name: install ImageOptim
