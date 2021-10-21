@@ -65,12 +65,11 @@ jobs:
           git config --global user.email "${GITHUB_ACTOR}"
           git config --global user.name "${GITHUB_ACTOR}@users.noreply.github.com"
           git status
-          git checkout "$DEFAULT_BRANCH"
-          git status
-          git pull
+          git stash
           git checkout "$GITHUB_HEAD_REF"
           git status
           git pull
+          git stash apply
           git status
           git add img/
           git commit -m "[automated] optimze images" || true
