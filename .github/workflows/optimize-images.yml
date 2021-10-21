@@ -5,12 +5,44 @@ name: Optimize Images
 
 on:
   pull_request:
-    types: [labeled]
+    types: [opened, reopened, synchronize, edited]
 
 jobs:
-  job-main:
-    if: ${{ github.event.label.name == 'needs optimize images' }}
-    name: Optimize Images
+  detect-files:
+    name: Find Added Images
+    runs-on: ubuntu-latest
+    steps:
+      - name: git checkout
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
+          fetch-depth: 0
+
+      # https://github.com/marketplace/actions/changed-files
+      - name: get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v10
+
+      - name: list all changed files
+        run: |
+          echo "Found modified files:"
+          for file in ${{ steps.changed-files.outputs.all_modified_files }}; do
+            echo "$file"
+          done
+
+      - name: get all images
+        id: changed-images
+        uses: tj-actions/changed-files@v10
+        with:
+          files: img
+
+    outputs:
+      images_found: ${{ steps.changed-images.outputs.added_files }}
+
+  optimize-images:
+    name: Optimize Added Images
+    needs: detect-files
+    if: ${{ needs.detect-files.outputs.images_found }}
     runs-on: macOS-latest
     steps:
       - name: git checkout
@@ -18,7 +50,10 @@ jobs:
         with:
           token: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
           ref: ${{ github.event.pull_request.head.ref }}
-          fetch-depth: 0
+
+      - name: env status
+        run: |
+          echo "Images Found: ${{ needs.detect-files.outputs.images_found }}"
 
       - name: install ImageOptim
         run: |
@@ -26,26 +61,14 @@ jobs:
           bzip2 -dc ImageOptim.tbz2 | tar xvf -
 
       - name: run ImageOptim
-        run:  ImageOptim.app/Contents/MacOS/ImageOptim img/*.*
+        run:  ImageOptim.app/Contents/MacOS/ImageOptim ${{ needs.detect-files.outputs.images_found }}
 
       - name: commit changes
         run: |
           git config --global user.email "${GITHUB_ACTOR}"
           git config --global user.name "${GITHUB_ACTOR}@users.noreply.github.com"
+          git status
           git pull
           git add img/
           git commit -m "[automated] optimze images" || true
           git push
-
-      # https://github.com/marketplace/actions/actions-ecosystem-remove-labels
-      - name: remove label
-        if: always()
-        uses: actions-ecosystem/action-remove-labels@v1
-        with:
-          labels: needs optimize images
-
-      # https://github.com/marketplace/actions/actions-ecosystem-add-labels
-      - name: add label
-        uses: actions-ecosystem/action-add-labels@v1
-        with:
-          labels: image-optimized
