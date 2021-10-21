@@ -62,7 +62,7 @@ jobs:
           bzip2 -dc ImageOptim.tbz2 | tar xvf -
 
       - name: run ImageOptim
-        run:  ImageOptim.app/Contents/MacOS/ImageOptim ${{ env.IMAGES_TO_OPTIMIZE }}
+        run:  ImageOptim.app/Contents/MacOS/ImageOptim ${{ needs.detect-files.outputs.images_found }}
 
       - name: commit changes
         run: |
