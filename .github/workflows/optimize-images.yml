@@ -9,7 +9,7 @@ on:
 
 env:
   DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
-  NEEDS_OPTIMIZE: 'false'
+  NEEDS_OPTIMIZE: false
   IMAGES_TO_OPTIMIZE: ""
 
 jobs:
@@ -53,7 +53,7 @@ jobs:
   optimize-images:
     name: Optimize Images
     needs: detect-files
-    if: $NEEDS_OPTIMIZE == 'true'
+    if: ${{ env.NEEDS_OPTIMIZE }} == 'true'
     runs-on: macOS-latest
     steps:
       - name: git checkout
@@ -64,8 +64,8 @@ jobs:
 
       - name: env status
         run: |
-          echo "Needs to optimize: ${{ env.NEEDS_OPTIMIZE }}"
-          echo "Found images: ${{ env.NEEDS_OPTIMIZE }}"
+          echo "Needs optimize: ${{ env.NEEDS_OPTIMIZE }}"
+          echo "Found images: ${{ env.IMAGES_TO_OPTIMIZE }}"
 
       - name: install ImageOptim
         run: |
