@@ -7,11 +7,6 @@ on:
   pull_request:
     types: [opened, reopened, synchronize, edited]
 
-env:
-  DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
-  NEEDS_OPTIMIZE: false
-  IMAGES_TO_OPTIMIZE: ""
-
 jobs:
   detect-files:
     name: Find Images
@@ -40,20 +35,14 @@ jobs:
         with:
           files: img
 
-      - name: list all images
-        if: steps.changed-images.outputs.any_changed == 'true'
-        run: |
-          echo "NEEDS_OPTIMIZE=true" >> $GITHUB_ENV
-          echo "IMAGES_TO_OPTIMIZE=${{ steps.changed-images.outputs.all_modified_files }}" >> $GITHUB_ENV
-          echo "Found images:"
-          for file in ${{ steps.changed-images.outputs.all_modified_files }}; do
-            echo "$file"
-          done
+    outputs:
+      needs_optimize: ${{ steps.changed-images.outputs.any_changed }}
+      images_found: ${{ steps.changed-images.outputs.all_modified_files }}
 
   optimize-images:
     name: Optimize Images
     needs: detect-files
-    if: ${{ env.NEEDS_OPTIMIZE }} == 'true'
+    if: ${{ needs.detect-files.outputs.needs_optimize }}
     runs-on: macOS-latest
     steps:
       - name: git checkout
@@ -64,8 +53,8 @@ jobs:
 
       - name: env status
         run: |
-          echo "Needs optimize: ${{ env.NEEDS_OPTIMIZE }}"
-          echo "Found images: ${{ env.IMAGES_TO_OPTIMIZE }}"
+          echo "Needs optimize: ${{ needs.detect-files.outputs.needs_optimize }}"
+          echo "Images Found: ${{ needs.detect-files.outputs.images_found }}"
 
       - name: install ImageOptim
         run: |
