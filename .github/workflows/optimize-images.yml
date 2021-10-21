@@ -7,6 +7,9 @@ on:
   pull_request:
     types: [opened, reopened, synchronize, edited]
 
+env:
+  DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+
 jobs:
   main:
     name: Optimize Images
@@ -62,7 +65,10 @@ jobs:
           git config --global user.email "${GITHUB_ACTOR}"
           git config --global user.name "${GITHUB_ACTOR}@users.noreply.github.com"
           git status
-          git checkout ${{ github.event.pull_request.head.ref }}
+          git checkout "$DEFAULT_BRANCH"
+          git status
+          git pull
+          git checkout "$GITHUB_HEAD_REF"
           git status
           git pull
           git status
