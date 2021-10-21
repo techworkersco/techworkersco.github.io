@@ -34,13 +34,12 @@ jobs:
         id: changed-images
         uses: tj-actions/changed-files@v10
         with:
-          files: |
-            img
-            .(png|jpeg|jpg)$
+          files: img
 
       - name: list all images
         if: steps.changed-images.outputs.any_changed == 'true'
         run: |
+          echo "NEEDS_OPTIMIZE=true" >> $GITHUB_ENV
           echo "IMAGES_TO_OPTIMIZE=${{ steps.changed-images.outputs.all_modified_files }}" >> $GITHUB_ENV
           echo "Found images:"
           for file in ${{ steps.changed-images.outputs.all_modified_files }}; do
@@ -48,14 +47,17 @@ jobs:
           done
 
       - name: install ImageOptim
+        if: ${{ env.NEEDS_OPTIMIZE }}
         run: |
           curl https://imageoptim.com/ImageOptim.tbz2 > ImageOptim.tbz2
           bzip2 -dc ImageOptim.tbz2 | tar xvf -
 
       - name: run ImageOptim
-        run:  ImageOptim.app/Contents/MacOS/ImageOptim "${{ env.IMAGES_TO_OPTIMIZE }}"
+        if: ${{ env.NEEDS_OPTIMIZE }}
+        run:  ImageOptim.app/Contents/MacOS/ImageOptim ${{ env.IMAGES_TO_OPTIMIZE }}
 
       - name: commit changes
+        if: ${{ env.NEEDS_OPTIMIZE }}
         run: |
           git config --global user.email "${GITHUB_ACTOR}"
           git config --global user.name "${GITHUB_ACTOR}@users.noreply.github.com"
