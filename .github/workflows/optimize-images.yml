@@ -17,6 +17,7 @@ jobs:
         with:
           token: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
           ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
 
       # https://github.com/marketplace/actions/changed-files
       - name: get changed files
