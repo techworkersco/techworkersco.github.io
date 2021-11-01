@@ -108,7 +108,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rchardet (1.8.0)
-    reverse_markdown (2.0.0)
+    reverse_markdown (2.1.1)
       nokogiri
     rexml (3.2.5)
     rouge (3.26.1)
