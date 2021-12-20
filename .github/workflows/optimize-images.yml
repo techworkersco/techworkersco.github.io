@@ -26,7 +26,7 @@ jobs:
       - name: list all changed files
         run: |
           echo "Found modified files:"
-          for file in ${{ steps.changed-files.outputs.all_modified_files }}; do
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             echo "$file"
           done
 
