@@ -11,7 +11,7 @@
 [context.deploy-preview.environment]
   JEKYLL_ENV = "development"
 
-[build.deploy-preview.environment]
+[build.deploy-preview]
   command = "bundle exec jekyll build --future"
 
 # Branch deploy context:
