@@ -1,0 +1,18 @@
+# Production context:
+# All deploys from the main repository branch
+# will inherit these settings.
+[context.production]
+  [context.production.environment]
+    JEKYLL_ENV = "production"
+
+# Deploy Preview context:
+# All deploys generated from a pull/merge request
+# will inherit these settings.
+[context.deploy-preview.environment]
+  JEKYLL_ENV = "development"
+
+# Branch deploy context:
+# All deploys that are not from a pull/merge request
+# or from the production branch will inherit these settings.
+[context.branch-deploy]
+  JEKYLL_ENV = "development"
