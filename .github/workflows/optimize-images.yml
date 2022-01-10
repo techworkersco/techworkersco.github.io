@@ -21,7 +21,7 @@ jobs:
       # https://github.com/marketplace/actions/changed-files
       - name: get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v12
+        uses: tj-actions/changed-files@v13.1
 
       - name: list all changed files
         run: |
@@ -32,7 +32,7 @@ jobs:
 
       - name: get all images
         id: changed-images
-        uses: tj-actions/changed-files@v12
+        uses: tj-actions/changed-files@v13.1
         with:
           files: img
 
