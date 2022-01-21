@@ -34,7 +34,7 @@ jobs:
         id: changed-images
         uses: tj-actions/changed-files@v13.1
         with:
-          files: img
+          path: img
 
     outputs:
       images_found: ${{ steps.changed-images.outputs.added_files }}
