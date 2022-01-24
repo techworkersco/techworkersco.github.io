@@ -14,7 +14,7 @@ end
 volume = "#{ARGV[0]}".strip
 if volume.to_i <= 0
   abort("Invalid volume number: #{volume}\nEnter a number greater than 0.")
-end 
+end
 
 issue = "#{ARGV[1]}".strip
 if issue.to_i <= 0

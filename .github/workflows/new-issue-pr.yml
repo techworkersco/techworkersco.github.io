@@ -9,7 +9,7 @@ on:
       volume:
         description: 'Volume #'
         required: true
-        default: '3'
+        default: '4'
       issue:
         description: 'Issue #'
         required: true

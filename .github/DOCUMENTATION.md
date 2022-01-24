@@ -117,8 +117,8 @@ The bot will check for `auto-publish` pull requests every 30 minutes for 3 hours
 
 The bot will merge the pull request **if and only if**:
 - The PR has the `auto-publish` label
-- All status checks succeeded :white_check_mark: 
-- The PR has been approved by at least 1 person on the [newsletter team](https://github.com/orgs/techworkersco/teams/newsletter-folks/members) :white_check_mark: 
+- All status checks succeeded :white_check_mark:
+- The PR has been approved by at least 1 person on the [newsletter team](https://github.com/orgs/techworkersco/teams/newsletter-folks/members) :white_check_mark:
 
 ### `needs optimize images` label
 
@@ -218,6 +218,8 @@ These are the valid values for this field:
 - `Volume 1` represents the original, legacy newsletter 2018-2019
 - `Volume 2` this project, the reboot, beginning in early 2020
 - `Volume 3` 2021
+- `Volume 4` 2022
+- etc.
 
 ### Header images
 
