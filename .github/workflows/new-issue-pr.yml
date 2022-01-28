@@ -68,5 +68,5 @@ jobs:
           delete-branch: true
           labels: next issue, automated
           assignees: ${{ github.actor }}
-          reviewers: dellsystem, atav1k, jessesquires, stationaery, kaylensanders, beccalew, anaulin
+          reviewers: dellsystem, atav1k, jessesquires, stationaery, kaylensanders
           draft: false
