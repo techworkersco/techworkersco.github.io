@@ -5,7 +5,9 @@ is_next_issue = github.pr_labels.any? { |label| label.include? "next issue" }
 # -----------------------------------------------------------------------------
 if is_next_issue
   message(":camera: To add images to this issue, [upload them here](https://github.com/techworkersco/techworkersco.github.io/upload/#{github.branch_for_head}/img).")
+  message(":wastebasket: To **remove** images from this issue, [find them listed here](https://github.com/techworkersco/techworkersco.github.io/tree/#{github.branch_for_head}/img). Select an image, then click the trash icon.")
 end
+
 
 # -----------------------------------------------------------------------------
 # All pull requests should be submitted to master branch
