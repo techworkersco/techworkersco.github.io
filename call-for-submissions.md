@@ -11,7 +11,7 @@ title: Call for Submissions
 </p>
 </div>
 
-Our editorial collective exists to help workers talk with each other and share their story. Our aim is to change tech workplaces and the industry in collaboration with the workers and communities it impacts. We work with you to publish your worker’s perspective, roughly 800–1,600 words. 
+Our editorial collective exists to help workers talk with each other and share their story. Our aim is to change tech workplaces and the industry in collaboration with the workers and communities it impacts. We work with you to publish your worker’s perspective, roughly 800–1,600 words.
 
 #### What we publish
 
@@ -20,7 +20,7 @@ Our editorial collective exists to help workers talk with each other and share t
 - First-person analysis that puts direct experience in historical context
 - Interviews with peers and coworkers across ‘workplaces’, in the ‘gig’ economy, and beyond
 - Accounts of building worker power for refusal, abolition, and building alternatives
- 
+
 #### What we don’t publish
 
 - Impersonal essays or commentary not based on experience
@@ -28,7 +28,7 @@ Our editorial collective exists to help workers talk with each other and share t
 
 #### How to get started
 
-1. Browse [our archive](/archive) for inspiration.
+1. Browse [our archive]({% link archive.md %}) for inspiration.
 1. Email us your pitch in a few sentences to [twcnewsletter@protonmail.com](mailto:twcnewsletter@protonmail.com)
 1. Let us know what you need! Depending on your situation, we’ll move fast or to give it more time.
 

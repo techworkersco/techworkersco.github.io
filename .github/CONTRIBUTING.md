@@ -8,7 +8,7 @@ Our [Code of Conduct](https://github.com/techworkersco/techworkersco.github.io/b
 
 ## Submissions
 
-Read [our open call for worker's perspective](https://news.techworkerscoalition.org/call-for-submissions/) and share your story or other ideas.
+Read [our open call for worker's perspective]({% link call-for-submissions.md %}) and share your story or other ideas.
 
 ## Site improvements and corrections
 

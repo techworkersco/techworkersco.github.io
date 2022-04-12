@@ -24,14 +24,14 @@ We intend to run this project as a model of the organizing we believe in: grassr
 #### How we engage contributors and collaborators
 
 We welcome contributions for general themes (e.g., workplace surveillance),
-specific stories (e.g., organizing efforts at a particular workplace), or anything else that aligns with our vision and values. Check out our [call for submissions](/call-for-submissions/) to learn more.
+specific stories (e.g., organizing efforts at a particular workplace), or anything else that aligns with our vision and values. Check out our [call for submissions]({% link call-for-submissions.md %}) to learn more.
 
 If you have suggestions, contributions, or proposals to collaborate, you can [email us](mailto:twcnewsletter@protonmail.com) or open a [GitHub issue](https://github.com/techworkersco/techworkersco.github.io/issues).
 
-We also welcome you to [subscribe](/subscribe/) to our newsletter!
+We also welcome you to [subscribe]({% link subscribe.md %}) to our newsletter!
 
 #### How we make decisions and grow
 
 As a small collective, we make decisions by loose consensus: as we work towards our vision and values, we take a bias towards action, embrace our differences, and continually improve our editorial process and overall capacity.
 
-We encourage collaborators to be proactive in contributing content and providing feedback. As more collaborators join our collective, we will evolve this project. 
+We encourage collaborators to be proactive in contributing content and providing feedback. As more collaborators join our collective, we will evolve this project.
