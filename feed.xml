@@ -20,7 +20,7 @@ layout: null
 
     <icon>{{ site.url }}{{ site.logo }}</icon>
 
-    {% for post in site.posts %}
+    {% for post in site.posts limit: site.feeds.limit %}
     <entry>
         <link href="{{ site.url }}{{ post.url }}" />
         <id>{{ site.url }}{{ post.url }}</id>

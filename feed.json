@@ -18,7 +18,7 @@ layout: null
         "avatar": "{{ site.url }}{{ site.author.avatar }}"
     },
     "items": [
-        {% for post in site.posts %}
+        {% for post in site.posts limit: site.feeds.limit %}
         {
             "id": "{{ post.url | absolute_url | sha1 }}",
             "url": "{{ site.url }}{{ post.url }}",
