@@ -29,6 +29,8 @@ jobs:
 
       - name: git checkout
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
 
       # https://github.com/ruby/setup-ruby
       - name: ruby setup
@@ -44,6 +46,7 @@ jobs:
       - name: create pull request
         uses: peter-evans/create-pull-request@v4
         with:
+          token: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
           commit-message: Publish volume ${{ github.event.inputs.volume }}, issue ${{ github.event.inputs.issue }} (${{ github.event.inputs.date }})
           title: Publish volume ${{ github.event.inputs.volume }}, issue ${{ github.event.inputs.issue }} (${{ github.event.inputs.date }})
           body: |
