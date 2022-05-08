@@ -1,0 +1,14 @@
+name: rebuild-main-twc-site
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: trigger netlify build
+        run: |
+          curl -X POST -d '{}' https://api.netlify.com/build_hooks/6277e1c305e5fd586b7e6e91&trigger_title=triggered+by+TWC+Newsletter+Github+Action+Flow
