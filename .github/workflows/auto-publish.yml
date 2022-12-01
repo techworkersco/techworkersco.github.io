@@ -32,7 +32,7 @@ jobs:
 
       # https://github.com/marketplace/actions/auto-merge-pull-request
       - name: auto-merge
-        uses: reitermarkus/automerge@v1
+        uses: reitermarkus/automerge@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           merge-method: squash
