@@ -9,7 +9,7 @@ on:
       volume:
         description: 'Volume #'
         required: true
-        default: '4'
+        default: '5'
       issue:
         description: 'Issue #'
         required: true
@@ -70,5 +70,5 @@ jobs:
           delete-branch: true
           labels: next issue, automated
           assignees: ${{ github.actor }}
-          reviewers: dellsystem, vikramrojo, jessesquires, stationaery, kaylensanders, eddywashere
+          reviewers: dellsystem, jessesquires, stationaery, kaylensanders, eddywashere
           draft: false
