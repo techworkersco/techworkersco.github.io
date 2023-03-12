@@ -5,7 +5,7 @@ title: Subscribe
 
 <h4 class="text-secondary">Mailing List</h4>
 
-{% include mailchimp_signup.html %}
+{% include action_network_signup.html %}
 
 <h4 class="text-secondary">Feeds</h4>
 
