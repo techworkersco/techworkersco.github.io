@@ -3,7 +3,7 @@
   "description": "Tech Workers Coalition Newsletter",
   "private": true,
   "dependencies": {
-    "bootstrap": "4.6.0",
+    "bootstrap": "5.3.2",
     "jquery": "3.5.1"
   }
 }
