@@ -44,7 +44,7 @@ jobs:
 
       # https://github.com/marketplace/actions/create-pull-request
       - name: create pull request
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
           commit-message: Publish volume ${{ github.event.inputs.volume }}, issue ${{ github.event.inputs.issue }} (${{ github.event.inputs.date }})
