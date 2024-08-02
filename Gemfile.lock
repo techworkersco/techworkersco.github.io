@@ -100,8 +100,8 @@ GEM
     rchardet (1.8.0)
     reverse_markdown (2.1.1)
       nokogiri
-    rexml (3.2.8)
-      strscan (>= 3.0.9)
+    rexml (3.3.4)
+      strscan
     rouge (4.2.0)
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
