@@ -44,13 +44,13 @@ GEM
     git (1.19.1)
       addressable (~> 2.8)
       rchardet (~> 1.8)
-    google-protobuf (4.27.3-arm64-darwin)
+    google-protobuf (4.27.5-arm64-darwin)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.27.3-x86_64-darwin)
+    google-protobuf (4.27.5-x86_64-darwin)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.27.3-x86_64-linux)
+    google-protobuf (4.27.5-x86_64-linux)
       bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.0)
