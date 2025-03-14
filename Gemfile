@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '~> 3.3.5'
 
 # Jekyll + plugins
-gem 'jekyll', '~> 4.3'
+gem 'jekyll', '~> 4.4'
 gem 'jekyll-sitemap'
 gem 'jekyll-paginate'
 
