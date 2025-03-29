@@ -19,3 +19,9 @@
 # or from the production branch will inherit these settings.
 [context.branch-deploy]
   JEKYLL_ENV = "development"
+
+[[redirects]]
+  from = "/:year/:month/:date/:slug"
+  to = "https://techworkerscoalition.org/blog/:slug"
+  status = 301
+  force = true

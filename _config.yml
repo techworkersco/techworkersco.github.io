@@ -28,7 +28,6 @@ exclude:
   - .github/
 
 include:
-  - _redirects
   - .htaccess
   # dependencies
   - yarn_deps/bootstrap/dist/css/bootstrap.min.css
