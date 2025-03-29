@@ -1,1 +1,1 @@
-/:year/:month/:date/:slug  https://techworkerscoalition.org/blog/:slug
+/:year/:month/:date/:slug/  https://techworkerscoalition.org/blog/:slug 301
