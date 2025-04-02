@@ -25,3 +25,15 @@
   to = "https://techworkerscoalition.org/blog/:slug"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/subscribe/"
+  to = "https://techworkerscoalition.org/subscribe"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "https://techworkerscoalition.org/blog"
+  status = 301
+  force = true  
