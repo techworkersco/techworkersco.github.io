@@ -22,7 +22,7 @@
 
 [[redirects]]
   from = "/:year/:month/:date/:slug"
-  to = "https://techworkerscoalition.org/blog/:slug"
+  to = "https://techworkerscoalition.org/blog/:year/:month/:date/:slug"
   status = 301
   force = true
 
