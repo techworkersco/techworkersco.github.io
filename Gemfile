@@ -8,7 +8,7 @@ gem 'jekyll-sitemap'
 gem 'jekyll-paginate'
 
 # Danger
-gem 'danger', '~> 9.3'
+gem 'danger', '~> 9.5'
 
 # For web scraping.
 gem 'nokogiri'
